@@ -1,0 +1,15 @@
+if u have promission from the botnets server admin/isp to exploit the botnet 
+to see the logs or whatever, 60-70% of all botnets have xss vulns.
+
+sources for exploitation documentation:
+siph0ns botnet section
+exploitsdb              <----exploit archive
+cxsecurity.com          <----exploit archive
+https://nvd.nist.gov/   <-----CVE archvie
+and packetstorm ofc:)
+
+extra info: 
+you might wanna hire an pentester for this u could email me or 
+email/contact some other pentester(there is alot of great pentesters out on the inet)
+
+extra stuff i found on pastebin http://pastebin.com/30SJYKvq

@@ -1,0 +1,20 @@
+1. Login to your server and su to root, I know the irony!
+
+2. cd /root
+
+3. pico .bashrc
+
+4. Scroll to the end of the file then add the following:
+echo 'ALERT - Root Shell Access (YourserverName) on:' `date` `who` | mail -s "Alert: Root Access from `who | cut -d'(' -f2 | cut -d')' -f1`" you@yourdomain.com
+
+Replace YourServerName with the handle for your actual server
+Replace you@yourdomain.com with your actual email address
+
+5. Crtl + X then Y
+
+Now logout of SSH, close the connection and log back in! You should receive an email address of the root login alert a few minutes afterwards.
+
+Note: This is a great tool for servers that have multiple admins or if you give someone SSH access for whatever reason, although you should give out the root password to as few people as humanly possible and be sure to change it often.
+
+This will not magically alert you when a hacker runs the latest kernel exploit on your server and logs into SSH because they will create their own SSH/telnet connection. You should keep your system up to date, install a firewall and follow the latest security releases.
+source:http://www.linuxquestions.org/questions/linux-software-2/ssh-alert-when-root-attempts-to-log-217844/

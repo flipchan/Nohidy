@@ -1,0 +1,5407 @@
+555	   	Ini-Killer, Phase Zero, Stealth Spy
+666	   	Satanz Backdoor, Attack FTP, Back Construction, BLA trojan, NokNok, Reverse Trojan, Shadow
+1001	   	Silencer, WebEx, Der Späher / Der Spaeher, GOTHIC Intruder, Lula, One Windows Trojan, Theef
+1025	   	Fraggle Rock, md5 Backdoor, NetSpy, Remote Storm
+1026	   	BDDT, Dark IRC, DataSpy Network X, Delta Remote Access , Dosh, Duddie, IRC Contact, Remote Explorer 2000, RUX The TIc.K
+1028	   	ICKiller, DataSpy Network X, Dosh, Gibbon, KiLo, KWM, Litmus, Paltalk, SubSARI
+1243	   	Ultors Trojan, BackDoor-G, SubSeven , Tiles
+2000	   	Remote Explorer 2000, Last 2000, Insane Network, Der Späher / Der Spaeher, Senna Spy Trojan Generator, ATrojan, InsaneNetwork
+5000 / 5000	   	SSDP legacy event notification /
+Sockets de Troie, Bubbel, Back Door Setup
+6667	   	Dark FTP, EGO, Maniac rootkit, Moses, ScheduleAgent, SubSeven, The Thing (modified), Trinity, WinSatan
+6670	   	BackWeb Server, Deep Throat, Foreplay, WinNuke eXtreame
+4444		probelly some script kiddie
+6711	   	BackDoor-G, SubSeven, SubSARI, VP Killer, DeepThroat, Noknok
+6969	   	2000 Cracks, BlitzNet, Dark IRC, GateCrasher, Kid Terror, Laphex, Net Controller, SpArTa, Vagr Nocker, Priority
+7000	   	Aladino, Gunsan, Remote Grab, SubSeven , SubSeven 2.1 Gold, Theef
+8080 / 8080	   	HTTP Alternate or proxy / Brown Orifice, Generic backdoor, RemoConChubo, Reverse WWW Tunnel Backdoor, RingZero
+12345	   	GabanBus, NetBus, Pie Bill Gates, X-bill
+12346	   	GabanBus, NetBus, X-bill
+21554	   	Exploiter, Schwindler, Kid Terror, FreddyK, Winsp00fer
+22222	   	Donald Dick, G.R.O.B., Prosiak, Ruler, RUX The TIc.K
+27374	   	Bad Blood, Fake SubSeven, li0n, Ramen, Seeker, SubSeven , SubSeven 2.1 Gold, Subseven 2.1.4 DefCon 8, SubSeven 2.2, SubSeven Muie, The Saint
+29559	   	DuckToy, Katux, Latinus, Pest
+31337	   	Back Orifice Client, Baron Night, B02, Bo Facil
+31337	BackFire, Back Orifice, DeepBO
+31338	   	Back Orifice, Butt Funnel, NetSpy (DK)
+31338	Back Orifice, DeepBO
+
+901 SWAT, RealSecure Samba Web Administration Tool. Also port that RealSecure IDS listens on for console communications. IANA registered for SMP NAME RES (Simple Messaging Protocol name resolution?). Also used by a Trojan.
+possible Messenger Service or others 	
+1026 1027 1028 1029 this low range in the ephemeral ports is a usual place for services to be communicating, however see MS Messenger 1026 info
+MS SQL Server 	1433, 1434 	1433, 1434 	* CERT Advisories CA-2002-22, CA-2003-04
+MS Universal Plug and Play (UPnP) 	1900, 5000, 2869? 	1900, 5000, 2869? 	Port 1900 is IANA registered by Microsoft for SSDP (Simple Service Discovery Protocol). Port 5000 is also registered, but not by Microsoft, and not for this service I don't think. Microsoft Security Bulletins: MS01-054, MS01-059. NIPC Advisory 01-030.2, SecurityFocus. Also see the Remote Access Trojan FAQ about port 5000. About 2869 (which is IANA registered as MS ICSLAP), Microsoft says starting with Windows XP SP2, SSDP event notification service will rely on TCP port 2869. Currently this is only a speculative risk.
+Remote Desktop Protocol 	3389 	3389 	potential for unauthorized use of XP Pro Remote Desktop or XP Remote Assistance
+radmin 	4899 	4899 	remote administration of your computer, essentially remote control. See Radmin Default Installation Security Vulnerabilities.
+DameWare 	6129 	6129 	CERT Vulnerability Note VU#909678 DameWare Mini Remote Control vulnerable to buffer overflow via specially crafted packets
+555	   	Ini-Killer, Phase Zero, Stealth Spy
+666	   	Satanz Backdoor, Attack FTP, Back Construction, BLA trojan, NokNok, Reverse Trojan, Shadow
+1001	   	Silencer, WebEx, Der Späher / Der Spaeher, GOTHIC Intruder, Lula, One Windows Trojan, Theef
+1025	   	Fraggle Rock, md5 Backdoor, NetSpy, Remote Storm
+1026	   	BDDT, Dark IRC, DataSpy Network X, Delta Remote Access , Dosh, Duddie, IRC Contact, Remote Explorer 2000, RUX The TIc.K
+1028	   	ICKiller, DataSpy Network X, Dosh, Gibbon, KiLo, KWM, Litmus, Paltalk, SubSARI
+1243	   	Ultors Trojan, BackDoor-G, SubSeven , Tiles
+2000	   	Remote Explorer 2000, Last 2000, Insane Network, Der Späher / Der Spaeher, Senna Spy Trojan Generator, ATrojan, InsaneNetwork
+5000 / 5000	   	SSDP legacy event notification /
+Sockets de Troie, Bubbel, Back Door Setup
+6667	   	Dark FTP, EGO, Maniac rootkit, Moses, ScheduleAgent, SubSeven, The Thing (modified), Trinity, WinSatan
+6670	   	BackWeb Server, Deep Throat, Foreplay, WinNuke eXtreame
+4444		probelly some script kiddie
+6711	   	BackDoor-G, SubSeven, SubSARI, VP Killer, DeepThroat, Noknok
+6969	   	2000 Cracks, BlitzNet, Dark IRC, GateCrasher, Kid Terror, Laphex, Net Controller, SpArTa, Vagr Nocker, Priority
+7000	   	Aladino, Gunsan, Remote Grab, SubSeven , SubSeven 2.1 Gold, Theef
+8080 / 8080	   	HTTP Alternate or proxy / Brown Orifice, Generic backdoor, RemoConChubo, Reverse WWW Tunnel Backdoor, RingZero
+12345	   	GabanBus, NetBus, Pie Bill Gates, X-bill
+12346	   	GabanBus, NetBus, X-bill
+21554	   	Exploiter, Schwindler, Kid Terror, FreddyK, Winsp00fer
+22222	   	Donald Dick, G.R.O.B., Prosiak, Ruler, RUX The TIc.K
+27374	   	Bad Blood, Fake SubSeven, li0n, Ramen, Seeker, SubSeven , SubSeven 2.1 Gold, Subseven 2.1.4 DefCon 8, SubSeven 2.2, SubSeven Muie, The Saint
+29559	   	DuckToy, Katux, Latinus, Pest
+31337	   	Back Orifice Client, Baron Night, B02, Bo Facil
+31337	BackFire, Back Orifice, DeepBO
+31338	   	Back Orifice, Butt Funnel, NetSpy (DK)
+31338	Back Orifice, DeepBO
+
+901 SWAT, RealSecure Samba Web Administration Tool. Also port that RealSecure IDS listens on for console communications. IANA registered for SMP NAME RES (Simple Messaging Protocol name resolution?). Also used by a Trojan.
+possible Messenger Service or others 	
+1026 1027 1028 1029 this low range in the ephemeral ports is a usual place for services to be communicating, however see MS Messenger 1026 info
+MS SQL Server 	1433, 1434 	1433, 1434 	* CERT Advisories CA-2002-22, CA-2003-04
+MS Universal Plug and Play (UPnP) 	1900, 5000, 2869? 	1900, 5000, 2869? 	Port 1900 is IANA registered by Microsoft for SSDP (Simple Service Discovery Protocol). Port 5000 is also registered, but not by Microsoft, and not for this service I don't think. Microsoft Security Bulletins: MS01-054, MS01-059. NIPC Advisory 01-030.2, SecurityFocus. Also see the Remote Access Trojan FAQ about port 5000. About 2869 (which is IANA registered as MS ICSLAP), Microsoft says starting with Windows XP SP2, SSDP event notification service will rely on TCP port 2869. Currently this is only a speculative risk.
+Remote Desktop Protocol 	3389 	3389 	potential for unauthorized use of XP Pro Remote Desktop or XP Remote Assistance
+radmin 	4899 	4899 	remote administration of your computer, essentially remote control. See Radmin Default Installation Security Vulnerabilities.
+DameWare 	6129 	6129 	CERT Vulnerability Note VU#909678 DameWare Mini Remote Control vulnerable to buffer overflow via specially crafted packets
+
+port 0 REx
+port 1 (UDP) - Sockets des Troie
+port 2 Death
+port 5 yoyo
+port 11 Skun
+port 16 Skun
+port 17 Skun
+port 18 Skun
+port 19 Skun
+port 20 Amanda
+port 21 ADM worm, Back Construction, Blade Runner, BlueFire, Bmail, Cattivik FTP Server, CC Invader, Dark FTP, Doly Trojan, FreddyK, Invisible FTP, KWM, MscanWorm, NerTe, NokNok, Pinochet, Ramen, Reverse Trojan, RTB 666, The Flu, WinCrash, Voyager Alpha Force
+port 22 InCommand, Shaft, Skun
+port 23 ADM worm, Aphex's Remote Packet Sniffer , AutoSpY, ButtMan, Fire HacKer, My Very Own trojan, Pest, RTB 666, Tiny Telnet Server - TTS, Truva Atl
+port 25 Antigen, Barok, BSE, Email Password Sender , Gip, Laocoon, Magic Horse, MBT , Moscow Email trojan, Nimda, Shtirlitz, Stukach, Tapiras, WinPC
+port 27 Assasin
+port 28 Amanda
+port 30 Agent 40421
+port 31 Agent 40421, Masters Paradise, Skun
+port 37 ADM worm
+port 39 SubSARI
+port 41 Deep Throat , Foreplay
+port 44 Arctic
+port 51 Fuck Lamers Backdoor
+port 52 MuSka52, Skun
+port 53 ADM worm, li0n, MscanWorm, MuSka52
+port 54 MuSka52
+port 66 AL-Bareki
+port 69 BackGate Kit, Nimda, Pasana, Storm, Storm worm, Theef
+port 69 (UDP) - Pasana
+port 70 ADM worm
+port 79 ADM worm, Firehotcker
+port 80 711 trojan (Seven Eleven), AckCmd, BlueFire, Cafeini, Duddie, Executor, God Message, Intruzzo , Latinus, Lithium, MscanWorm, NerTe, Nimda, Noob, Optix Lite, Optix Pro , Power, Ramen, Remote Shell , Reverse WWW Tunnel Backdoor , RingZero, RTB 666, Scalper, Screen Cutter , Seeker, Slapper, Web Server CT , WebDownloader
+port 80 (UDP) - Penrox
+port 81 Asylum
+port 101 Skun
+port 102 Delf, Skun
+port 103 Skun
+port 105 NerTe
+port 107 Skun
+port 109 ADM worm
+port 110 ADM worm
+port 111 ADM worm, MscanWorm
+port 113 ADM worm, Alicia, Cyn, DataSpy Network X, Dosh, Gibbon, Taskman
+port 120 Skun
+port 121 Attack Bot, God Message, JammerKillah
+port 123 Net Controller
+port 137 Chode, Nimda
+port 137 (UDP) - Bugbear, Msinit, Opaserv, Qaz
+port 138 Chode, Nimda
+port 139 Chode, Fire HacKer, Msinit, Nimda, Opaserv, Qaz
+port 143 ADM worm
+port 146 Infector
+port 146 (UDP) - Infector
+port 166 NokNok
+port 170 A-trojan
+port 171 A-trojan
+port 200 CyberSpy
+port 201 One Windows Trojan
+port 202 One Windows Trojan, Skun
+port 211 One Windows Trojan
+port 212 One Windows Trojan
+port 221 Snape
+port 222 NeuroticKat, Snape
+port 230 Skun
+port 231 Skun
+port 232 Skun
+port 285 Delf
+port 299 One Windows Trojan
+port 334 Backage
+port 335 Nautical
+port 370 NeuroticKat
+port 400 Argentino
+port 401 One Windows Trojan
+port 402 One Windows Trojan
+port 411 Backage
+port 420 Breach
+port 443 Slapper
+port 445 Nimda
+port 455 Fatal Connections
+port 511 T0rn Rootkit
+port 513 ADM worm
+port 514 ADM worm
+port 515 MscanWorm, Ramen
+port 520 (UDP) - A UDP backdoor
+port 555 711 trojan (Seven Eleven), Phase Zero, Phase-0
+port 564 Oracle
+port 589 Assasin
+port 600 SweetHeart
+port 623 RTB 666
+port 635 ADM worm
+port 650 Assasin
+port 661 NokNok
+port 666 Attack FTP, Back Construction, BLA trojan, NokNok, Reverse Trojan, Shadow Phyre, Unicorn, yoyo
+port 667 NokNok, SniperNet
+port 668 Unicorn
+port 669 DP trojan , SniperNet
+port 680 RTB 666
+port 692 GayOL
+port 700 REx
+port 777 Undetected
+port 798 Oracle
+port 808 WinHole
+port 831 NeuroticKat
+port 901 Net-Devil, Pest
+port 902 Net-Devil, Pest
+port 903 Net-Devil
+port 911 Dark Shadow, Dark Shadow
+port 956 Crat Pro
+port 991 Snape
+port 992 Snape
+port 999 Deep Throat , Foreplay
+port 1000 Der Späher / Der Spaeher, Direct Connection, GOTHIC Intruder , Theef
+port 1001 Der Späher / Der Spaeher, GOTHIC Intruder , Lula, One Windows Trojan, Theef
+port 1005 Pest, Theef
+port 1008 AutoSpY, li0n
+port 1010 Doly Trojan
+port 1011 Doly Trojan
+port 1012 Doly Trojan
+port 1015 Doly Trojan
+port 1016 Doly Trojan
+port 1020 Vampire
+port 1024 Latinus, Lithium, NetSpy, Ptakks
+port 1025 AcidkoR, BDDT, DataSpy Network X, Fraggle Rock , KiLo, MuSka52, NetSpy, Optix Pro , Paltalk, Ptakks, Real 2000, Remote Anything, Remote Explorer Y2K, Remote Storm, RemoteNC
+port 1025 (UDP) - KiLo, Optix Pro , Ptakks, Real 2000, Remote Anything, Remote Explorer Y2K, Remote Storm, Yajing
+port 1026 BDDT, Dark IRC, DataSpy Network X, Delta Remote Access , Dosh, Duddie, IRC Contact, Remote Explorer 2000, RUX The TIc.K
+port 1026 (UDP) - Remote Explorer 2000
+port 1027 Clandestine, DataSpy Network X, KiLo, UandMe
+port 1028 DataSpy Network X, Dosh, Gibbon, KiLo, KWM, Litmus, Paltalk, SubSARI
+port 1028 (UDP) - KiLo, SubSARI
+port 1029 Clandestine, KWM, Litmus, SubSARI
+port 1029 (UDP) - SubSARI
+port 1030 Gibbon, KWM
+port 1031 KWM, Little Witch, Xanadu, Xot
+port 1031 (UDP) - Xot
+port 1032 Akosch4, Dosh, KWM
+port 1032 (UDP) - Akosch4
+port 1033 Dosh, KWM, Little Witch, Net Advance
+port 1034 KWM
+port 1035 Dosh, KWM, RemoteNC, Truva Atl
+port 1036 KWM
+port 1037 Arctic , Dosh, KWM, MoSucker
+port 1039 Dosh
+port 1041 Dosh, RemoteNC
+port 1042 BLA trojan
+port 1042 (UDP) - BLA trojan
+port 1043 Dosh
+port 1044 Ptakks
+port 1044 (UDP) - Ptakks
+port 1047 RemoteNC
+port 1049 Delf, The Hobbit Daemon
+port 1052 Fire HacKer, Slapper, The Hobbit Daemon
+port 1053 The Thief
+port 1054 AckCmd, RemoteNC
+port 1080 SubSeven 2.2, WinHole
+port 1081 WinHole
+port 1082 WinHole
+port 1083 WinHole
+port 1092 Hvl RAT
+port 1095 Blood Fest Evolution, Hvl RAT, Remote Administration Tool - RAT
+port 1097 Blood Fest Evolution, Hvl RAT, Remote Administration Tool - RAT
+port 1098 Blood Fest Evolution, Hvl RAT, Remote Administration Tool - RAT
+port 1099 Blood Fest Evolution, Hvl RAT, Remote Administration Tool - RAT
+port 1104 (UDP) - RexxRave
+port 1111 Daodan, Ultors Trojan
+port 1111 (UDP) - Daodan
+port 1115 Lurker, Protoss
+port 1116 Lurker
+port 1116 (UDP) - Lurker
+port 1122 Last 2000, Singularity
+port 1122 (UDP) - Last 2000, Singularity
+port 1133 SweetHeart
+port 1150 Orion
+port 1151 Orion
+port 1160 BlackRat
+port 1166 CrazzyNet
+port 1167 CrazzyNet
+port 1170 Psyber Stream Server , Voice
+port 1180 Unin68
+port 1183 Cyn, SweetHeart
+port 1183 (UDP) - Cyn, SweetHeart
+port 1200 (UDP) - NoBackO
+port 1201 (UDP) - NoBackO
+port 1207 SoftWAR
+port 1208 Infector
+port 1212 Kaos
+port 1215 Force
+port 1218 Force
+port 1219 Force
+port 1221 Fuck Lamers Backdoor
+port 1222 Fuck Lamers Backdoor
+port 1234 KiLo, Ultors Trojan
+port 1243 BackDoor-G, SubSeven , Tiles
+port 1245 VooDoo Doll
+port 1255 Scarab
+port 1256 Project nEXT, RexxRave
+port 1272 The Matrix
+port 1313 NETrojan
+port 1314 Daodan
+port 1349 BO dll
+port 1369 SubSeven 2.2
+port 1386 Dagger
+port 1415 Last 2000, Singularity
+port 1433 Voyager Alpha Force
+port 1441 Remote Storm
+port 1492 FTP99CMP
+port 1524 Trinoo
+port 1560 Big Gluck, Duddie
+port 1561 (UDP) - MuSka52
+port 1600 Direct Connection
+port 1601 Direct Connection
+port 1602 Direct Connection
+port 1703 Exploiter
+port 1711 yoyo
+port 1772 NetControle
+port 1772 (UDP) - NetControle
+port 1777 Scarab
+port 1826 Glacier
+port 1833 TCC
+port 1834 TCC
+port 1835 TCC
+port 1836 TCC
+port 1837 TCC
+port 1905 Delta Remote Access
+port 1911 Arctic
+port 1966 Fake FTP
+port 1967 For Your Eyes Only , WM FTP Server
+port 1978 (UDP) - Slapper
+port 1981 Bowl, Shockrave
+port 1983 Q-taz
+port 1984 Intruzzo , Q-taz
+port 1985 Black Diver, Q-taz
+port 1985 (UDP) - Black Diver
+port 1986 Akosch4
+port 1991 PitFall
+port 1999 Back Door, SubSeven , TransScout
+port 2000 A-trojan, Der Späher / Der Spaeher, Fear, Force, GOTHIC Intruder , Last 2000, Real 2000, Remote Explorer 2000, Remote Explorer Y2K, Senna Spy Trojan Generator, Singularity
+port 2000 (UDP) - GOTHIC Intruder , Real 2000, Remote Explorer 2000, Remote Explorer Y2K
+port 2001 Der Späher / Der Spaeher, Duddie, Glacier, Protoss, Senna Spy Trojan Generator, Singularity, Trojan Cow
+port 2001 (UDP) - Scalper
+port 2002 Duddie, Senna Spy Trojan Generator, Sensive
+port 2002 (UDP) - Slapper
+port 2004 Duddie
+port 2005 Duddie
+port 2023 Ripper Pro
+port 2060 Protoss
+port 2080 WinHole
+port 2101 SweetHeart
+port 2115 Bugs
+port 2130 (UDP) - Mini BackLash
+port 2140 The Invasor
+port 2140 (UDP) - Deep Throat , Foreplay , The Invasor
+port 2149 Deep Throat
+port 2150 R0xr4t
+port 2156 Oracle
+port 2222 SweetHeart, Way
+port 2222 (UDP) - SweetHeart, Way
+port 2281 Nautical
+port 2283 Hvl RAT
+port 2300 Storm
+port 2311 Studio 54
+port 2330 IRC Contact
+port 2331 IRC Contact
+port 2332 IRC Contact, Silent Spy
+port 2333 IRC Contact
+port 2334 IRC Contact, Power
+port 2335 IRC Contact
+port 2336 IRC Contact
+port 2337 IRC Contact, The Hobbit Daemon
+port 2338 IRC Contact
+port 2339 IRC Contact, Voice Spy
+port 2339 (UDP) - Voice Spy
+port 2343 Asylum
+port 2345 Doly Trojan
+port 2407 yoyo
+port 2418 Intruzzo
+port 2555 li0n, T0rn Rootkit
+port 2565 Striker trojan
+port 2583 WinCrash
+port 2589 Dagger
+port 2600 Digital RootBeer
+port 2702 Black Diver
+port 2702 (UDP) - Black Diver
+port 2772 SubSeven
+port 2773 SubSeven , SubSeven 2.1 Gold
+port 2774 SubSeven , SubSeven 2.1 Gold
+port 2800 Theef
+port 2929 Konik
+port 2983 Breach
+port 2989 (UDP) - Remote Administration Tool - RAT
+port 3000 InetSpy, Remote Shut, Theef
+port 3006 Clandestine
+port 3024 WinCrash
+port 3031 MicroSpy
+port 3119 Delta Remote Access
+port 3128 Reverse WWW Tunnel Backdoor , RingZero
+port 3129 Masters Paradise
+port 3131 SubSARI
+port 3150 Deep Throat , The Invasor, The Invasor
+port 3150 (UDP) - Deep Throat , Foreplay , Mini BackLash
+port 3215 XHX
+port 3215 (UDP) - XHX
+port 3292 Xposure
+port 3295 Xposure
+port 3333 Daodan
+port 3333 (UDP) - Daodan
+port 3410 Optix Pro
+port 3417 Xposure
+port 3418 Xposure
+port 3456 Fear, Force, Terror trojan
+port 3459 Eclipse 2000, Sanctuary
+port 3505 AutoSpY
+port 3700 Portal of Doom
+port 3721 Whirlpool
+port 3723 Mantis
+port 3777 PsychWard
+port 3791 Total Solar Eclypse
+port 3800 Total Solar Eclypse
+port 3801 Total Solar Eclypse
+port 3945 Delta Remote Access
+port 3996 Remote Anything
+port 3996 (UDP) - Remote Anything
+port 3997 Remote Anything
+port 3999 Remote Anything
+port 4000 Remote Anything, SkyDance
+port 4092 WinCrash
+port 4128 RedShad
+port 4128 (UDP) - RedShad
+port 4156 (UDP) - Slapper
+port 4201 War trojan
+port 4210 Netkey
+port 4211 Netkey
+port 4225 Silent Spy
+port 4242 Virtual Hacking Machine - VHM
+port 4315 Power
+port 4321 BoBo
+port 4414 AL-Bareki
+port 4442 Oracle
+port 4444 CrackDown, Oracle, Prosiak, Swift Remote
+port 4445 Oracle
+port 4447 Oracle
+port 4449 Oracle
+port 4451 Oracle
+port 4488 Event Horizon
+port 4567 File Nail
+port 4653 Cero
+port 4666 Mneah
+port 4700 Theef
+port 4836 Power
+port 5000 Back Door Setup, Bubbel, Ra1d, Sockets des Troie
+port 5001 Back Door Setup, Sockets des Troie
+port 5002 Shaft
+port 5005 Aladino
+port 5011 Peanut Brittle
+port 5025 WM Remote KeyLogger
+port 5031 Net Metropolitan
+port 5032 Net Metropolitan
+port 5050 R0xr4t
+port 5135 Bmail
+port 5150 Pizza
+port 5151 Optix Lite
+port 5152 Laphex
+port 5155 Oracle
+port 5221 NOSecure
+port 5250 Pizza
+port 5321 Firehotcker
+port 5333 Backage
+port 5350 Pizza
+port 5377 Iani
+port 5400 Back Construction, Blade Runner, Digital Spy
+port 5401 Back Construction, Blade Runner, Digital Spy , Mneah
+port 5402 Back Construction, Blade Runner, Digital Spy , Mneah
+port 5418 DarkSky
+port 5419 DarkSky
+port 5419 (UDP) - DarkSky
+port 5430 Net Advance
+port 5450 Pizza
+port 5503 Remote Shell
+port 5534 The Flu
+port 5550 Pizza
+port 5555 Daodan, NoXcape
+port 5555 (UDP) - Daodan
+port 5556 BO Facil
+port 5557 BO Facil
+port 5569 Robo-Hack
+port 5650 Pizza
+port 5669 SpArTa
+port 5679 Nautical
+port 5695 Assasin
+port 5696 Assasin
+port 5697 Assasin
+port 5742 WinCrash
+port 5802 Y3K RAT
+port 5873 SubSeven 2.2
+port 5880 Y3K RAT
+port 5882 Y3K RAT
+port 5882 (UDP) - Y3K RAT
+port 5888 Y3K RAT
+port 5888 (UDP) - Y3K RAT
+port 5889 Y3K RAT
+port 5933 NOSecure
+port 6000 Aladino, NetBus , The Thing
+port 6006 Bad Blood
+port 6267 DarkSky
+port 6400 The Thing
+port 6521 Oracle
+port 6526 Glacier
+port 6556 AutoSpY
+port 6661 Weia-Meia
+port 6666 AL-Bareki, KiLo, SpArTa
+port 6666 (UDP) - KiLo
+port 6667 Acropolis, BlackRat, Dark FTP, Dark IRC, DataSpy Network X, Gunsan, InCommand, Kaitex, KiLo, Laocoon, Net-Devil, Reverse Trojan, ScheduleAgent, SlackBot, SubSeven , Subseven 2.1.4 DefCon 8, Trinity, Y3K RAT, yoyo
+port 6667 (UDP) - KiLo
+port 6669 Host Control, Vampire, Voyager Alpha Force
+port 6670 BackWeb Server, Deep Throat , Foreplay , WinNuke eXtreame
+port 6697 Force
+port 6711 BackDoor-G, Duddie, KiLo, Little Witch, Netkey, Spadeace, SubSARI, SubSeven , SweetHeart, UandMe, Way, VP Killer
+port 6712 Funny trojan, KiLo, Spadeace, SubSeven
+port 6713 KiLo, SubSeven
+port 6714 KiLo
+port 6715 KiLo
+port 6718 KiLo
+port 6723 Mstream
+port 6766 KiLo
+port 6766 (UDP) - KiLo
+port 6767 KiLo, Pasana, UandMe
+port 6767 (UDP) - KiLo, UandMe
+port 6771 Deep Throat , Foreplay
+port 6776 2000 Cracks, BackDoor-G, SubSeven , VP Killer
+port 6838 (UDP) - Mstream
+port 6891 Force
+port 6912 Shit Heep
+port 6969 2000 Cracks, BlitzNet, Dark IRC, GateCrasher, Kid Terror, Laphex, Net Controller, SpArTa, Vagr Nocker
+port 6970 GateCrasher
+port 7000 Aladino, Gunsan, Remote Grab, SubSeven , SubSeven 2.1 Gold, Theef
+port 7001 Freak88, Freak2k
+port 7007 Silent Spy
+port 7020 Basic Hell
+port 7030 Basic Hell
+port 7119 Massaker
+port 7215 SubSeven , SubSeven 2.1 Gold
+port 7274 AutoSpY
+port 7290 NOSecure
+port 7291 NOSecure
+port 7300 NetSpy
+port 7301 NetSpy
+port 7306 NetSpy
+port 7307 NetSpy, Remote Process Monitor
+port 7308 NetSpy, X Spy
+port 7312 Yajing
+port 7410 Phoenix II
+port 7424 Host Control
+port 7424 (UDP) - Host Control
+port 7597 Qaz
+port 7626 Glacier
+port 7648 XHX
+port 7673 Neoturk
+port 7676 Neoturk
+port 7677 Neoturk
+port 7718 Glacier
+port 7722 KiLo
+port 7777 God Message
+port 7788 Last 2000, Last 2000, Singularity
+port 7788 (UDP) - Singularity
+port 7789 Back Door Setup
+port 7800 Paltalk
+port 7826 Oblivion
+port 7850 Paltalk
+port 7878 Paltalk
+port 7879 Paltalk
+port 7979 Vagr Nocker
+port 7983 (UDP) - Mstream
+port 8011 Way
+port 8012 Ptakks
+port 8012 (UDP) - Ptakks
+port 8080 Reverse WWW Tunnel Backdoor , RingZero, Screen Cutter
+port 8090 Aphex's Remote Packet Sniffer
+port 8090 (UDP) - Aphex's Remote Packet Sniffer
+port 8097 Kryptonic Ghost Command Pro
+port 8100 Back streets
+port 8110 DLP
+port 8111 DLP
+port 8127 9_119, Chonker
+port 8127 (UDP) - 9_119, Chonker
+port 8130 9_119, Chonker, DLP
+port 8131 DLP
+port 8301 DLP
+port 8302 DLP
+port 8311 SweetHeart
+port 8322 DLP
+port 8329 DLP
+port 8488 (UDP) - KiLo
+port 8489 KiLo
+port 8489 (UDP) - KiLo
+port 8685 Unin68
+port 8732 Kryptonic Ghost Command Pro
+port 8734 AutoSpY
+port 8787 Back Orifice 2000
+port 8811 Fear
+port 8812 FraggleRock Lite
+port 8821 Alicia
+port 8848 Whirlpool
+port 8864 Whirlpool
+port 8888 Dark IRC
+port 9000 Netministrator
+port 9090 Aphex's Remote Packet Sniffer
+port 9117 Massaker
+port 9148 Nautical
+port 9301 DLP
+port 9325 (UDP) - Mstream
+port 9329 DLP
+port 9400 InCommand
+port 9401 InCommand
+port 9536 Lula
+port 9561 Crat Pro
+port 9563 Crat Pro
+port 9870 Remote Computer Control Center
+port 9872 Portal of Doom
+port 9873 Portal of Doom
+port 9874 Portal of Doom
+port 9875 Portal of Doom
+port 9876 Rux
+port 9877 Small Big Brother
+port 9878 Small Big Brother, TransScout
+port 9879 Small Big Brother
+port 9919 Kryptonic Ghost Command Pro
+port 9999 BlitzNet, Oracle, Spadeace
+port 10000 Oracle, TCP Door, XHX
+port 10000 (UDP) - XHX
+port 10001 DTr, Lula
+port 10002 Lula
+port 10003 Lula
+port 10008 li0n
+port 10012 Amanda
+port 10013 Amanda
+port 10067 Portal of Doom
+port 10067 (UDP) - Portal of Doom
+port 10084 Syphillis
+port 10084 (UDP) - Syphillis
+port 10085 Syphillis
+port 10086 Syphillis
+port 10100 Control Total, GiFt trojan, Scalper
+port 10100 (UDP) - Slapper
+port 10167 Portal of Doom
+port 10167 (UDP) - Portal of Doom
+port 10498 (UDP) - Mstream
+port 10520 Acid Shivers
+port 10528 Host Control
+port 10607 Coma
+port 10666 (UDP) - Ambush
+port 10887 BDDT
+port 10889 BDDT
+port 11000 DataRape, Senna Spy Trojan Generator
+port 11011 Amanda
+port 11050 Host Control
+port 11051 Host Control
+port 11111 Breach
+port 11223 Progenic trojan, Secret Agent
+port 11225 Cyn
+port 11225 (UDP) - Cyn
+port 11660 Back streets
+port 11718 Kryptonic Ghost Command Pro
+port 11831 DarkFace, DataRape, Latinus, Pest, Vagr Nocker
+port 11977 Cool Remote Control
+port 11978 Cool Remote Control
+port 11980 Cool Remote Control
+port 12000 Reverse Trojan
+port 12310 PreCursor
+port 12321 Protoss
+port 12321 (UDP) - Protoss
+port 12345 Ashley, BlueIce 2000, Mypic , NetBus , Pie Bill Gates, Q-taz , Sensive, Snape, Vagr Nocker, ValvNet , Whack Job
+port 12345 (UDP) - BlueIce 2000
+port 12346 NetBus
+port 12348 BioNet
+port 12349 BioNet, The Saint
+port 12361 Whack-a-mole
+port 12362 Whack-a-mole
+port 12363 Whack-a-mole
+port 12623 ButtMan
+port 12623 (UDP) - ButtMan, DUN Control
+port 12624 ButtMan, Power
+port 12631 Whack Job
+port 12684 Power
+port 12754 Mstream
+port 12904 Rocks
+port 13000 Senna Spy Trojan Generator, Senna Spy Trojan Generator
+port 13013 PsychWard
+port 13014 PsychWard
+port 13028 Back streets
+port 13079 Kryptonic Ghost Command Pro
+port 13370 SpArTa
+port 13371 Optix Pro
+port 13500 Theef
+port 13753 Anal FTP
+port 14194 CyberSpy
+port 14285 Laocoon
+port 14286 Laocoon
+port 14287 Laocoon
+port 14500 PC Invader
+port 14501 PC Invader
+port 14502 PC Invader
+port 14503 PC Invader
+port 15000 In Route to the Hell, R0xr4t
+port 15092 Host Control
+port 15104 Mstream
+port 15206 KiLo
+port 15207 KiLo
+port 15210 (UDP) - UDP remote shell backdoor server
+port 15382 SubZero
+port 15432 Cyn
+port 15485 KiLo
+port 15486 KiLo
+port 15486 (UDP) - KiLo
+port 15500 In Route to the Hell
+port 15512 Iani
+port 15551 In Route to the Hell
+port 15695 Kryptonic Ghost Command Pro
+port 15845 (UDP) - KiLo
+port 15852 Kryptonic Ghost Command Pro
+port 16057 MoonPie
+port 16484 MoSucker
+port 16514 KiLo
+port 16514 (UDP) - KiLo
+port 16515 KiLo
+port 16515 (UDP) - KiLo
+port 16523 Back streets
+port 16660 Stacheldraht
+port 16712 KiLo
+port 16761 Kryptonic Ghost Command Pro
+port 16959 SubSeven , Subseven 2.1.4 DefCon 8
+port 17166 Mosaic
+port 17449 Kid Terror
+port 17499 CrazzyNet
+port 17500 CrazzyNet
+port 17569 Infector
+port 17593 AudioDoor
+port 17777 Nephron
+port 18753 (UDP) - Shaft
+port 19191 BlueFire
+port 19216 BackGate Kit
+port 20000 Millenium, PSYcho Files, XHX
+port 20001 Insect, Millenium, PSYcho Files
+port 20002 AcidkoR, PSYcho Files
+port 20005 MoSucker
+port 20023 VP Killer
+port 20034 NetBus 2.0 Pro, NetBus 2.0 Pro Hidden, Whack Job
+port 20331 BLA trojan
+port 20432 Shaft
+port 20433 (UDP) - Shaft
+port 21212 Sensive
+port 21544 GirlFriend, Kid Terror
+port 21554 Exploiter, FreddyK, Kid Terror, Schwindler, Sensive, Winsp00fer
+port 21579 Breach
+port 21957 Latinus
+port 22115 Cyn
+port 22222 Donald Dick, G.R.O.B., Prosiak, Ruler, RUX The TIc.K
+port 22223 RUX The TIc.K
+port 22456 Clandestine
+port 22554 Schwindler
+port 22783 Intruzzo
+port 22784 Intruzzo
+port 22785 Intruzzo
+port 23000 Storm worm
+port 23001 Storm worm
+port 23005 NetTrash, Oxon
+port 23006 NetTrash, Oxon
+port 23023 Logged
+port 23032 Amanda
+port 23321 Konik
+port 23432 Asylum
+port 23456 Clandestine, Evil FTP, Vagr Nocker, Whack Job
+port 23476 Donald Dick
+port 23476 (UDP) - Donald Dick
+port 23477 Donald Dick
+port 23777 InetSpy
+port 24000 Infector
+port 24289 Latinus
+port 25002 MOTD
+port 25002 (UDP) - MOTD
+port 25123 Goy'Z TroJan
+port 25555 FreddyK
+port 25685 MoonPie
+port 25686 DarkFace, MoonPie
+port 25799 FreddyK
+port 25885 MOTD
+port 25982 DarkFace, MoonPie
+port 26274 (UDP) - Delta Source
+port 26681 Voice Spy
+port 27160 MoonPie
+port 27184 Alvgus trojan 2000
+port 27184 (UDP) - Alvgus trojan 2000
+port 27373 Charge
+port 27374 Bad Blood, Fake SubSeven, li0n, Ramen, Seeker, SubSeven , SubSeven 2.1 Gold, Subseven 2.1.4 DefCon 8, SubSeven 2.2, SubSeven Muie, The Saint
+port 27379 Optix Lite
+port 27444 (UDP) - Trinoo
+port 27573 SubSeven
+port 27665 Trinoo
+port 28218 Oracle
+port 28431 Hack´a´Tack
+port 28678 Exploiter
+port 29104 NETrojan, NetTrojan
+port 29292 BackGate Kit
+port 29559 AntiLamer BackDoor , DarkFace, DataRape, Ducktoy, Latinus, Pest, Vagr Nocker
+port 29589 KiLo
+port 29589 (UDP) - KiLo
+port 29891 The Unexplained
+port 29999 AntiLamer BackDoor
+port 30000 DataRape, Infector
+port 30001 Err0r32
+port 30005 Litmus
+port 30100 NetSphere
+port 30101 NetSphere
+port 30102 NetSphere
+port 30103 NetSphere
+port 30103 (UDP) - NetSphere
+port 30133 NetSphere
+port 30303 Sockets des Troie
+port 30331 MuSka52
+port 30464 Slapper
+port 30700 Mantis
+port 30947 Intruse
+port 31320 Little Witch
+port 31320 (UDP) - Little Witch
+port 31335 Trinoo
+port 31336 Butt Funnel
+port 31337 ADM worm, Back Fire, Back Orifice (Lm), Back Orifice russian, BlitzNet, BO client, BO Facil, BO2, Freak88, Freak2k, NoBackO
+port 31337 (UDP) - Back Orifice, Deep BO
+port 31338 Back Orifice, Butt Funnel, NetSpy (DK)
+port 31338 (UDP) - Deep BO, NetSpy (DK)
+port 31339 Little Witch, NetSpy (DK), NetSpy (DK)
+port 31339 (UDP) - Little Witch
+port 31340 Little Witch
+port 31340 (UDP) - Little Witch
+port 31382 Lithium
+port 31415 Lithium
+port 31416 Lithium
+port 31416 (UDP) - Lithium
+port 31557 Xanadu
+port 31745 BuschTrommel
+port 31785 Hack´a´Tack
+port 31787 Hack´a´Tack
+port 31788 Hack´a´Tack
+port 31789 Hack´a´Tack
+port 31789 (UDP) - Hack´a´Tack
+port 31790 Hack´a´Tack
+port 31791 Hack´a´Tack
+port 31791 (UDP) - Hack´a´Tack
+port 31792 Hack´a´Tack
+port 31887 BDDT
+port 32000 BDDT
+port 32001 Donald Dick
+port 32100 Peanut Brittle, Project nEXT
+port 32418 Acid Battery
+port 32791 Acropolis, Rocks
+port 33270 Trinity
+port 33333 Prosiak
+port 33545 G.R.O.B.
+port 33567 li0n, T0rn Rootkit
+port 33568 li0n, T0rn Rootkit
+port 33577 Son of PsychWard
+port 33777 Son of PsychWard
+port 33911 Spirit 2000, Spirit 2001
+port 34312 Delf
+port 34313 Delf
+port 34324 Big Gluck
+port 34343 Osiris
+port 34444 Donald Dick
+port 34555 (UDP) - Trinoo (for Windows)
+port 35000 Infector
+port 35555 (UDP) - Trinoo (for Windows)
+port 35600 SubSARI
+port 36794 Bugbear
+port 37237 Mantis
+port 37651 Charge
+port 38741 CyberSpy
+port 38742 CyberSpy
+port 40071 Ducktoy
+port 40308 SubSARI
+port 40412 The Spy
+port 40421 Agent 40421, Masters Paradise
+port 40422 Masters Paradise
+port 40423 Masters Paradise
+port 40425 Masters Paradise
+port 40426 Masters Paradise
+port 41337 Storm
+port 41666 Remote Boot Tool , Remote Boot Tool
+port 43720 (UDP) - KiLo
+port 44014 Iani
+port 44014 (UDP) - Iani
+port 44444 Prosiak
+port 44575 Exploiter
+port 44767 School Bus
+port 44767 (UDP) - School Bus
+port 45092 BackGate Kit
+port 45454 Osiris
+port 45632 Little Witch
+port 45673 Acropolis, Rocks
+port 46666 Taskman
+port 46666 (UDP) - Taskman
+port 47017 T0rn Rootkit
+port 47262 (UDP) - Delta Source
+port 47698 KiLo
+port 47785 KiLo
+port 47785 (UDP) - KiLo
+port 47891 AntiLamer BackDoor
+port 48004 Fraggle Rock
+port 48006 Fraggle Rock
+port 48512 Arctic
+port 49000 Fraggle Rock
+port 49683 Fenster
+port 49683 (UDP) - Fenster
+port 49698 (UDP) - KiLo
+port 50000 SubSARI
+port 50021 Optix Pro
+port 50130 Enterprise
+port 50505 Sockets des Troie
+port 50551 R0xr4t
+port 50552 R0xr4t
+port 50766 Schwindler
+port 50829 KiLo
+port 50829 (UDP) - KiLo
+port 51234 Cyn
+port 51966 Cafeini
+port 52365 Way
+port 52901 (UDP) - Omega
+port 53001 Remote Windows Shutdown - RWS
+port 54283 SubSeven , SubSeven 2.1 Gold
+port 54320 Back Orifice 2000
+port 54321 Back Orifice 2000, School Bus , yoyo
+port 55165 File Manager trojan, File Manager trojan
+port 55555 Shadow Phyre
+port 55665 Latinus, Pinochet
+port 55666 Latinus, Pinochet
+port 56565 Osiris
+port 57163 BlackRat
+port 57341 NetRaider
+port 57785 G.R.O.B.
+port 58134 Charge
+port 58339 Butt Funnel
+port 59211 Ducktoy
+port 60000 Deep Throat , Foreplay , Sockets des Troie
+port 60001 Trinity
+port 60008 li0n, T0rn Rootkit
+port 60068 The Thing
+port 60411 Connection
+port 60551 R0xr4t
+port 60552 R0xr4t
+port 60666 Basic Hell
+port 61115 Protoss
+port 61337 Nota
+port 61348 Bunker-Hill
+port 61440 Orion
+port 61603 Bunker-Hill
+port 61746 KiLo
+port 61746 (UDP) - KiLo
+port 61747 KiLo
+port 61747 (UDP) - KiLo
+port 61748 (UDP) - KiLo
+port 61979 Cool Remote Control
+port 62011 Ducktoy
+port 63485 Bunker-Hill
+port 64101 Taskman
+port 65000 Devil, Sockets des Troie, Stacheldraht
+port 65289 yoyo
+port 65421 Alicia
+port 65422 Alicia
+port 65432 The Traitor (= th3tr41t0r)
+port 65432 (UDP) - The Traitor (= th3tr41t0r)
+port 65530 Windows Mite
+port 65535 RC1 trojan
+1
+	
+UDP
+	Sockets des Troie
+2
+	
+TCP
+	Death
+20
+	
+TCP
+	Senna Spy FTP server
+21
+	
+TCP
+	Back Construction, Blade Runner, Cattivik FTP Server, CC Invader, Dark FTP, Doly Trojan, Freddy beta 2 - beta 3, Fore, Invisible FTP, Juggernaut 42, Larva, MotIv FTP, Net Administrator, Ramen, Senna Spy FTP server, The Flu, Traitor 21, WebEx, WinCrash
+22
+	
+TCP
+	Shaft
+23
+	
+TCP
+	Fire HacKer, Tiny Telnet Server - TTS, Truva Atl, My Very Own Trojan
+25
+	
+TCP
+	Ajan, Antigen, Barok, BSE Trojan, Email Password Sender - EPS, EPS II, Gip, Gris, Happy99, Hpteam mail, Hybris, I love you, Kuang2, Magic Horse, MBT (Mail Bombing Trojan), Moscow Email trojan, Naebi, NewApt worm, ProMail trojan, Shtirlitz, Stealth, Stukach, Tapiras, Terminator, WinPC, WinSpy
+30
+	
+TCP
+	Agent 40421
+31
+	
+TCP
+	Agent 31, Hackers Paradise, Masters Paradise
+39
+	
+TCP
+	SubSARI
+41
+	
+TCP
+	Deep Throat, Foreplay
+44
+	
+TCP
+	Arctic Trojan
+48
+	
+TCP
+	D.R.A.T
+50
+	
+TCP
+	D.R.A.T
+58
+	
+TCP
+	DMSetup
+59
+	
+TCP
+	DMSetup
+79
+	
+TCP
+	CDK, Firehotcker
+80
+	
+TCP, ACK 
+	711 Beta, Back End, AckCmd (ack), CGI BackDoor, Exector, Hooker, Ring Zero, Web Serve 2, Back End, Back Orifice 2000 Plug-Ins, Cafeini, CGI Backdoor, Executor, God Message, God Message Creator, Hooker, IISworm, MTX, NCX, Reverse WWW Tunnel Backdoor, RingZero, Seeker, WAN Remote, Web Server CT, WebDownloader
+81
+	
+TCP
+	RemoConChubo
+99
+	
+TCP
+	Hidden Port, NCX
+110
+	
+TCP
+	ProMail 
+113
+	
+TCP
+	Invisible Identd Deamon, Kazimas
+119
+	
+TCP
+	Happy99
+121
+	
+TCP, UDP
+	Attack Bot, God Message, JammerKillah (UDP)
+123
+	
+TCP
+	NetController
+133
+	
+TCP
+	Farnaz
+137
+	
+TCP, UDP
+	Chode, MSinit (UDP)
+138
+	
+TCP
+	Chode
+139
+	
+TCP
+	Chode, God Message worm, MSinit, Netlog, Network, Qaz
+142
+	
+TCP
+	NetTaxi
+146
+	
+TCP, UDP
+	The infector
+170
+	
+TCP
+	A-Trojan
+334
+	
+TCP
+	Backage
+411
+	
+TCP
+	Backage
+420
+	
+TCP
+	Breach, Incognito
+421
+	
+TCP
+	TCP Wrappers trojan
+455
+	
+TCP
+	Fatal Connections 2.0
+456
+	
+TCP
+	Hackers Paradise 2 beta 3, Masters Paradise 98 beta 2, Masters Paradise 99 beta 9.9d
+513
+	
+TCP
+	Grlogin
+514
+	
+TCP
+	RPC Backdoor
+531
+	
+TCP
+	Net666, Rasmin
+555
+	
+TCP
+	711, Ini-Killer, Net Administrator, Phase Zero, Phase-0, Stealth Spy
+605
+	
+TCP
+	Secret Service
+666
+	
+TCP
+	Attack FTP, Back Construction, BLA trojan, Cain & Abel, NokNok, Satans Back Door, ServU, ShadowPhyre, th3r1pp3rz 
+667
+	
+TCP
+	SniperNet
+669
+	
+TCP
+	DP trojan
+692
+	
+TCP
+	GayOL
+777
+	
+TCP
+	AimSpy, Undetected
+808
+	
+TCP
+	WinHole
+911
+	
+TCP, UDP
+	DarkShadow's trojan
+999
+	
+TCP, UDP
+	Deep Throat, Foreplay, WinSatan
+1000
+	
+TCP
+	DerSpaeher, Direct Connection
+1001
+	
+TCP
+	DerSpaeher, Le Guardien, SK Silencer, WebEx
+1010
+	
+TCP
+	Doly
+1011
+	
+TCP
+	Doly
+1012
+	
+TCP
+	Doly
+1015
+	
+TCP
+	Doly
+1016
+	
+TCP
+	Doly
+1020
+	
+TCP
+	Vampire
+1024
+	
+TCP
+	Latinus 1.0, Latinus 1.2,  NetSpy, Jade
+1025
+	
+TCP, UDP
+	Fraggle Rock, NetSpy, Remote Storm (TCP and UDP)
+1031
+	
+TCP
+	Xanadu
+1035
+	
+TCP
+	Multidropper
+1042
+	
+TCP
+	BLA
+1045
+	
+TCP
+	Rasmin
+1050
+	
+TCP
+	MiniCommand
+1053
+	
+TCP
+	Thief
+1054
+	
+ACK 
+	AckCmd
+1066
+	
+TCP
+	B.F. Evolution
+1080
+	
+TCP
+	WinHole
+1081
+	
+TCP
+	WinHole
+1082
+	
+TCP
+	WinHole
+1083
+	
+TCP
+	WinHole
+1090
+	
+TCP
+	Xtreme
+1095
+	
+TCP
+	Remote Administration Tool 
+1097
+	
+TCP
+	Remote Administration Tool 
+1098
+	
+TCP
+	Remote Administration Tool 
+1099
+	
+TCP
+	B.F.Evolution
+1104
+	
+UDP
+	RexxRave
+1150
+	
+TCP
+	Orion
+1151
+	
+TCP
+	Orion
+1170
+	
+TCP
+	Psyber Stream Server, Streaming Audio Server, VoiceDLL
+1200
+	
+UDP
+	NoBackO
+1201
+	
+UDP
+	NoBackO
+1207
+	
+TCP
+	SoftWAR
+1208
+	
+TCP
+	Infector
+1212
+	
+TCP
+	Kaos
+1234
+	
+TCP
+	Ultor's Telnet Trojan, SubSeven Java client
+1243
+	
+TCP
+	 SubSeven, SubSeven, Tiles
+1245
+	
+TCP
+	Voodoo Doll
+1255
+	
+TCP
+	Scarab
+1256
+	
+TCP
+	Project nEXT
+1269
+	
+TCP
+	Mavericks Matrix
+1272
+	
+TCP
+	The Matrix
+1313
+	
+TCP
+	NETrojan
+1338
+	
+TCP
+	Millenium Worm
+1349
+	
+UDP
+	Back Orifice DLL
+1386
+	
+TCP
+	Dagger
+1394
+	
+TCP
+	Gofriller
+1441
+	
+TCP
+	Remote Storm
+1492
+	
+TCP
+	FTP99cmp
+1524
+	
+TCP
+	Trinoo (DDoS)
+1568
+	
+TCP
+	Remote Hack
+1600
+	
+TCP
+	Direct Connection, Shivka-Burka
+1703
+	
+TCP
+	Exploiter
+1777
+	
+TCP
+	Scarab
+1807
+	
+TCP
+	Spy Sender
+1966
+	
+TCP
+	Fake FTP
+1967
+	
+TCP
+	F.Y.E.O, WM FTP Server
+1969
+	
+TCP
+	OpC Back orifice
+1981
+	
+TCP
+	Bowl 1.0, ShockRave
+1991
+	
+TCP
+	Pitfall
+1999
+	
+TCP
+	BackDoor, Transmission Scout
+2000
+	
+TCP
+	DerSpaeher, Insane Network, Last 2000, Remote Explorer 2000, Senna Spy Trojan Generator
+2001
+	
+TCP
+	DerSpaeher, Trojan Cow
+2023
+	
+TCP
+	Ripper Pro
+2080
+	
+TCP
+	WinHole
+2115
+	
+TCP
+	Bugs
+2130
+	
+UDP
+	Mini Backlash
+2140
+	
+UDP
+	Invasor, Deep Throat, Foreplay
+2155
+	
+TCP
+	Illusion Mailer
+2255
+	
+TCP
+	Nirvana
+2283
+	
+TCP
+	Hvl RAT
+2300
+	
+TCP
+	Xplorer
+2311
+	
+TCP
+	Studio 54
+2330
+	
+TCP
+	Contact
+2331
+	
+TCP
+	Contact
+2332
+	
+TCP
+	Contact
+2333
+	
+TCP
+	Contact
+2334
+	
+TCP
+	Contact
+2335
+	
+TCP
+	Contact
+2336
+	
+TCP
+	Contact
+2337
+	
+TCP
+	Contact
+2338
+	
+TCP
+	Contact
+2339
+	
+TCP, UDP
+	Voice Spy
+2345
+	
+TCP
+	Doly
+2565
+	
+TCP
+	Striker
+2583
+	
+TCP
+	WinCrash
+2589
+	
+TCP
+	Dagger
+2600
+	
+TCP
+	Digital Root beer
+2716
+	
+TCP
+	The Prayer
+2773
+	
+TCP
+	Subseven
+2774
+	
+TCP
+	Subseven
+2801
+	
+TCP
+	Phineas Phucker
+2989
+	
+UDP
+	R.A.T.
+3000
+	
+TCP
+	InetSpy beta 1, Remote Shut
+3024
+	
+TCP
+	WinCrash
+3031
+	
+TCP
+	Microspy
+3128
+	
+TCP
+	Reverse WWW Tunnel Backdoor, RingZero
+3129
+	
+TCP
+	Masters Paradise
+3131
+	
+TCP
+	SubSARI
+3150
+	
+UDP
+	Invasor, Mini BackLash, Deep Throat, Foreplay
+3456
+	
+TCP
+	Terror trojan
+3457
+	
+TCP
+	P.E.T
+3459
+	
+TCP
+	Eclipse 2000, Sanctuary
+3700
+	
+TCP
+	Portal of Doom
+3777
+	
+TCP
+	Psychward
+3791
+	
+TCP
+	Total Solar Eclypse
+3801
+	
+TCP
+	Total Solar Eclypse
+4000
+	
+TCP
+	Skydance
+4092
+	
+TCP
+	WinCrash
+4201
+	
+TCP
+	WarTrojan
+4242 
+	
+TCP
+	Virtual Hacking Machine
+4321
+	
+TCP
+	Bobo
+4444 
+	
+TCP
+	CrackDown, Prosiak, Swift Remote
+4488
+	
+TCP
+	Event Horizon
+4567
+	
+TCP
+	File Nail
+4590
+	
+TCP
+	ICQ Trojan
+4653
+	
+TCP
+	Cero
+4666
+	
+TCP
+	Mneah Trojan
+4950
+	
+TCP
+	ICQ Trojan
+5000
+	
+TCP
+	BioNet lite, Back Door Setup, Blazer5, Bubbel, ICKiller, Ra1d, Sockets des Troie
+5001
+	
+TCP
+	Back Door Setup, Sockets des Troie
+5002
+	
+TCP
+	cd00r, Shaft
+5010
+	
+TCP
+	Solo
+5011
+	
+TCP
+	One of the last trojans
+5025
+	
+TCP
+	WM Remote Keylogger
+5031
+	
+TCP
+	Net Metropolitan
+5032
+	
+TCP
+	Net Metropolitan
+5321
+	
+TCP
+	Firehotcker
+5333
+	
+TCP
+	Backage, NetDemon
+5343
+	
+TCP
+	wCrat
+5400
+	
+TCP
+	Back Construction, Blade Runner
+5401
+	
+TCP
+	Back Construction, Blade Runner, Mneah Trojan 
+5402
+	
+TCP
+	Back Construction, Blade Runner, Mneah Trojan 
+5512
+	
+TCP
+	Illusion Mailer
+5534
+	
+TCP
+	THE FLU
+5550
+	
+TCP
+	Xtcp
+5555
+	
+TCP
+	ServeMe
+5556
+	
+TCP
+	BO Facil
+5557
+	
+TCP
+	BO Facil
+5569
+	
+TCP
+	Robo Hack
+5637
+	
+TCP
+	PC Crasher
+5638
+	
+TCP
+	PC Crasher
+5742
+	
+TCP
+	WinCrash
+5880
+	
+TCP
+	Y3K
+5882
+	
+TCP, UDP
+	Y3K
+5888
+	
+TCP, UDP
+	Y3K
+5889
+	
+TCP, UDP
+	Y3K
+6000
+	
+TCP
+	tHing
+6006
+	
+TCP
+	Bad Blood 
+6272
+	
+TCP
+	Secret Service
+6400
+	
+TCP
+	tHing
+6661
+	
+TCP
+	TEMan, Weia-Meia
+6666
+	
+TCP
+	Dark Connection Inside, NetBus worm
+6667
+	
+TCP
+	Dark FTP, ScheduleAgent, Subseven, Trinity, WinSatan
+6669
+	
+TCP
+	Host Control, Vampire
+6670
+	
+TCP
+	BackWeb Server, Deep Throat, Foreplay, WinNuke eXtreame
+6711
+	
+TCP
+	SubSARI, SubSeven, VP Killer
+6712
+	
+TCP
+	Funny Trojan, Subseven
+6713
+	
+TCP
+	Subseven
+6723
+	
+TCP
+	Mstream
+6771
+	
+TCP
+	Deep Throat, Foreplay
+6776
+	
+TCP
+	2000 Cracks, Subseven, VP Killer
+6838
+	
+TCP
+	Mstream (DDoS)
+6883
+	
+TCP
+	DELTA Source
+6912
+	
+TCP
+	ShitHeep
+6939
+	
+TCP
+	Indoctrination
+6969
+	
+TCP
+	Gatecrasher, IRC 3, Net Controller, Priority
+6970
+	
+TCP
+	Gatecrasher
+7000
+	
+TCP
+	Remote Grab
+7001
+	
+TCP
+	Freak88, Freak2k (DDoS)
+7215
+	
+TCP
+	Subseven
+7300
+	
+TCP
+	Net Monitor
+7301
+	
+TCP
+	Net Monitor
+7306
+	
+TCP
+	Net Monitor
+7307
+	
+TCP
+	Net Monitor
+7308
+	
+TCP
+	Net Monitor
+7424
+	
+TCP, UDP
+	Host Control
+7626
+	
+TCP
+	Glacier
+7777
+	
+TCP
+	God Message, Tini
+8080
+	
+TCP
+	Brown Orifice, RemoConChubo, Reverse WWW Tunnel Backdoor, Ring Zero
+8787
+	
+TCP
+	BO2K
+8988
+	
+TCP
+	Back Hack
+8989
+	
+TCP
+	Rcon, Recon, Xcon
+9000
+	
+TCP
+	Netministrator
+9325
+	
+UDP
+	Mstream
+9400
+	
+TCP
+	Incommand
+9872
+	
+TCP
+	Portal of Doom
+9873
+	
+TCP
+	Portal of Doom
+9874
+	
+TCP
+	Portal of Doom
+9875
+	
+TCP
+	Cyber Attacker, RUX
+9878
+	
+TCP
+	Trans scout
+9989
+	
+TCP
+	INI Killer
+9999
+	
+TCP
+	Prayer
+10067
+	
+UDP
+	Portal of Doom
+10085
+	
+TCP
+	Syphilis
+10086
+	
+TCP
+	Syphilis
+10100
+	
+TCP
+	Control total beta 4, Gift
+10101
+	
+TCP
+	BrainSpy Beta, Silencer
+10167
+	
+UDP
+	Portal of Doom
+10520
+	
+TCP
+	Acid Shivers
+10528
+	
+TCP
+	Host Control
+10607
+	
+TCP
+	COMA
+10666
+	
+UDP
+	Ambush 1.0
+11000
+	
+TCP
+	Senna SPY
+11050
+	
+TCP
+	Host Control
+11051
+	
+TCP
+	Host Control
+11223
+	
+TCP
+	Progenic trojan, Secret Agent
+12076
+	
+TCP
+	Gjamer
+12223
+	
+TCP
+	Hack´99 KeyLogger
+12310
+	
+TCP
+	Precursor
+12345
+	
+TCP
+	Ashley, Fat Bitch trojan, Gabanbus, Mypic, Netbus, Netbus Toy, NetBus worm, Pie Bill Gates, Whack Job, X-bill, ValV-N.E.t
+12346
+	
+TCP
+	Fat Bitch trojan, Gabanbus, Mypic, Netbus, Netbus Toy, NetBus worm, Pie Bill Gates, Whack Job, X-bill, ValV-N.E.t
+12349
+	
+TCP
+	Bionet
+12361
+	
+TCP
+	Whack-a-Mole
+12362
+	
+TCP
+	Whack-a-Mole
+12623
+	
+UDP
+	DUN Control
+12624
+	
+TCP
+	ButtMan
+12631
+	
+TCP
+	Whack job
+12754
+	
+TCP
+	Mstream (DDoS)
+13000
+	
+TCP
+	Senna SPY
+13010
+	
+TCP
+	HBR (Hacker Brazil)
+13013
+	
+TCP
+	Psychward
+13014
+	
+TCP
+	Psychward
+13223
+	
+TCP
+	Hack´99 KeyLogger
+13473
+	
+TCP
+	Chupacabra
+14500
+	
+TCP
+	PC Invader
+14501
+	
+TCP
+	PC Invader
+14502
+	
+TCP
+	PC Invader
+14503
+	
+TCP
+	PC Invader
+15000
+	
+TCP
+	NetDemon
+15092
+	
+TCP
+	Host Control
+15104
+	
+TCP
+	Mstream (DDoS)
+15382
+	
+TCP
+	SubZERO
+15858
+	
+TCP
+	CDK
+16484
+	
+TCP
+	MoSucker
+16660
+	
+TCP
+	Stacheldraht (DDoS)
+16772
+	
+TCP
+	ICQ Revenge
+16959 
+	
+TCP
+	Subseven
+16969
+	
+TCP
+	Priority
+17166 
+	
+TCP
+	Mosaic
+17300 
+	
+TCP
+	Kuang 2 the Virus 
+17449
+	
+TCP
+	Kid Terror
+17499
+	
+TCP
+	CrazzyNet
+17500
+	
+TCP
+	CrazzyNet
+17569 
+	
+TCP
+	The Infector
+17593
+	
+TCP
+	AudioDoor 
+17777
+	
+TCP
+	Nephron
+18753
+	
+UDP
+	SHAFT
+19864 
+	
+TCP
+	ICQ Revenge
+20000
+	
+TCP
+	Millenium
+20001
+	
+TCP
+	Insect, Millenium, Millenium (Lm)
+20002
+	
+TCP
+	AcidkoR
+20005
+	
+TCP
+	MoSucker
+20023
+	
+TCP
+	VP Killer
+20034
+	
+TCP
+	NetBus 2.0 Pro, NetBus 2.0 Pro Hidden, NetRex, Whack Job
+20203
+	
+TCP
+	Chupacabra
+20331
+	
+TCP
+	BLA 
+20432
+	
+TCP
+	Shaft
+20433
+	
+UDP
+	Shaft
+21544
+	
+TCP
+	Girlfriend, Exploiter, Freddy, Kid Terror, Maverick's Matrix
+21554
+	
+TCP
+	Exploiter, Kid Terror, Schwindler, Winsp00fer
+22222
+	
+TCP
+	Donald Dick, Prosiak, Ruler, RUX The TIc.K
+23005
+	
+TCP
+	Nettrash
+23006
+	
+TCP
+	Nettrash
+23023
+	
+TCP
+	Logged
+23032
+	
+TCP
+	Amanda
+23432
+	
+TCP
+	Asylum
+23456
+	
+TCP
+	Evil FTP, Ugly FTP, Whack Job
+23476
+	
+TCP, UDP
+	Donald Dick
+23477
+	
+TCP
+	Donald Dick
+23777
+	
+TCP
+	InetSpy beta 1
+24000
+	
+TCP
+	The Infector
+25123
+	
+TCP
+	Goy'Z Trojan
+25685
+	
+TCP
+	Moonpie
+25686
+	
+TCP
+	Moonpie
+25982
+	
+TCP
+	Moonpie
+26274
+	
+UDP
+	Delta Source
+26681
+	
+TCP
+	Voice Spy
+27160
+	
+TCP
+	Moonpie
+27374
+	
+TCP
+	Bad Blood, Ramen, Seeker, Subseven, Ttfloader
+27444
+	
+UDP
+	TRINOO (DDoS)
+27573
+	
+TCP
+	Subseven
+27665
+	
+TCP
+	TRINOO (DDoS)
+28678
+	
+TCP
+	Exploiter
+29104
+	
+TCP
+	NETrojan
+29891
+	
+UDP
+	The Unexplained
+30000
+	
+TCP
+	Infector ?
+30001
+	
+TCP
+	Err0r32
+30003
+	
+TCP
+	Lamers Death
+30029
+	
+TCP
+	AOL Trojan
+30070
+	
+TCP
+	Mantis (shaban)
+30101
+	
+TCP
+	NetSphere
+30102
+	
+TCP
+	NetSphere
+30103
+	
+TCP, UDP
+	NetSphere
+30133
+	
+TCP
+	NetSphere
+30303
+	
+TCP
+	Sockets des Troie
+30947 
+	
+TCP
+	Intruse
+30999
+	
+TCP
+	Kuang2
+31335
+	
+TCP
+	Trinoo
+31336
+	
+TCP, UDP
+	Bo Whack, Butt Funnel
+31337
+	
+TCP, UDP
+	Back Fire, Back Orifice, Baron Night, Beeone, BO Facil, BO spy, BO2, Freak88, Freak2k
+31338
+	
+TCP, UDP
+	DK NetSpy, Deep BO
+31339
+	
+TCP, UDP
+	NetSpy (DK)
+31557
+	
+TCP
+	Xanadu
+31666
+	
+TCP
+	Bowhack
+31785
+	
+TCP, UDP
+	Hack'a'Tack
+31787
+	
+TCP, UDP
+	Hack'a'Tack
+31788
+	
+TCP, UDP
+	Hack'a'Tack
+31789
+	
+TCP, UDP
+	Hack'a'Tack
+31790
+	
+TCP, UDP
+	Hack'a'Tack
+31791
+	
+UDP
+	Hack'a'Tack
+31792
+	
+UDP
+	Hack'a'Tack
+32001
+	
+TCP
+	Donald Dick
+32100
+	
+TCP
+	Peanut Brittle, Project nEXT
+32418
+	
+TCP
+	Acid Battery
+33270
+	
+TCP
+	Trinity (DDoS)
+33333
+	
+TCP
+	Blakharaz, Prosiak
+33577
+	
+TCP
+	Son of Psychward
+33777
+	
+TCP
+	Son of Psychward
+33911
+	
+TCP
+	Spirit 2000, Spirit 2001
+34324
+	
+TCP
+	Big Gluck, TN
+34444
+	
+TCP
+	Donald Dick
+34555 
+	
+UDP
+	WINTrinoo (DDoS)
+35555
+	
+UDP
+	WINTrinoo (DDoS)
+37237
+	
+TCP
+	Mantis
+37651
+	
+TCP
+	Y.A.T.
+40412
+	
+TCP
+	The Spy Beta 1
+40421
+	
+TCP
+	Agent 40421, Masters Paradise
+40422
+	
+TCP
+	Masters Paradise
+40423
+	
+TCP
+	Masters Paradise
+40425
+	
+TCP
+	Masters Paradise
+40426
+	
+TCP
+	Masters Paradise
+41337
+	
+TCP
+	Storm
+41666
+	
+TCP, UDP
+	Remote Boot Tool 
+44444
+	
+TCP
+	Prosiak
+44575
+	
+TCP
+	Exploiter
+47262
+	
+TCP, UDP
+	Delta source 
+48004
+	
+TCP
+	Fraggle Rock
+48006
+	
+TCP
+	Fraggle Rock
+49000
+	
+TCP
+	Fraggle Rock
+49301
+	
+TCP
+	OnLine KeyLogger
+50000
+	
+TCP
+	SubSARI
+50130
+	
+TCP
+	Enterprise
+50505
+	
+TCP
+	Sockets des Troie
+50766
+	
+TCP
+	Fore, Schwindler
+51966
+	
+TCP
+	CAFEiNi
+52317
+	
+TCP
+	Acid Battery 2000
+53001
+	
+TCP
+	Remote Windows Shutdown
+54283
+	
+TCP
+	SubSeven
+54320
+	
+TCP
+	BO2K
+54321
+	
+TCP
+	BO2K, SchoolBus 
+55165
+	
+TCP
+	File Manager Trojan
+55166
+	
+TCP
+	File Manager Trojan, WM Trojan Generator
+57341
+	
+TCP
+	NetRaider
+58339
+	
+TCP
+	Butt Funnel
+60000
+	
+TCP
+	Deep Throat, Foreplay, Sockets des Troie
+60001
+	
+TCP
+	Trinity (DDoS)
+60068
+	
+TCP
+	Xzip 6000068
+60411
+	
+TCP
+	Connection
+61348
+	
+TCP
+	Bunker Hill
+61466
+	
+TCP
+	Telecommando
+61603
+	
+TCP
+	Bunker Hill
+63485
+	
+TCP
+	Bunker Hill
+64101
+	
+TCP
+	Taskman
+65000
+	
+TCP
+	Devil, Sockets des Troie, Stacheldraht (DDoS)
+65390
+	
+TCP
+	Eclypse
+65421
+	
+TCP
+	Jade
+65432
+	
+TCP, UDP
+	Traitor
+65530
+	
+TCP
+	Windows Mite
+65535
+	
+TCP
+	RC
+TCP 1	Breach.2001, SocketsDeTroie.230, SocketsDeTroie.250
+TCP 28	Amanda.200
+TCP 31	MastersParadise.920
+TCP 68	Subseven.100
+TCP 142	NetTaxi.180
+TCP 146	Infector.141, Intruder.100, Intruder.100
+TCP 171	ATrojan.200
+TCP 285	WCTrojan.100
+TCP 286	WCTrojan.100
+TCP 334	Backage.310
+TCP 370	NeuroticKat.120, NeuroticKat.130
+TCP 413	Coma.109
+TCP 420	Breach.450
+TCP 555	Id2001.100, PhaseZero.100, StealthSpy.100
+TCP 623	Rtb666.160
+TCP 660	Zaratustra.100
+TCP 661	Noknok.800, Noknok.820
+TCP 666	BackConstruction.210, BackConstruction.250, Bla.100, Bla.200, Bla.400, Bla.503, Cain.150, Dimbus.100, Noknok.820, Ripper.100, SatansBackdoor.100, SatansBackdoor.101, SatansBackdoor.102, Unicorn.100, Unicorn.101, Unicorn.110
+TCP 667	SniperNet.210, Snipernet.220
+TCP 668	Unicorn.101, Unicorn.110
+TCP 680	Rtb666.160
+TCP 777	Tiny.100, Undetected.230, Undetected.300, Undetected.310, Undetected.320, Undetected.330, Undetected.331, Undetected.332
+TCP 785	NetworkTerrorist.100
+TCP 800	NeuroticKitten.010
+TCP 831	NeuroticKat.100, NeuroticKat.120, NeuroticKat.130
+TCP 901	NetDevil.130, NetDevil.140
+TCP 1000	DerSpaeher.200
+TCP 1001	Silencer.100
+TCP 1008	AutoSpy.100
+TCP 1010	DerSpaeher.200
+TCP 1015	Doly.150
+TCP 1111	TPort.100
+TCP 1130	Noknok.800, Noknok.820
+TCP 1207	SoftWAR.100
+TCP 1243	Subseven.100, SubSeven.110, SubSeven.180, SubSeven.190, Subseven.200
+TCP 1245	VoodooDoll.006
+TCP 1269	Matrix.130
+TCP 1480	RemoteHack.130
+TCP 1568	RemoteHack.100, RemoteHack.110
+TCP 1600	DirectConnection.100
+TCP 1601	DirectConnection.100
+TCP 1602	DirectConnection.100
+TCP 1634	NetCrack.100
+TCP 1784	Snid.120, Snid.212
+TCP 1999	TransmissionScout.100, TransmissionScout.110
+TCP 2000	ATrojan.200, InsaneNetwork.400
+TCP 2001	DIRT.220, TrojanCow.100
+TCP 2003	TransmissionScout.100, TransmissionScout.110
+TCP 2023	RipperPro.100
+TCP 2040	InfernoUploader.100
+TCP 2115	Bugs.100
+TCP 2140	DeepThroat.100, DeepThroat.200, DeepThroat.310
+TCP 2332	SilentSpy.202
+TCP 2589	Dagger.140
+TCP 2600	DigitalRootbeer.100
+TCP 2989	Rat.200
+TCP 3128	MastersParadise.970
+TCP 3129	MastersParadise.920, MastersParadise.970
+TCP 3150	DeepThroat.100, DeepThroat.200, DeepThroat.310, MiniBacklash.110
+TCP 3215	BlackStar.100, Ghost.230
+TCP 3333	Daodan.123
+TCP 3410	OptixPro.100, OptixPro.110
+TCP 3456	Force.155, TerrorTrojan.100
+TCP 3505	AutoSpy.130, AutoSpy.140
+TCP 3586	Snid.120, Snid.212
+TCP 3700	PortalOfDoom.100
+TCP 3723	Mantis.100
+TCP 3800	Eclypse.100
+TCP 3996	RemoteAnything.364
+TCP 4000	SkyDance.220, SkyDance.229
+TCP 4201	Wartrojan.160, Wartrojan.200
+TCP 4225	SilentSpy.202
+TCP 4321	Bobo.100
+TCP 4444	AlexTrojan.200, Crackdown.100
+TCP 4488	EventHorizon.100
+TCP 4523	Celine.100
+TCP 4545	InternalRevise.100, RemoteRevise.150
+TCP 4567	FileNail.100
+TCP 4666	Mneah.100
+TCP 4950	ICQTrojan.100
+TCP 5005	Aladino.060
+TCP 5025	Keylogger.WMRemote.100
+TCP 5031	NetMetro.104
+TCP 5032	NetMetro.104
+TCP 5033	NetMetro.104
+TCP 5050	RoxRat.100
+TCP 5151	OptixLite.020, OptixLite.030, OptixLite.040
+TCP 5190	MBomber.100
+TCP 5277	WinShell.400
+TCP 5343	WCRat.100
+TCP 5400	BackConstruction.120, BackConstruction.150, BladeRunner.080, DeepThroat.300
+TCP 5401	BackConstruction.120, BackConstruction.150, BackConstruction.210, BackConstruction.250, BladeRunner.080, DeepThroat.300, Mneah.100
+TCP 5402	BackConstruction.210, BackConstruction.250, BladeRunner.080, DeepThroat.300, Mneah.100
+TCP 5534	TheFlu.100
+TCP 5550	XTCP.200, XTCP.201
+TCP 5555	Noxcape.100, Noxcape.200
+TCP 5695	Assassin.100
+TCP 5714	WinCrash.100
+TCP 5741	WinCrash.100
+TCP 5742	WinCrash.103
+TCP 5802	Y3KRat.160
+TCP 5810	Y3KRat.160
+TCP 5838	Y3KRat.170
+TCP 5858	Y3KRat.110, Y3KRat.120, Y3KRat.140
+TCP 5880	Y3KRat.140
+TCP 5881	Y3KRat.110, Y3KRat.120, Y3KRat.140
+TCP 5882	Y3KRat.100, Y3KRat.110, Y3KRat.120, Y3KRat.140, Y3KRat.150
+TCP 5883	Y3KRat.110, Y3KRat.140
+TCP 5884	Y3KRat.140, Y3KRat.150
+TCP 5885	Y3KRat.110, Y3KRat.120, Y3KRat.140
+TCP 5886	Y3KRat.120, Y3KRat.140
+TCP 5887	Y3KRat.110, Y3KRat.120, Y3KRat.140
+TCP 5888	Y3KRat.100, Y3KRat.110, Y3KRat.120, Y3KRat.140, Y3KRat.150
+TCP 5889	Y3KRat.100, Y3KRat.110, Y3KRat.120, Y3KRat.140, Y3KRat.150
+TCP 5890	Y3KRat.140
+TCP 6400	Thething.100, Thething.150
+TCP 6556	AutoSpy.120, AutoSpy.122
+TCP 6655	Aqua.020
+TCP 6660	LameSpy.095
+TCP 6666	LameRemote.100, ProjectMayhem.100
+TCP 6669	Vampire.100
+TCP 6670	DeepThroat.200, DeepThroat.210
+TCP 6671	DeepThroat.310
+TCP 6699	HostControl.101
+TCP 6711	DeepThroat.300, Noknok.820, SubSeven.180, SubSeven.190
+TCP 6712	Subseven.100
+TCP 6713	Subseven.100
+TCP 6767	NTRC.120
+TCP 6776	SubSeven.180, SubSeven.190, Subseven.200
+TCP 6789	Doly.200
+TCP 6796	SubSeven.214
+TCP 6912	ShitHeep.100
+TCP 6939	Indoctrination.100
+TCP 6953	Lithium.100
+TCP 6969	2000Cracks.100, Bigorna.100, Danton.110, Danton.210, Danton.220, Danton.310, Danton.320, Danton.330, GateCrasher.110, NetController.108, Sparta.110, VagrNocker.120
+TCP 6970	Danton.330
+TCP 7001	Freak88.100
+TCP 7119	Massaker.100
+TCP 7200	Massaker.110
+TCP 7300	Coced.221
+TCP 7301	Coced.221
+TCP 7306	NetSpy.200, NetSpy.200
+TCP 7410	Phoenix.190, Phoenix.200
+TCP 7511	Genue.100
+TCP 7609	Snid.120, Snid.212
+TCP 7614	Wollf.130
+TCP 7648	BlackStar.100, Ghost.230
+TCP 7788	Last.2000, Matrix.200
+TCP 7826	MiniOblivion.010, Oblivion.010
+TCP 7887	SmallFun.110
+TCP 7891	Revenger.100
+TCP 7979	VagrNocker.200
+TCP 7997	VagrNocker.200
+TCP 8000	XConsole.100
+TCP 8011	Way.240
+TCP 8012	Ptakks.215, Ptakks.217
+TCP 8110	LoseLove.100
+TCP 8111	LoseLove.100
+TCP 8301	LoseLove.100
+TCP 8302	LoseLove.100
+TCP 8372	NetBoy.100
+TCP 8720	Connection.130
+TCP 8734	AutoSpy.110
+TCP 8811	Force.155
+TCP 8899	Last.2000
+TCP 9000	Aristotles.100
+TCP 9301	LoseLove.100
+TCP 9400	InCommand.100, InCommand.110, InCommand.120, InCommand.130, InCommand.140, InCommand.150, InCommand.153, InCommand.160, InCommand.167, InCommand.170
+TCP 9401	InCommand.100, InCommand.110, InCommand.170
+TCP 9402	InCommand.100, InCommand.110
+TCP 9561	CRatPro.110
+TCP 9563	CRatPro.110
+TCP 9580	TheefLE.100
+TCP 9696	Danton.210, Ghost.230
+TCP 9697	Danton.320, Danton.330, Ghost.230
+TCP 9870	R3C.100
+TCP 9872	PortalOfDoom.100
+TCP 9873	PortalOfDoom.100
+TCP 9874	PortalOfDoom.100
+TCP 9875	PortalOfDoom.100
+TCP 9876	Rux.100, SheepGoat.100
+TCP 9877	SmallBigBrother.020
+TCP 9878	SmallBigBrother.020, TransmissionScout.100, TransmissionScout.110, TransmissionScout.120
+TCP 9879	SmallBigBrother.020
+TCP 9999	ForcedEntry.100, Infra.100, Prayer.120, Prayer.130, TakeOver.200, TakeOver.300
+TCP 10001	DTr.130, DTr.140
+TCP 10013	Amanda.200
+TCP 10067	PortalOfDoom.100
+TCP 10100	Gift.240
+TCP 10101	NewSilencer.100
+TCP 10167	PortalOfDoom.100
+TCP 10528	HostControl.100, HostControl.260
+TCP 10607	Coma.109
+TCP 10666	Ambush.100
+TCP 11011	Amanda.200
+TCP 11050	HostControl.101
+TCP 11051	HostControl.100, HostControl.260
+TCP 11223	AntiNuke.100, Progenic.100, Progenic.110
+TCP 11225	Cyn.100, Cyn.103, Cyn.120
+TCP 11306	Noknok.800, Noknok.820
+TCP 11831	Katux.200, Latinus.140, Latinus.150, Pest.100, Pest.400
+TCP 11991	PitfallSurprise.100
+TCP 12043	Frenzy.2000
+TCP 12345	Fade.100, Netbus.160, Netbus.170, VagrNocker.400
+TCP 12346	Netbus.160, Netbus.170
+TCP 12348	Bionet.210, Bionet.261, Bionet.280, Bionet.302, Bionet.305, Bionet.311, Bionet.313, Bionet.316, Bionet.317
+TCP 12349	Bionet.084, Bionet.261, Bionet.280, Bionet.302, Bionet.305, Bionet.311, Bionet.313, Bionet.314, Bionet.316, Bionet.317, Bionet.401, Bionet.402
+TCP 12389	KheSanh.210
+TCP 12478	Bionet.210
+TCP 12623	Buttman.090, Buttman.100
+TCP 12624	Buttman.090, Buttman.100
+TCP 12625	Buttman.100
+TCP 12904	Akropolis.100, Rocks.100
+TCP 13473	Chupacabra.100
+TCP 13753	AFTP.010
+TCP 14100	Eurosol.100
+TCP 14194	CyberSpy.840
+TCP 14286	HellDriver.100
+TCP 14500	PCInvader.050, PCInvader.060, PCInvader.070
+TCP 14501	PCInvader.060, PCInvader.070
+TCP 14502	PCInvader.050, PCInvader.060, PCInvader.070
+TCP 14503	PCInvader.050, PCInvader.060, PCInvader.070
+TCP 14504	PCInvader.050, PCInvader.060
+TCP 15092	HostControl.100, HostControl.260
+TCP 15382	SubZero.100
+TCP 15432	Cyn.210
+TCP 15555	ICMIBC.100
+TCP 16322	LastDoor.100
+TCP 16484	MoSucker.110
+TCP 16661	Dfch.010
+TCP 16969	Progenic.100
+TCP 16982	AcidShiver.100
+TCP 17300	Kuang.200
+TCP 17499	CrazzyNet.370, CrazzyNet.375, CrazzyNet.521
+TCP 17500	CrazzyNet.370, CrazzyNet.375, CrazzyNet.521
+TCP 17569	Infector.141, Infector.160, Infector.170, Infector.180, Infector.190, Infector.200, Intruder.100, Intruder.100
+TCP 17593	AudioDoor.120
+TCP 19191	BlueFire.035, BlueFire.041
+TCP 19604	Metal.270
+TCP 19605	Metal.270
+TCP 19991	Dfch.010
+TCP 20000	Millenium.100
+TCP 20001	Millenium.100, PshychoFiles.180
+TCP 20002	AcidKor.100, PshychoFiles.180
+TCP 20005	MoSucker.200, MoSucker.210, MoSucker.220
+TCP 21212	Schwindler.182
+TCP 21554	Exploiter.100, Exploiter.110, Girlfriend.130, GirlFriend.135
+TCP 21579	Breach.2001
+TCP 21584	Breach.2001
+TCP 21684	Intruse.134
+TCP 22068	AcidShiver.110
+TCP 22115	Cyn.120
+TCP 22222	Prosiak.047, Ruler.141, Rux.300, Rux.400, Rux.500, Rux.600
+TCP 22223	Rux.400, Rux.500, Rux.600
+TCP 22456	Bla.200, Bla.503
+TCP 22457	AcidShiver.120, Bla.200, Bla.503
+TCP 22784	Intruzzo.110
+TCP 22845	Breach.450
+TCP 22847	Breach.450
+TCP 23005	Infinaeon.110, NetTrash.100, Oxon.110, WinRat.100
+TCP 23006	Infinaeon.110, NetTrash.100, Oxon.110, WinRat.100
+TCP 23032	Amanda.200
+TCP 23432	Asylum.010, Asylum.012, Asylum.013, Asylum.014, MiniAsylum.110
+TCP 23456	EvilFTP.100, VagrNocker.400
+TCP 23476	DonaldDick.153, DonaldDick.154, DonaldDick.155
+TCP 23477	DonaldDick.153
+TCP 24000	Infector.170
+TCP 24307	Wildek.020
+TCP 25386	MoonPie.220
+TCP 25486	MoonPie.220
+TCP 25555	FreddyK.100, FreddyK.200
+TCP 25556	FreddyK.100
+TCP 25685	MoonPie.010, MoonPie.012, MoonPie.130, MoonPie.220, MoonPie.240, MoonPie.400
+TCP 25686	MoonPie.135, MoonPie.200, MoonPie.400
+TCP 25982	MoonPie.135, MoonPie.200
+TCP 26274	Delta.050
+TCP 27160	MoonPie.135, MoonPie.200
+TCP 27184	Alvgus.100, Alvgus.800
+TCP 27374	Muerte.110, Subseven.210, SubSeven.213
+TCP 28429	Hack'a'Tack.2000
+TCP 28430	Hack'a'Tack.2000
+TCP 28431	Hack'a'Tack.2000
+TCP 28432	Hack'a'Tack.2000
+TCP 28433	Hack'a'Tack.2000
+TCP 28434	Hack'a'Tack.2000
+TCP 28435	Hack'a'Tack.2000
+TCP 28436	Hack'a'Tack.2000
+TCP 29559	DuckToy.100, DuckToy.101, Katux.200, Latinus.140, Latinus.150, Pest.100, Pest.400
+TCP 29891	Unexplained.100
+TCP 30000	Infector.170
+TCP 30001	Error32.100
+TCP 30003	LamersDeath.100
+TCP 30029	AOLTrojan.110
+TCP 30100	NetSphere.127, NetSphere.130, NetSphere.131
+TCP 30101	NetSphere.127, NetSphere.130, NetSphere.131
+TCP 30102	NetSphere.127, NetSphere.130, NetSphere.131
+TCP 30103	NetSphere.131
+TCP 30947	Intruse.134
+TCP 31320	LittleWitch.400, LittleWitch.420
+TCP 31337	BackOrifice.120, Khaled.100, OPC.200
+TCP 31415	Lithium.101
+TCP 31416	Lithium.100, Lithium.101
+TCP 31557	Xanadu.110
+TCP 31631	CleptoManicos.100
+TCP 31745	Buschtrommel.100, Buschtrommel.122
+TCP 31785	Hack'a'Tack.100, Hack'a'Tack.112
+TCP 31787	Hack'a'Tack.100, Hack'a'Tack.112
+TCP 31789	Hack'a'Tack.100, Hack'a'Tack.112
+TCP 31791	Hack'a'Tack.100, Hack'a'Tack.112
+TCP 31887	BDDT.100
+TCP 31889	BDDT.100
+TCP 32100	ProjectNext.053
+TCP 32418	AcidBattery.100
+TCP 32791	Akropolis.100, Rocks.100
+TCP 33291	RemoteHak.001
+TCP 33333	Blackharaz.100, Prosiak.047, SubSeven.214
+TCP 33577	SonOfPsychward.020
+TCP 34324	TelnetServer.100
+TCP 34763	Infector.180, Infector.190, Infector.200
+TCP 35000	Infector.190, Infector.200
+TCP 35600	Subsari.140
+TCP 36794	BugBear.100
+TCP 37237	Mantis.020
+TCP 37651	YAT.210
+TCP 37653	YAT.310
+TCP 40308	Subsari.140
+TCP 40412	TheSpy.100
+TCP 40421	MastersParadise.970
+TCP 40422	MastersParadise.970
+TCP 40999	DiemsMutter.110, DiemsMutter.140
+TCP 41626	Shah.100
+TCP 44444	Prosiak.070
+TCP 45673	Akropolis.100, Rocks.100
+TCP 47262	Delta.050
+TCP 48006	Fragglerock.200
+TCP 49683	HolzPferd.210
+TCP 50000	Infector.180
+TCP 50130	Enterprise.100
+TCP 50766	Fore.100
+TCP 51234	Cyn.210
+TCP 51966	Cafeini.080, Cafeini.110
+TCP 54321	PCInvader.010
+TCP 57341	NetRaider.100
+TCP 57922	Bionet.084
+TCP 58008	Tron.100
+TCP 58009	Tron.100
+TCP 59090	AcidReign.200
+TCP 59211	DuckToy.100, DuckToy.101
+TCP 59345	NewFuture.100
+TCP 60000	DeepThroat.300, MiniBacklash.100, MiniBacklash.101, MiniBacklash.101
+TCP 60411	Connection.100, Connection.130
+TCP 60412	Connection.130
+TCP 60552	RoxRat.100
+TCP 63536	InsaneNetwork.500
+TCP 63878	AphexFTP.100
+TCP 63879	AphexFTP.100
+TCP 64969	Lithium.100
+TCP 65000	Socket.100
+UDP 1	SocketsDeTroie.250
+UDP 666	Bla.200, Bla.400, Bla.503, Noknok.820
+UDP 1130	Noknok.800, Noknok.820
+UDP 2140	DeepThroat.100, DeepThroat.200, DeepThroat.310
+UDP 2989	Rat.200
+UDP 3128	MastersParadise.970
+UDP 3129	MastersParadise.920, MastersParadise.970
+UDP 3150	DeepThroat.100, DeepThroat.200, DeepThroat.310, MiniBacklash.110
+UDP 3333	Daodan.123
+UDP 3800	Eclypse.100
+UDP 3996	RemoteAnything.364
+UDP 4000	RemoteAnything.364
+UDP 5555	Daodan.123
+UDP 5881	Y3KRat.110, Y3KRat.140
+UDP 5882	Y3KRat.100, Y3KRat.110, Y3KRat.120, Y3KRat.140, Y3KRat.150
+UDP 5883	Y3KRat.110, Y3KRat.140
+UDP 5884	Y3KRat.140, Y3KRat.150
+UDP 5885	Y3KRat.110, Y3KRat.120, Y3KRat.140
+UDP 5886	Y3KRat.120, Y3KRat.140
+UDP 5887	Y3KRat.110, Y3KRat.120, Y3KRat.140
+UDP 5888	Y3KRat.100, Y3KRat.110, Y3KRat.120, Y3KRat.150
+UDP 6953	Lithium.100
+UDP 8012	Ptakks.217
+UDP 10067	PortalOfDoom.100
+UDP 10167	PortalOfDoom.100
+UDP 10666	Ambush.100
+UDP 11225	Cyn.100, Cyn.103, Cyn.120
+UDP 11306	Noknok.800, Noknok.820
+UDP 12389	KheSanh.210
+UDP 12623	Buttman.090, Buttman.100
+UDP 12625	Buttman.100
+UDP 14100	Eurosol.100
+UDP 23476	DonaldDick.155
+UDP 26274	Delta.050
+UDP 27184	Alvgus.100
+UDP 28431	Hack'a'Tack.2000
+UDP 28432	Hack'a'Tack.2000
+UDP 28433	Hack'a'Tack.2000
+UDP 28434	Hack'a'Tack.2000
+UDP 28435	Hack'a'Tack.2000
+UDP 28436	Hack'a'Tack.2000
+UDP 29891	Unexplained.100
+UDP 30103	NetSphere.131
+UDP 31320	LittleWitch.400, LittleWitch.420
+UDP 31337	BackOrifice.120, OPC.200
+UDP 31416	Lithium.100, Lithium.101
+UDP 31789	Hack'a'Tack.100, Hack'a'Tack.112
+UDP 31791	Hack'a'Tack.100, Hack'a'Tack.112
+UDP 33333	Blackharaz.100
+UDP 47262	Delta.050
+UDP 49683	HolzPferd.210
+UDP 60000	MiniBacklash.100
+
+
+ 	1 	SocketsdesTroie 	[trojan] Sockets des Troie
+  	2 	Death 	[trojan] Death
+  	15 	B2 	[trojan] B2
+  	20 	SennaSpyFTPserver 	[trojan] Senna Spy FTP server
+  	21 	MotIvFTP 	[trojan] MotIv FTP
+  	21 	NetAdministrator 	[trojan] Net Administrator
+  	21 	Ramen 	[trojan] Ramen
+  	21 	RTB666 	[trojan] RTB 666
+  	21 	SennaSpyFTPserver 	[trojan] Senna Spy FTP server
+  	21 	Traitor21 	[trojan] Traitor 21
+  	21 	[trojan]TheFlu 	[trojan] The Flu
+  	21 	WebEx 	[trojan] WebEx
+  	21 	WinCrash 	[trojan] WinCrash
+  	21 	Larva 	[trojan] Larva
+  	21 	Juggernaut42 	[trojan] Juggernaut 42
+  	21 	BackConstruction 	[trojan] Back Construction
+  	21 	BladeRunner 	[trojan] BladeRunner
+  	21 	CattivikFTPServer 	[trojan] Cattivik FTP Server
+  	21 	CCInvader 	[trojan] CC Invader
+  	21 	DarkFTP 	[trojan] Dark FTP
+  	21 	DolyTrojan 	[trojan] Doly Trojan
+  	21 	Fore 	[trojan] Fore
+  	21 	FreddyK 	[trojan] FreddyK
+  	21 	InvisibleFTP 	[trojan] Invisible FTP
+  	22 	Adoresshd 	[trojan] Adore sshd
+  	22 	Shaft 	[trojan] Shaft
+  	23 	TruvaAtl 	[trojan] Truva Atl
+  	23 	TinyTelnetServer 	[trojan] Tiny Telnet Server - TTS
+  	23 	TelnetPro 	[trojan] Telnet Pro
+  	23 	RTB666 	[trojan] RTB 666
+  	23 	MyVeryOwntrojan 	[trojan] My Very Own trojan
+  	23 	FireHacKer 	[trojan] Fire HacKer
+  	23 	ADMworm 	[trojan] ADM worm
+  	24 	BO2KControlPort 	[trojan] Back Orifice 2000 (BO2K) Control Port
+  	25 	
+
+
+
+  	25 	NewAptworm 	[trojan] NewApt worm
+  	25 	Naebi 	[trojan] Naebi
+  	25 	MoscowEmailtrojan 	[trojan] Moscow Email trojan
+  	25 	MBT 	[trojan] MBT (Mail Bombing Trojan)
+  	25 	Shtirlitz 	[trojan] Shtirlitz
+  	25 	Stealth 	[trojan] Stealth
+  	25 	Stukach 	[trojan] Stukach
+  	25 	Tapiras 	[trojan] Tapiras
+  	25 	Terminator 	[trojan] Terminator
+  	25 	WinPC 	[trojan] WinPC
+  	25 	WinSpy 	[trojan] WinSpy
+  	25 	MBTMailBombingTrojan 	[trojan] MBT (Mail Bombing Trojan)
+  	25 	MagicHorse 	[trojan] Magic Horse
+  	25 	Kuang2 	[trojan] Kuang2
+  	25 	Ajan 	[trojan] Ajan
+  	25 	Antigen 	[trojan] Antigen
+  	25 	Barok 	[trojan] Barok
+  	25 	BSE 	[trojan] BSE
+  	25 	EmailPasswordSender 	[trojan] Email Password Sender - EPS
+  	25 	EPSII 	[trojan] EPS II
+  	25 	Gip 	[trojan] Gip
+  	25 	Gris 	[trojan] Gris
+  	25 	Happy99 	[trojan] Happy99
+  	25 	Hpteammail 	[trojan] Hpteam mail
+  	25 	Hybris 	[trojan] Hybris
+  	25 	Iloveyou 	[trojan] I love you
+  	30 	Agent40421 	[trojan] Agent 40421
+  	31 	MastersParadise 	[trojan] Masters Paradise
+  	31 	HackersParadise 	[trojan] Hackers Paradise
+  	31 	Agent31 	[trojan] Agent 31
+  	39 	SubSARI 	[trojan] SubSARI
+  	41 	DeepThroat 	[trojan] DeepThroat
+  	41 	Foreplay 	[trojan] Foreplay
+  	44 	Arctic 	[trojan] Arctic
+  	48 	DRAT 	[trojan] DRAT
+  	50 	DRAT 	[trojan] DRAT
+  	53 	ADMworm 	[trojan] ADM worm
+  	53 	Lion 	[trojan] Lion
+  	58 	DMSetup 	[trojan] DMSetup
+  	59 	DMSetup 	[trojan] DMSetup
+  	69 	BackGate 	[trojan] BackGate
+  	79 	Firehotcker 	[trojan] Firehotcker
+  	79 	CDK 	[trojan] CDK
+  	79 	BO2KDataPort 	[trojan] Back Orifice 2000 (BO2K) Data Port
+  	80 	NCX 	[trojan] NCX
+  	80 	Noob 	[trojan] Noob
+  	80 	Ramen 	[trojan] Ramen
+  	80 	ReverseWWWTunnel 	[trojan] Reverse WWW Tunnel Backdoor
+  	80 	RingZero 	[trojan] RingZero
+  	80 	RTB666 	[trojan] RTB 666
+  	80 	Seeker 	[trojan] Seeker
+  	80 	WANRemote 	[trojan] WAN Remote
+  	80 	WebDownloader 	[trojan] WebDownloader
+  	80 	WebServerCT 	[trojan] Web Server CT
+  	80 	MTX 	[trojan] MTX
+  	80 	IISworm 	[trojan] IISworm
+  	80 	711trojan 	[trojan] 711 trojan (Seven Eleven)
+  	80 	AckCmd 	[trojan] AckCmd
+  	80 	BackEnd 	[trojan] Back End
+  	80 	BO2000Plug-Ins 	[trojan] Back Orifice 2000 Plug-Ins
+  	80 	Cafeini 	[trojan] Cafeini
+  	80 	CGIBackdoor 	[trojan] CGI Backdoor
+  	80 	Executor 	[trojan] Executor
+  	80 	GodMessage4Creator 	[trojan] God Message 4 Creator
+  	80 	GodMessage 	[trojan] God Message
+  	80 	Hooker 	[trojan] Hooker
+  	81 	RemoConChubo 	[trojan] RemoConChubo
+  	99 	NCX 	[trojan] NCX
+  	99 	Mandragore 	[trojan] Mandragore
+  	99 	Hidden 	[trojan] Hidden
+  	99 	HiddenPort 	[trojan] Hidden Port
+  	110 	ProMailtrojan 	[trojan] ProMail trojan
+  	113 	InvisibleIdentdDaemon 	[trojan] Invisible Identd Daemon
+  	113 	InvisibleIdentdDeamon 	[trojan] Invisible Identd Deamon
+  	113 	Kazimas 	[trojan] Kazimas
+  	119 	Happy99 	[trojan] Happy99 (a.k.a. Ska trojan)
+  	121 	AttackBot 	[trojan] Attack Bot
+  	121 	GodMessage 	[trojan] God Message
+  	121 	JammerKillah 	[trojan] JammerKillah
+  	123 	NetController 	[trojan] Net Controller
+  	133 	Farnaz 	[trojan] Farnaz
+  	137 	Msinit 	[trojan] Msinit
+  	137 	Qaz 	[trojan] Qaz
+  	137 	Chode 	[trojan] Chode
+  	138 	Chode 	[trojan] Chode
+  	139 	SMBRelay 	[trojan] SMB Relay
+  	139 	Sadmind 	[trojan] Sadmind
+  	139 	Qaz 	[trojan] Qaz
+  	139 	Network 	[trojan] Network
+  	139 	Netlog 	[trojan] Netlog
+  	139 	Msinit 	[trojan] Msinit
+  	139 	GodMessageworm 	[trojan] God Message worm
+  	139 	Chode 	[trojan] Chode
+  	142 	NetTaxi 	[trojan] NetTaxi
+  	146 	Infector 	[trojan] Infector
+  	166 	NokNok 	[trojan] NokNok
+  	170 	A-trojan 	[trojan] A-trojan
+  	334 	Backage 	[trojan] Backage
+  	411 	Backage 	[trojan] Backage
+  	420 	Breach 	[trojan] Breach
+  	420 	Incognito 	[trojan] Incognito
+  	421 	TCPWrapperstrojan 	[trojan] TCP Wrappers trojan
+  	421 	TCPWrappers 	[trojan] TCP Wrappers
+  	455 	FatalConnections 	[trojan] Fatal Connections
+  	456 	HackersParadise 	[trojan] Hackers Paradise
+  	510 	t0rnkit-sshd 	[trojan] t0rnkit sshd backdoor
+  	511 	T0rnRootkit 	[trojan] T0rn Rootkit
+  	513 	Grlogin 	[trojan] Grlogin
+  	514 	RPCBackdoor 	[trojan] RPC Backdoor
+  	515 	Ramen 	[trojan] Ramen
+  	515 	lpdw0rm 	[trojan] lpdw0rm
+  	531 	Net666 	[trojan] Net666
+  	531 	Rasmin 	[trojan] Rasmin
+  	555 	StealthSpy 	[trojan] Stealth Spy
+  	555 	PhaseZero 	[trojan] Phase Zero
+  	555 	Phase-0 	[trojan] Phase-0
+  	555 	NetAdministrator 	[trojan] Net Administrator
+  	555 	IniKiller 	[trojan] Ini-Killer
+  	555 	711trojan 	[trojan] 711 trojan (Seven Eleven)
+  	600 	Sadmind 	[trojan] Sadmind
+  	605 	SecretService 	[trojan] Secret Service
+  	661 	NokNok 	[trojan] NokNok
+  	666 	th3r1pp3rz 	[trojan] th3r1pp3rz (= Therippers)
+  	666 	ShadowPhyre 	[trojan] Shadow Phyre
+  	666 	ServU 	[trojan] ServU
+  	666 	SatansBackDoor 	[trojan] Satans Back Door - SBD
+  	666 	NokNok 	[trojan] NokNok
+  	666 	lpdw0rm 	[trojan] lpdw0rm
+  	666 	Cain&Abel 	[trojan] Cain & Abel
+  	666 	BLAtrojan 	[trojan] BLA trojan
+  	666 	BackConstruction 	[trojan] Back Construction
+  	666 	AttackFTP 	[trojan] Attack FTP
+  	667 	SniperNet 	[trojan] SniperNet
+  	668 	th3r1pp3rz 	[trojan] th3r1pp3rz (= Therippers)
+  	669 	DPtrojan 	[trojan] DP trojan
+  	692 	GayOL 	[trojan] GayOL
+  	777 	AimSpy 	[trojan] AimSpy
+  	777 	Undetected 	[trojan] Undetected
+  	808 	WinHole 	[trojan] WinHole
+  	911 	DarkShadow 	[trojan] Dark Shadow
+  	999 	WinSatan 	[trojan] WinSatan
+  	999 	Foreplay 	[trojan] Foreplay
+  	999 	DeepThroat 	[trojan] DeepThroat
+  	999 	Chatpower 	[trojan] Chat power
+  	1000 	Connecter 	[trojan] Connecter
+  	1000 	DerSp�her 	[trojan] Der Sp�her / Der Spaeher
+  	1000 	DerSpherDerSpaeher 	[trojan] Der Sp�her / Der Spaeher
+  	1000 	DirectConnection 	[trojan] Direct Connection
+  	1000 	InsaneNetwork 	[trojan] Insane Network
+  	1001 	WebEx 	[trojan] WebEx
+  	1001 	Theef 	[trojan] Theef
+  	1001 	Silencer 	[trojan] Silencer
+  	1001 	LeGuardien 	[trojan] Le Guardien
+  	1001 	DerSp�her 	[trojan] Der Sp�her / Der Spaeher
+  	1005 	Theef 	[trojan] Theef
+  	1008 	Lion 	[trojan] Lion
+  	1010 	DolyTrojan 	[trojan] Doly Trojan
+  	1011 	DolyTrojan 	[trojan] Doly Trojan
+  	1012 	DolyTrojan 	[trojan] Doly Trojan
+  	1015 	DolyTrojan 	[trojan] Doly Trojan
+  	1016 	DolyTrojan 	[trojan] Doly Trojan
+  	1020 	Vampire 	[trojan] Vampire
+  	1024 	RAT 	[trojan] Remote Administration Tool - RAT [no 2]
+  	1024 	NetSpy 	[trojan] NetSpy
+  	1024 	Latinus 	[trojan] Latinus
+  	1024 	Jade 	[trojan] Jade
+  	1025 	FraggleRock 	[trojan] Fraggle Rock
+  	1025 	md5Backdoor 	[trojan] md5 Backdoor
+  	1025 	NetSpy 	[trojan] NetSpy
+  	1025 	RemoteStorm 	[trojan] Remote Storm
+  	1027 	ICKiller 	[trojan] ICKiller
+  	1029 	InCommand 	[trojan] InCommand
+  	1029 	ICQNuke98 	[trojan] ICQ Nuke 98
+  	1031 	Xanadu 	[trojan] Xanadu
+  	1035 	Multidropper 	[trojan] Multidropper
+  	1042 	BLAtrojan 	[trojan] BLA trojan
+  	1045 	Rasmin 	[trojan] Rasmin
+  	1049 	sbininitd 	[trojan] /sbin/initd
+  	1050 	MiniCommand 	[trojan] MiniCommand
+  	1053 	TheThief 	[trojan] The Thief
+  	1054 	AckCmd 	[trojan] AckCmd
+  	1080 	SubSeven2.2 	[trojan] SubSeven 2.2
+  	1080 	WinHole 	[trojan] WinHole
+  	1081 	WinHole 	[trojan] WinHole
+  	1082 	WinHole 	[trojan] WinHole
+  	1083 	WinHole 	[trojan] WinHole
+  	1090 	Xtreme 	[trojan] Xtreme
+  	1095 	RAT 	[trojan] Remote Administration Tool - RAT
+  	1097 	RAT 	[trojan] Remote Administration Tool - RAT
+  	1098 	RAT 	[trojan] Remote Administration Tool - RAT
+  	1099 	BloodFestEvolution 	[trojan] Blood Fest Evolution
+  	1099 	RAT 	[trojan] Remote Administration Tool - RAT
+  	1104 	RexxRave 	[trojan] RexxRave
+  	1150 	Orion 	[trojan] Orion
+  	1151 	Orion 	[trojan] Orion
+  	1170 	PsyberStreamServer 	[trojan] Psyber Stream Server - PSS
+  	1170 	StreamingAudioServer 	[trojan] Streaming Audio Server
+  	1170 	Voice 	[trojan] Voice
+  	1174 	DaCryptic 	[trojan] DaCryptic
+  	1180 	Unin68 	[trojan] Unin68
+  	1200 	NoBackO 	[trojan] NoBackO
+  	1201 	NoBackO 	[trojan] NoBackO
+  	1207 	SoftWAR 	[trojan] SoftWAR
+  	1208 	Infector 	[trojan] Infector
+  	1212 	Kaos 	[trojan] Kaos
+  	1234 	SubSevenJavaclient 	[trojan] SubSeven Java client
+  	1234 	UltorsTrojan 	[trojan] Ultors Trojan
+  	1243 	Tiles 	[trojan] Tiles
+  	1243 	SubSeven 	[trojan] SubSeven
+  	1243 	SubSevenApocalypse 	[trojan] SubSeven Apocalypse
+  	1243 	BackDoor-G 	[trojan] BackDoor-G
+  	1245 	VooDooDoll 	[trojan] VooDoo Doll
+  	1255 	Scarab 	[trojan] Scarab
+  	1256 	RexxRave 	[trojan] RexxRave
+  	1256 	ProjectnEXT 	[trojan] Project nEXT
+  	1269 	Matrix 	[trojan] Matrix
+  	1272 	TheMatrix 	[trojan] The Matrix
+  	1313 	NETrojan 	[trojan] NETrojan
+  	1337 	Shadyshell 	[trojan] Shadyshell
+  	1338 	MillenniumWorm 	[trojan] Millennium Worm
+  	1349 	BODLL 	[trojan] BO DLL
+  	1386 	Dagger 	[trojan] Dagger
+  	1394 	GoFriller 	[trojan] GoFriller
+  	1441 	RemoteStorm 	[trojan] Remote Storm
+  	1492 	FTP99CMP 	[trojan] FTP99CMP
+  	1509 	PsyberStreamingServer 	[trojan] Psyber StreamingServer
+  	1524 	Trinoo 	[trojan] Trinoo
+  	1568 	RemoteHack 	[trojan] Remote Hack
+  	1600 	ShivkaBurka 	[trojan] Shivka-Burka
+  	1600 	DirectConnection 	[trojan] Direct Connection
+  	1703 	Exploiter 	[trojan] Exploiter
+  	1777 	Scarab 	[trojan] Scarab
+  	1807 	SpySender 	[trojan] SpySender
+  	1826 	Glacier 	[trojan] Glacier
+  	1966 	FakeFTP 	[trojan] Fake FTP
+  	1967 	ForYourEyesOnly 	[trojan] For Your Eyes Only - FYEO
+  	1967 	WMFTPServer 	[trojan] WM FTP Server
+  	1969 	OpCBO 	[trojan] OpC BO
+  	1981 	Shockrave 	[trojan] Shockrave
+  	1981 	Bowl 	[trojan] Bowl
+  	1991 	PitFall 	[trojan] PitFall
+  	1999 	SubSeven 	[trojan] SubSeven
+  	1999 	BackDoor 	[trojan] Back Door
+  	1999 	TransScout 	[trojan] TransScout
+  	2000 	DerSp�her 	[trojan] Der Sp�her / Der Spaeher
+  	2000 	InsaneNetwork 	[trojan] Insane Network
+  	2000 	Last2000 	[trojan] Last 2000
+  	2000 	RemoteExplorer2000 	[trojan] Remote Explorer 2000
+  	2000 	SennaSpyTrojanGenerator 	[trojan] Senna Spy Trojan Generator
+  	2001 	TrojanCow 	[trojan] Trojan Cow
+  	2001 	DerSp�her 	[trojan] Der Sp�her / Der Spaeher
+  	2002 	slapper 	[trojan] Peer-to-peer UDP DDoS (PUD) (used by OpenSSL/Apache "Slapper" worm)
+  	2002 	TransScout 	[trojan] TransScout
+  	2003 	TransScout 	[trojan] TransScout
+  	2004 	TransScout 	[trojan] TransScout
+  	2005 	TransScout 	[trojan] TransScout
+  	2023 	Ripper 	[trojan] Ripper
+  	2023 	RipperPro 	[trojan] Ripper Pro
+  	2080 	WinHole 	[trojan] WinHole
+  	2115 	Bugs 	[trojan] Bugs
+  	2130 	MiniBacklash 	[trojan] Mini Backlash
+  	2140 	DeepThroat 	[trojan] Deep Throat
+  	2140 	TheInvasor 	[trojan] The Invasor
+  	2140 	Foreplay 	[trojan] Foreplay or Reduced Foreplay
+  	2155 	IllusionMailer 	[trojan] Illusion Mailer
+  	2222 	AMD 	[trojan] Rootshell left by AMD exploit
+  	2255 	Nirvana 	[trojan] Nirvana
+  	2283 	HVLRat5 	[trojan] HVL Rat5
+  	2283 	HvlRAT 	[trojan] Hvl RAT
+  	2300 	Xplorer 	[trojan] Xplorer
+  	2311 	Studio54 	[trojan] Studio 54
+  	2330 	IRCContact 	[trojan] IRC Contact
+  	2331 	IRCContact 	[trojan] IRC Contact
+  	2332 	IRCContact 	[trojan] IRC Contact
+  	2333 	IRCContact 	[trojan] IRC Contact
+  	2334 	IRCContact 	[trojan] IRC Contact
+  	2335 	IRCContact 	[trojan] IRC Contact
+  	2336 	IRCContact 	[trojan] IRC Contact
+  	2337 	IRCContact 	[trojan] IRC Contact
+  	2338 	IRCContact 	[trojan] IRC Contact
+  	2339 	IRCContact 	[trojan] IRC Contact
+  	2339 	VoiceSpyOBS 	[trojan] Voice Spy - OBS!!!
+  	2339 	VoiceSpy 	[trojan] Voice Spy
+  	2345 	DolyTrojan 	[trojan] Doly Trojan
+  	2400 	Portd 	[trojan] Portd
+  	2555 	Lion 	[trojan] Lion
+  	2555 	T0rnRootkit 	[trojan] T0rn Rootkit
+  	2565 	Striker 	[trojan] Striker
+  	2565 	Strikertrojan 	[trojan] Striker trojan
+  	2583 	WinCrash 	[trojan] WinCrash
+  	2589 	Dagger 	[trojan] Dagger
+  	2600 	DigitalRootBeer 	[trojan] Digital RootBeer
+  	2702 	BlackDiver 	[trojan] Black Diver
+  	2716 	ThePrayer 	[trojan] The Prayer
+  	2773 	SubSeven2.1Gold 	[trojan] SubSeven 2.1 Gold
+  	2773 	SubSeven 	[trojan] SubSeven
+  	2774 	SubSeven 	[trojan] SubSeven
+  	2774 	SubSeven2.1Gold 	[trojan] SubSeven 2.1 Gold
+  	2801 	PhineasPhucker 	[trojan] Phineas Phucker
+  	2929 	Konik 	[trojan] Konik
+  	2989 	RAT 	[trojan] RAT
+  	3000 	InetSpy 	[trojan] InetSpy
+  	3000 	RemoteShut 	[trojan] Remote Shut
+  	3024 	WinCrash 	[trojan] WinCrash
+  	3031 	Microspy 	[trojan] Microspy
+  	3128 	ReverseWWWTunnel 	[trojan] Reverse WWW Tunnel Backdoor
+  	3128 	RingZero 	[trojan] RingZero
+  	3129 	MastersParadise 	[trojan] Masters Paradise
+  	3131 	SubSARI 	[trojan] SubSARI
+  	3150 	DeepThroat 	[trojan] Deep Throat
+  	3150 	TheInvasor 	[trojan] The Invasor
+  	3150 	MiniBacklash 	[trojan] Mini Backlash
+  	3150 	Foreplay 	[trojan] Foreplay
+  	3456 	Terrortrojan 	[trojan] Terror trojan
+  	3459 	Eclipse2000 	[trojan] Eclipse 2000
+  	3459 	Sanctuary 	[trojan] Sanctuary
+  	3700 	PortalofDoom 	[trojan] Portal of Doom
+  	3777 	PsychWard 	[trojan] PsychWard
+  	3791 	Eclypse 	[trojan] Eclypse
+  	3791 	TotalSolarEclypse 	[trojan] Total Solar Eclypse
+  	3801 	TotalSolarEclypse 	[trojan] Total Solar Eclypse
+  	3801 	Eclypse 	[trojan] Eclypse
+  	4000 	SkyDance 	[trojan] SkyDance
+  	4000 	Connect-BackBackdoor 	[trojan] Connect-Back Backdoor
+  	4092 	WinCrash 	[trojan] WinCrash
+  	4201 	Wartrojan 	[trojan] War trojan
+  	4242 	VirtualHackingMachine 	[trojan] Virtual Hacking Machine - VHM
+  	4321 	BoBo 	[trojan] BoBo
+  	4444 	SwiftRemote 	[trojan] Swift Remote
+  	4444 	Prosiak 	[trojan] Prosiak
+  	4444 	CrackDown 	[trojan] CrackDown
+  	4488 	EventHorizon 	[trojan] Event Horizon
+  	4523 	Celine 	[trojan] Celine
+  	4545 	InternalRevise 	[trojan] Internal Revise
+  	4567 	FileNail 	[trojan] File Nail
+  	4590 	ICQTrojan 	[trojan] ICQ Trojan
+  	4653 	Cero 	[trojan] Cero
+  	4666 	Mneah 	[trojan] Mneah
+  	4950 	ICQTrogenLm 	[trojan] ICQ Trogen (Lm)
+  	4950 	ICQTrogen(Lm) 	[trojan] ICQ Trogen (Lm)
+  	5000 	SocketsdesTroie 	[trojan] Sockets des Troie
+  	5000 	Ra1d 	[trojan] Ra1d
+  	5000 	ICKiller 	[trojan] ICKiller
+  	5000 	Bubbel 	[trojan] Bubbel
+  	5000 	Blazer5 	[trojan] Blazer5
+  	5000 	BioNetLite 	[trojan] BioNet Lite
+  	5000 	BackDoorSetup 	[trojan] Back Door Setup
+  	5001 	BackDoorSetup 	[trojan] Back Door Setup
+  	5001 	SocketsdesTroie 	[trojan] Sockets des Troie
+  	5002 	Shaft 	[trojan] Shaft
+  	5002 	LinuxRootkitIV(4) 	[trojan] Linux Rootkit IV (4)
+  	5002 	cd00r 	[trojan] cd00r
+  	5005 	Aladino 	[trojan] Aladino
+  	5010 	Solo 	[trojan] Solo
+  	5011 	modified 	[trojan] modified
+  	5011 	OneoftheLastTrojans 	[trojan] One of the Last Trojans (OOTLT)
+  	5025 	WMRemoteKeyLogger 	[trojan] WM Remote KeyLogger
+  	5031 	NetMetropolitan 	[trojan] Net Metropolitan
+  	5032 	NetMetropolitan 	[trojan] Net Metropolitan
+  	5321 	Firehotcker 	[trojan] Firehotcker
+  	5333 	Backage 	[trojan] Backage
+  	5333 	NetDemon 	[trojan] NetDemon
+  	5343 	WCRat 	[trojan] wCrat - WC Remote Administration Tool
+  	5400 	BladeRunner 	[trojan] Blade Runner
+  	5400 	BackConstruction 	[trojan] Back Construction
+  	5401 	BackConstruction 	[trojan] Back Construction
+  	5401 	BladeRunner 	[trojan] Blade Runner
+  	5401 	Mneah 	[trojan] Mneah
+  	5402 	BackConstruction 	[trojan] Back Construction
+  	5402 	BladeRunner 	[trojan] Blade Runner
+  	5402 	Mneah 	[trojan] Mneah
+  	5512 	IllusionMailer 	[trojan] Illusion Mailer
+  	5534 	TheFlu 	[trojan] The Flu
+  	5550 	Xtcp 	[trojan] Xtcp
+  	5555 	ServeMe 	[trojan] ServeMe
+  	5556 	BOFacil 	[trojan] BO Facil
+  	5557 	BOFacil 	[trojan] BO Facil
+  	5569 	Robo-Hack 	[trojan] Robo-Hack
+  	5569 	RoboHack 	[trojan] Robo-Hack
+  	5636 	PCCrasher 	[trojan] PC Crasher
+  	5637 	PCCrasher 	[trojan] PC Crasher
+  	5638 	PCCrasher 	[trojan] PC Crasher
+  	5742 	WinCrash 	[trojan] WinCrash
+  	5760 	PortmapRemoteRoot 	[trojan] Portmap Remote Root Linux Exploit
+  	5760 	PRRLE 	[trojan] Portmap Remote Root Linux Exploit
+  	5802 	Y3KRAT 	[trojan] Y3K RAT
+  	5873 	SubSeven2.2 	[trojan] SubSeven 2.2
+  	5880 	Y3KRAT 	[trojan] Y3K RAT
+  	5882 	Y3KRAT 	[trojan] Y3K RAT
+  	5888 	Y3KRAT 	[trojan] Y3K RAT
+  	5889 	Y3KRAT 	[trojan] Y3K RAT
+  	6000 	TheThing 	[trojan] The Thing
+  	6006 	BadBlood 	[trojan] Bad Blood
+  	6272 	SecretService 	[trojan] Secret Service
+  	6400 	TheThing 	[trojan] The Thing
+  	6661 	TEMan 	[trojan] TEMan
+  	6661 	Weia-Meia 	[trojan] Weia-Meia
+  	6666 	TCPShell.c 	[trojan] TCPShell.c
+  	6666 	NetBusworm 	[trojan] NetBus worm
+  	6666 	DarkConnection 	[trojan] Dark Connection
+  	6666 	DarkConnectionInside 	[trojan] Dark Connection Inside
+  	6667 	WinSatan 	[trojan] WinSatan
+  	6667 	Trinity 	[trojan] Trinity
+  	6667 	TheThing 	[trojan] The Thing (modified)
+  	6667 	SubSeven 	[trojan] SubSeven
+  	6667 	Subseven2.1.4DefCon8 	[trojan] Subseven 2.1.4 DefCon 8
+  	6667 	ScheduleAgent 	[trojan] ScheduleAgent
+  	6667 	Moses 	[trojan] Moses
+  	6667 	Maniacrootkit 	[trojan] Maniac rootkit
+  	6667 	EGO 	[trojan] EGO
+  	6667 	DarkFTP 	[trojan] Dark FTP
+  	6669 	HostControl 	[trojan] Host Control
+  	6669 	Vampire 	[trojan] Vampire
+  	6670 	WinNukeeXtreame 	[trojan] WinNuke eXtreame
+  	6670 	Foreplay 	[trojan] Foreplay
+  	6670 	DeepThroat 	[trojan] Deep Throat
+  	6670 	BackWebServer 	[trojan] BackWeb Server
+  	6671 	DeepThroat 	[trojan] DeepThroat v3.1
+  	6711 	VPKiller 	[trojan] VP Killer
+  	6711 	SubSeven 	[trojan] SubSeven
+  	6711 	SubSARI 	[trojan] SubSARI
+  	6711 	BackDoor-G 	[trojan] BackDoor-G
+  	6711 	BackDoorG 	[trojan] BackDoor-G
+  	6712 	Funnytrojan 	[trojan] Funny trojan
+  	6712 	SubSeven 	[trojan] SubSeven
+  	6713 	SubSeven 	[trojan] SubSeven
+  	6723 	Mstream 	[trojan] Mstream
+  	6767 	UandMe 	[trojan] UandMe
+  	6771 	DeepThroat 	[trojan] Deep Throat
+  	6771 	Foreplay 	[trojan] Foreplay
+  	6776 	2000Cracks 	[trojan] 2000 Cracks
+  	6776 	BackDoor-G 	[trojan] BackDoor-G
+  	6776 	SubSeven 	[trojan] SubSeven
+  	6776 	VPKiller 	[trojan] VP Killer
+  	6838 	Mstream 	[trojan] Mstream
+  	6883 	DeltaSourceDarkStar 	[trojan] Delta Source DarkStar (??)
+  	6912 	ShitHeep 	[trojan] Shit Heep
+  	6939 	Indoctrination 	[trojan] Indoctrination
+  	6969 	Priority 	[trojan] Priority
+  	6969 	NetController 	[trojan] Net Controller
+  	6969 	IRC3 	[trojan] IRC 3
+  	6969 	GateCrasher 	[trojan] GateCrasher
+  	6969 	Danton 	[trojan] Danton
+  	6969 	2000Cracks 	[trojan] 2000 Cracks
+  	6970 	GateCrasher 	[trojan] GateCrasher
+  	7000 	SubSeven 	[trojan] SubSeven
+  	7000 	SubSeven2.1Gold 	[trojan] SubSeven 2.1 Gold
+  	7000 	RemoteGrab 	[trojan] Remote Grab
+  	7000 	Kazimas 	[trojan] Kazimas
+  	7000 	ExploitTranslation 	[trojan] Exploit Translation Server
+  	7001 	Freak2k 	[trojan] Freak2k
+  	7001 	Freak88 	[trojan] Freak88
+  	7001 	NetSnooperGold 	[trojan] NetSnooper Gold
+  	7158 	Lohoboyshik 	[trojan] Lohoboyshik
+  	7215 	SubSeven 	[trojan] SubSeven
+  	7215 	SubSeven2.1Gold 	[trojan] SubSeven 2.1 Gold
+  	7300 	NetMonitor 	[trojan] NetMonitor
+  	7301 	NetMonitor 	[trojan] NetMonitor
+  	7306 	NetMonitor 	[trojan] NetMonitor
+  	7307 	NetMonitor 	[trojan] NetMonitor
+  	7307 	RemoteProcessMonitor 	[trojan] Remote Process Monitor
+  	7308 	XSpy 	[trojan] X Spy
+  	7308 	NetMonitor 	[trojan] NetMonitor
+  	7424 	HostControl 	[trojan] Host Control
+  	7597 	Qaz 	[trojan] Qaz
+  	7626 	Binghe 	[trojan] Binghe
+  	7626 	Glacier 	[trojan] Glacier
+  	7626 	Hyne 	[trojan] Hyne
+  	7718 	Glacier 	[trojan] Glacier
+  	7777 	GodMessage 	[trojan] God Message
+  	7777 	TheThing(modified) 	[trojan] The Thing (modified)
+  	7777 	Tini 	[trojan] Tini
+  	7789 	BackDoorSetup 	[trojan] Back Door Setup
+  	7789 	ICKiller 	[trojan] ICKiller
+  	7789 	Mozilla 	[trojan] Mozilla
+  	7826 	Oblivion 	[trojan] Oblivion
+  	7891 	TheReVeNgEr 	[trojan] The ReVeNgEr
+  	7983 	Mstream 	[trojan] Mstream
+  	8080 	RingZero 	[trojan] RingZero
+  	8080 	ReverseWWWTunnel 	[trojan] Reverse WWW Tunnel Backdoor
+  	8080 	RemoConChubo 	[trojan] RemoConChubo
+  	8080 	Genericbackdoor 	[trojan] Generic backdoor
+  	8080 	BrownOrifice 	[trojan] Brown Orifice
+  	8685 	Unin68 	[trojan] Unin68
+  	8787 	BackOrifice2000 	[trojan] Back Orifice 2000
+  	8787 	BO2K 	[trojan] Back Orifice 2000
+  	8812 	FraggleRockLite 	[trojan] FraggleRock Lite
+  	8988 	BacHack 	[trojan] BacHack
+  	8989 	Xcon 	[trojan] Xcon
+  	8989 	Recon 	[trojan] Recon
+  	8989 	Rcon 	[trojan] Rcon
+  	9000 	Netministrator 	[trojan] Netministrator
+  	9325 	Mstream 	[trojan] Mstream
+  	9400 	InCommand 	[trojan] InCommand
+  	9870 	RemoteComputerControl 	[trojan] Remote Computer Control Center
+  	9872 	PortalofDoom 	[trojan] Portal of Doom
+  	9873 	PortalofDoom 	[trojan] Portal of Doom
+  	9874 	PortalofDoom 	[trojan] Portal of Doom
+  	9875 	PortalofDoom 	[trojan] Portal of Doom
+  	9876 	CyberAttacker 	[trojan] Cyber Attacker
+  	9876 	Rux 	[trojan] Rux
+  	9878 	TransScout 	[trojan] TransScout
+  	9989 	Ini-Killer 	[trojan] Ini-Killer
+  	9989 	IniKiller 	[trojan] Ini-Killer
+  	9999 	ThePrayer 	[trojan] The Prayer
+  	10000 	OpwinTRojan 	[trojan] OpwinTRojan
+  	10005 	OpwinTRojan 	[trojan] OpwinTRojan
+  	10008 	Cheeseworm 	[trojan] Cheese worm
+  	10008 	Lion 	[trojan] Lion
+  	10008 	LionWorm 	[trojan] Lion Worm (exploits Solaris saadmind)
+  	10067 	PortalofDoom 	[trojan] Portal of Doom
+  	10067 	PortalofDoomPOD 	[trojan] Portal of Doom - POD
+  	10085 	Syphillis 	[trojan] Syphillis
+  	10086 	Syphillis 	[trojan] Syphillis
+  	10100 	ControlTotal 	[trojan] Control Total
+  	10100 	GiFttrojan 	[trojan] GiFt trojan
+  	10101 	Silencer 	[trojan] Silencer
+  	10101 	BrainSpy 	[trojan] BrainSpy
+  	10167 	PortalofDoomPOD 	[trojan] Portal of Doom - POD
+  	10167 	PortalofDoom 	[trojan] Portal of Doom
+  	10520 	AcidShivers 	[trojan] Acid Shivers
+  	10528 	HostControl 	[trojan] Host Control
+  	10607 	Coma 	[trojan] Coma
+  	10666 	Ambush 	[trojan] Ambush
+  	11000 	SennaSpyTrojanGenerator 	[trojan] Senna Spy Trojan Generator
+  	11000 	SennaSpy 	[trojan] Senna Spy
+  	11050 	HostControl 	[trojan] Host Control
+  	11051 	HostControl 	[trojan] Host Control
+  	11223 	SecretAgent 	[trojan] Secret Agent
+  	11223 	Progenictrojan 	[trojan] Progenic trojan
+  	11831 	Latinus 	[trojan] Latinus
+  	12076 	Gjamer 	[trojan] Gjamer
+  	12223 	Hack99KeyLogger 	[trojan] Hack�99 KeyLogger
+  	12223 	Hack�99KeyLogger 	[trojan] Hack�99 KeyLogger
+  	12310 	PreCursor 	[trojan] PreCursor
+  	12345 	NetBus 	[trojan] NetBus
+  	12345 	NetBusworm 	[trojan] NetBus worm
+  	12345 	PieBillGates 	[trojan] Pie Bill Gates
+  	12345 	ValvNet 	[trojan] ValvNet
+  	12345 	WhackJob 	[trojan] Whack Job
+  	12345 	X-bill 	[trojan] X-bill
+  	12345 	NetBusToy 	[trojan] NetBus Toy
+  	12345 	Mypic 	[trojan] Mypic
+  	12345 	icmp_pipe.c 	[trojan] icmp_pipe.c
+  	12345 	icmp_client.c 	[trojan] icmp_client.c
+  	12345 	GabanBus 	[trojan] GabanBus
+  	12345 	FatBitchtrojan 	[trojan] Fat Bitch trojan
+  	12345 	cron/crontab 	[trojan] cron / crontab
+  	12345 	Ashley 	[trojan] Ashley
+  	12345 	Adoresshd 	[trojan] Adore sshd
+  	12346 	X-bill 	[trojan] X-bill
+  	12346 	NetBus 	[trojan] NetBus
+  	12346 	GabanBus 	[trojan] GabanBus
+  	12346 	FatBitchtrojan 	[trojan] Fat Bitch trojan
+  	12348 	BioNet 	[trojan] BioNet
+  	12349 	BioNet 	[trojan] BioNet
+  	12349 	Webhead 	[trojan] Webhead
+  	12361 	Whack-a-mole 	[trojan] Whack-a-mole
+  	12361 	Whackamole 	[trojan] Whack-a-mole
+  	12362 	Whackamole 	[trojan] Whack-a-mole
+  	12362 	Whack-a-mole 	[trojan] Whack-a-mole
+  	12363 	Whack-a-mole 	[trojan] Whack-a-mole
+  	12623 	DUNControl 	[trojan] DUN Control
+  	12624 	ButtMan 	[trojan] ButtMan
+  	12631 	WhackJob 	[trojan] Whack Job
+  	12701 	Eclipse2000 	[trojan] Eclipse 2000
+  	12754 	Mstream 	[trojan] Mstream
+  	12973 	Backdoor-QR 	[trojan] QR keylogger/remote access
+  	12975 	Backdoor-QR 	[trojan] QR keylogger/remote access
+  	13000 	SennaSpy 	[trojan] Senna Spy
+  	13010 	HackerBrasil 	[trojan] Hacker Brasil - HBR
+  	13010 	HackerBrasilHBR 	[trojan] Hacker Brasil - HBR
+  	13010 	BitchController 	[trojan] BitchController
+  	13013 	PsychWard 	[trojan] PsychWard
+  	13014 	PsychWard 	[trojan] PsychWard
+  	13223 	Hack�99KeyLogger 	[trojan] Hack�99 KeyLogger
+  	13473 	Chupacabra 	[trojan] Chupacabra
+  	14500 	PCInvader 	[trojan] PC Invader
+  	14501 	PCInvader 	[trojan] PC Invader
+  	14502 	PCInvader 	[trojan] PC Invader
+  	14503 	PCInvader 	[trojan] PC Invader
+  	15000 	NetDemon 	[trojan] NetDemon
+  	15092 	HostControl 	[trojan] Host Control
+  	15104 	Mstream 	[trojan] Mstream
+  	15382 	SubZero 	[trojan] SubZero
+  	15858 	CDK 	[trojan] CDK
+  	16484 	Mosucker 	[trojan] Mosucker
+  	16660 	Stacheldraht 	[trojan] Stacheldraht
+  	16772 	ICQRevenge 	[trojan] ICQ Revenge
+  	16959 	SubSeven 	[trojan] SubSeven
+  	16969 	Priority 	[trojan] Priority
+  	17166 	Mosaic 	[trojan] Mosaic
+  	17300 	Kuang2TheVirus 	[trojan] Kuang2 The Virus
+  	17449 	KidTerror 	[trojan] Kid Terror
+  	17499 	CrazzyNet 	[trojan] CrazzyNet
+  	17500 	CrazzyNet 	[trojan] CrazzyNet
+  	17569 	Infector 	[trojan] Infector
+  	17593 	AudioDoor 	[trojan] AudioDoor
+  	17777 	Nephron 	[trojan] Nephron
+  	18667 	Knark 	[trojan] Knark
+  	18753 	Shaft 	[trojan] Shaft
+  	19864 	ICQRevenge 	[trojan] ICQ Revenge
+  	20000 	Millenium 	[trojan] Millenium
+  	20001 	Millenium 	[trojan] Millenium
+  	20001 	Millenium(Lm) 	[trojan] Millenium (Lm)
+  	20001 	Insect 	[trojan] Insect
+  	20002 	AcidkoR 	[trojan] AcidkoR
+  	20005 	Mosucker 	[trojan] Mosucker
+  	20023 	VPKiller 	[trojan] VP Killer
+  	20034 	WhackJob 	[trojan] Whack Job
+  	20034 	NetRex 	[trojan] NetRex
+  	20034 	NetBus2Pro 	[trojan] NetBus 2 Pro
+  	20034 	NetBus2.0Pro 	[trojan] NetBus 2.0 Pro
+  	20034 	NetBus2.0ProHidden 	[trojan] NetBus 2.0 Pro Hidden
+  	20139 	Aristotle 	[trojan] #skanbotz IRC-SubSeven Trojan
+  	20203 	Chupacabra 	[trojan] Chupacabra
+  	20331 	BLAtrojan 	[trojan] BLA trojan
+  	20432 	Shaft 	[trojan] Shaft
+  	20433 	Shaft 	[trojan] Shaft
+  	21544 	Matrix 	[trojan] Matrix
+  	21544 	KidTerror 	[trojan] Kid Terror
+  	21544 	GirlFriend 	[trojan] GirlFriend
+  	21554 	Exploiter 	[trojan] Exploiter
+  	21554 	FreddyK 	[trojan] FreddyK
+  	21554 	KidTerror 	[trojan] Kid Terror
+  	21554 	Schwindler 	[trojan] Schwindler
+  	21554 	Winsp00fer 	[trojan] Winsp00fer
+  	21579 	Breach 	[trojan] Breach
+  	21957 	Latinus 	[trojan] Latinus
+  	22222 	DonaldDick 	[trojan] Donald Dick
+  	22222 	Prosiak 	[trojan] Prosiak
+  	22222 	Ruler 	[trojan] Ruler
+  	22222 	RUXTheTIc.K 	[trojan] RUX The TIc.K
+  	23005 	Oxon 	[trojan] Oxon
+  	23005 	Olive 	[trojan] Olive
+  	23005 	NetTrash 	[trojan] NetTrash
+  	23006 	NetTrash 	[trojan] NetTrash
+  	23023 	Logged 	[trojan] Logged
+  	23032 	Amanda 	[trojan] Amanda
+  	23321 	Konik 	[trojan] Konik
+  	23432 	Asylum 	[trojan] Asylum
+  	23456 	WhackJob 	[trojan] Whack Job
+  	23456 	UglyFTP 	[trojan] Ugly FTP
+  	23456 	EvilFTP 	[trojan] Evil FTP
+  	23476 	DonaldDick 	[trojan] Donald Dick
+  	23477 	DonaldDick 	[trojan] Donald Dick
+  	23777 	InetSpy 	[trojan] InetSpy
+  	24000 	Infector 	[trojan] Infector
+  	24289 	Latinus 	[trojan] Latinus
+  	25123 	Goy'ZTroJan 	[trojan] Goy'Z TroJan
+  	25555 	FreddyK 	[trojan] FreddyK
+  	25685 	MoonPie 	[trojan] MoonPie
+  	25686 	MoonPie 	[trojan] MoonPie
+  	25982 	MoonPie 	[trojan] MoonPie
+  	26274 	DeltaSource 	[trojan] Delta Source
+  	26681 	VoiceSpy 	[trojan] Voice Spy
+  	26681 	VoiceSpyOBS 	[trojan] Voice Spy - OBS!!!
+  	27160 	MoonPie 	[trojan] MoonPie
+  	27374 	Webhead 	[trojan] Webhead
+  	27374 	Ttfloader 	[trojan] Ttfloader
+  	27374 	TheSaint 	[trojan] The Saint
+  	27374 	SubSeven 	[trojan] SubSeven
+  	27374 	SubSevenMuie 	[trojan] SubSeven Muie
+  	27374 	SubSeven2.2 	[trojan] SubSeven 2.2
+  	27374 	SubSeven2.1Gold 	[trojan] SubSeven 2.1 Gold
+  	27374 	Subseven2.1.4DefCon8 	[trojan] Subseven 2.1.4 DefCon 8
+  	27374 	Seeker 	[trojan] Seeker
+  	27374 	Ramen 	[trojan] Ramen
+  	27374 	Lion 	[trojan] Lion
+  	27374 	FakeSubSeven 	[trojan] Fake SubSeven
+  	27374 	EGO 	[trojan] EGO
+  	27374 	BadBlood 	[trojan] Bad Blood
+  	27444 	Trinoo_Bcast 	[trojan] Trinoo distributed attack tool
+  	27444 	Trinoo 	[trojan] Trinoo
+  	27573 	SubSeven 	[trojan] SubSeven
+  	27665 	Trinoo 	[trojan] Trinoo
+  	28431 	Hack�a�Tack 	[trojan] Hack�a�Tack
+  	28431 	HackaTack 	[trojan] Hack'a'Tack 2K
+  	28432 	HackaTack 	[trojan] Hack'a'Tack 2K
+  	28678 	Exploiter 	[trojan] Exploiter
+  	29104 	NetTrojan 	[trojan] NetTrojan
+  	29292 	BackGate 	[trojan] BackGate
+  	29369 	ovasOn 	[trojan] ovasOn
+  	29559 	Latinus 	[trojan] Latinus
+  	29891 	TheUnexplained 	[trojan] The Unexplained
+  	30000 	Infector 	[trojan] Infector
+  	30001 	ErrOr32 	[trojan] ErrOr32
+  	30003 	LamersDeath 	[trojan] Lamers Death
+  	30005 	BackdoorJZ 	[trojan] Backdoor JZ
+  	30029 	AOLTrojan 	[trojan] AOL Trojan
+  	30100 	NetSphere 	[trojan] NetSphere
+  	30101 	NetSphere 	[trojan] NetSphere
+  	30102 	NetSphere 	[trojan] NetSphere
+  	30103 	NetSphere 	[trojan] NetSphere
+  	30133 	NetSphere 	[trojan] NetSphere
+  	30303 	SocketsdesTroie 	[trojan] Sockets des Troie
+  	30303 	SocketsdeTroie 	[trojan] Sockets de Troie
+  	30700 	Mantis 	[trojan] Mantis
+  	30947 	Intruse 	[trojan] Intruse
+  	30999 	Kuang2 	[trojan] Kuang2
+  	31221 	Knark 	[trojan] Knark
+  	31335 	Trinoo 	[trojan] Trinoo
+  	31336 	BoWhack 	[trojan] Bo Whack
+  	31336 	ButtFunnel 	[trojan] Butt Funnel
+  	31337 	cron/crontab 	[trojan] cron / crontab
+  	31337 	DeepBO 	[trojan] Deep BO
+  	31337 	Freak2k 	[trojan] Freak2k
+  	31337 	Freak88 	[trojan] Freak88
+  	31337 	Gummo 	[trojan] Gummo
+  	31337 	icmp_pipe.c 	[trojan] icmp_pipe.c
+  	31337 	LinuxRootkitIV 	[trojan] Linux Rootkit IV
+  	31337 	BackOrifice 	[trojan] cDc Back Orifice remote admin tool
+  	31337 	psybnc 	[trojan] psybnc
+  	31337 	BOspy 	[trojan] BO spy
+  	31337 	BOFacil 	[trojan] BO Facil
+  	31337 	BOclient 	[trojan] BO client
+  	31337 	ADMworm 	[trojan] ADM worm
+  	31337 	BackFire 	[trojan] Back Fire
+  	31337 	BackOrifice1.20patches 	[trojan] Back Orifice 1.20 patches
+  	31337 	BackOrifice(Lm) 	[trojan] Back Orifice (Lm)
+  	31337 	BackOrificerussian 	[trojan] Back Orifice russian
+  	31337 	BaronNight 	[trojan] Baron Night
+  	31337 	Beeone 	[trojan] Beeone
+  	31337 	bindshell 	[trojan] bindshell
+  	31337 	BO2 	[trojan] BO2
+  	31338 	DeepBO 	[trojan] Deep BO
+  	31338 	ButtFunnel 	[trojan] Butt Funnel
+  	31338 	BackOrifice 	[trojan] Back Orifice
+  	31339 	NetSpyDK 	[trojan] NetSpy (DK)
+  	31339 	NetSpy(DK) 	[trojan] NetSpy (DK)
+  	31557 	NetBus 	[trojan] NetBus
+  	31557 	Xanadu 	[trojan] Xanadu
+  	31666 	BOWhack 	[trojan] BOWhack
+  	31745 	BuschTrommel 	[trojan] BuschTrommel
+  	31785 	HackaTack 	[trojan] Hack�a�Tack
+  	31785 	Hack�a�Tack 	[trojan] Hack�a�Tack
+  	31787 	HackaTack 	[trojan] Hack�a�Tack
+  	31787 	Hack�a�Tack 	[trojan] Hack�a�Tack
+  	31788 	Hack�a�Tack 	[trojan] Hack�a�Tack
+  	31788 	HackaTack 	[trojan] Hack�a�Tack
+  	31789 	HackaTack 	[trojan] Hack�a�Tack
+  	31789 	Hack�a�Tack 	[trojan] Hack�a�Tack
+  	31790 	HackaTack 	[trojan] Hack�a�Tack
+  	31790 	Hack�a�Tack 	[trojan] Hack�a�Tack
+  	31791 	Hack�a�Tack 	[trojan] Hack�a�Tack
+  	31791 	HackaTack 	[trojan] Hack�a�Tack
+  	31792 	HackaTack 	[trojan] Hack�a�Tack
+  	31792 	Hack�a�Tack 	[trojan] Hack�a�Tack
+  	32001 	DonaldDick 	[trojan] Donald Dick
+  	32100 	PeanutBrittle 	[trojan] Peanut Brittle
+  	32100 	ProjectnEXT 	[trojan] Project nEXT
+  	32418 	AcidBattery 	[trojan] Acid Battery
+  	32768 	HackersParadise 	[trojan] Hacker's Paradise
+  	32791 	Acropolis 	[trojan] Acropolis
+  	33270 	Trinity 	[trojan] Trinity
+  	33333 	Blakharaz 	[trojan] Blakharaz
+  	33333 	Prosiak 	[trojan] Prosiak
+  	33567 	Lion 	[trojan] Lion
+  	33567 	T0rnRootkit 	[trojan] T0rn Rootkit
+  	33568 	T0rnRootkit 	[trojan] T0rn Rootkit
+  	33568 	Lion 	[trojan] Lion
+  	33577 	SonofPsychWard 	[trojan] Son of PsychWard
+  	33777 	SonofPsychWard 	[trojan] Son of PsychWard
+  	33911 	Spirit2000 	[trojan] Spirit 2000
+  	33911 	Spirit2001 	[trojan] Spirit 2001
+  	34324 	TN 	[trojan] TN
+  	34324 	TinyTelnetServer 	[trojan] Tiny Telnet Server
+  	34324 	BigGluck 	[trojan] Big Gluck
+  	34444 	DonaldDick 	[trojan] Donald Dick
+  	34555 	Trinoo(forWindows) 	[trojan] Trinoo (for Windows)
+  	35555 	Trinoo(forWindows) 	[trojan] Trinoo (for Windows)
+  	37237 	Mantis 	[trojan] Mantis
+  	37266 	TheKillerTrojan 	[trojan] The Killer Trojan
+  	37651 	YetAnotherTrojan 	[trojan] Yet Another Trojan - YAT
+  	38741 	CyberSpy 	[trojan] CyberSpy
+  	39507 	Busters 	[trojan] Busters
+  	40412 	TheSpy 	[trojan] The Spy
+  	40421 	Agent40421 	[trojan] Agent 40421
+  	40421 	MastersParadise 	[trojan] Masters Paradise
+  	40422 	MastersParadise 	[trojan] Masters Paradise
+  	40423 	MastersParadise 	[trojan] Masters Paradise
+  	40425 	MastersParadise 	[trojan] Masters Paradise
+  	40426 	MastersParadise 	[trojan] Masters Paradise
+  	41337 	Storm 	[trojan] Storm
+  	41666 	RemoteBootTool 	[trojan] Remote Boot Tool - RBT
+  	43330 	litmus-3.0-cmd 	[trojan] Litmus Trojan v3.0 command channel
+  	44444 	Prosiak 	[trojan] Prosiak
+  	44575 	Exploiter 	[trojan] Exploiter
+  	44767 	SchoolBus 	[trojan] School Bus
+  	45559 	Maniacrootkit 	[trojan] Maniac rootkit
+  	45673 	Acropolis 	[trojan] Acropolis
+  	46626 	Psychward 	[trojan] Psychward
+  	46882 	Psychward 	[trojan] Psychward
+  	47017 	T0rnRootkit 	[trojan] T0rn Rootkit
+  	47262 	DeltaSource 	[trojan] Delta Source
+  	48004 	FraggleRock 	[trojan] Fraggle Rock
+  	48006 	FraggleRock 	[trojan] Fraggle Rock
+  	49000 	FraggleRock 	[trojan] Fraggle Rock
+  	49301 	OnLineKeyLogger 	[trojan] OnLine KeyLogger
+  	50000 	SubSARI 	[trojan] SubSARI
+  	50130 	Enterprise 	[trojan] Enterprise
+  	50505 	SocketsdeTroie 	[trojan] Sockets de Troie
+  	50505 	SocketsdesTroie 	[trojan] Sockets des Troie
+  	50766 	Fore 	[trojan] Fore
+  	50766 	Schwindler 	[trojan] Schwindler
+  	51966 	Cafeini 	[trojan] Cafeini
+  	52317 	AcidBattery2000 	[trojan] Acid Battery 2000
+  	53001 	RemoteWindowsShutdown 	[trojan] Remote Windows Shutdown
+  	54283 	SubSeven 	[trojan] SubSeven
+  	54283 	SubSeven2.1Gold 	[trojan] SubSeven 2.1 Gold
+  	54320 	BackOrifice2000 	[trojan] Back Orifice 2000
+  	54321 	BackOrifice2000 	[trojan] Back Orifice 2000
+  	54321 	SchoolBus 	[trojan] School Bus
+  	55165 	WMTrojanGenerator 	[trojan] WM Trojan Generator
+  	55166 	WMTrojanGenerator 	[trojan] WM Trojan Generator
+  	57341 	NetRaider 	[trojan] NetRaider
+  	58339 	ButtFunnel 	[trojan] Butt Funnel
+  	60000 	DeepThroat 	[trojan] Deep Throat
+  	60000 	Foreplay 	[trojan] Foreplay
+  	60000 	SocketsdesTroie 	[trojan] Sockets des Troie
+  	60001 	Trinity 	[trojan] Trinity
+  	60008 	T0rnRootkit 	[trojan] T0rn Rootkit
+  	60008 	Lion 	[trojan] Lion
+  	60068 	Xzip6000068 	[trojan] Xzip 6000068
+  	60411 	Connection 	[trojan] Connection
+  	61348 	BunkerHill 	[trojan] Bunker-Hill
+  	61348 	Bunker-Hill 	[trojan] Bunker-Hill
+  	61466 	TeleCommando 	[trojan] TeleCommando
+  	61603 	Bunker-Hill 	[trojan] Bunker-Hill
+  	61603 	BunkerHill 	[trojan] Bunker-Hill
+  	63485 	BunkerHill 	[trojan] Bunker-Hill
+  	63485 	Bunker-Hill 	[trojan] Bunker-Hill
+  	64101 	TaskmanTaskManager 	[trojan] Taskman / Task Manager
+  	64101 	Taskman 	[trojan] Taskman
+  	65000 	Stacheldraht 	[trojan] Stacheldraht
+  	65000 	Stacheldrahtagent 	[trojan] Stacheldraht agent - handler
+  	65000 	SocketsdesTroie 	[trojan] Sockets des Troie
+  	65000 	Devil 	[trojan] Devil
+  	65390 	Eclypse 	[trojan] Eclypse
+  	65421 	Jade 	[trojan] Jade
+  	65432 	TheTraitor=th3tr41t0r 	[trojan] The Traitor (= th3tr41t0r)
+  	65432 	TheTraitor 	[trojan] The Traitor (= th3tr41t0r)
+  	65530 	WindowsMite 	[trojan] Windows Mite
+  	65534 	sbininitd 	[trojan] /sbin/initd
+  	65534 	/sbin/initd 	[trojan] /sbin/initd
+  	65535 	Adoreworm 	[trojan] Adore worm
+  	65535 	RC1trojan 	[trojan] RC1 trojan
+  	65535 	Sins 	[trojan] Sins
+
+
+Port 	TCP 	UDP 	Description 	Status
+0 	TCP 		Programming technique for specifying system-allocated (dynamic) ports[3] 	Unofficial
+0 		UDP 	Reserved 	Official
+1 	TCP 	UDP 	TCP Port Service Multiplexer (TCPMUX) 	Official
+2 	TCP 	UDP 	CompressNET[4] Management Utility[5] 	Official
+3 	TCP 	UDP 	CompressNET[4] Compression Process[6] 	Official
+4 	TCP 	UDP 	Unassigned 	Official
+5 	TCP 	UDP 	Remote Job Entry 	Official
+6 	TCP 	UDP 	Unassigned 	Official
+7 	TCP 	UDP 	Echo Protocol 	Official
+8 	TCP 	UDP 	Unassigned 	Official
+9 	TCP 	UDP 	Discard Protocol 	Official
+9 		UDP 	Wake-on-LAN 	Unofficial
+10 	TCP 	UDP 	Unassigned 	Official
+11 	TCP 	UDP 	Active Users (systat service)[7][8] 	Official
+12 	TCP 	UDP 	Unassigned 	Official
+13 	TCP 	UDP 	Daytime Protocol (RFC 867) 	Official
+14 	TCP 	UDP 	Unassigned 	Official
+15 	TCP 	UDP 	Previously netstat service[7] 	Unofficial
+16 	TCP 	UDP 	Unassigned 	Official
+17 	TCP 	UDP 	Quote of the Day 	Official
+18 	TCP 	UDP 	Message Send Protocol 	Official
+19 	TCP 	UDP 	Character Generator Protocol (CHARGEN) 	Official
+20 	TCP 	UDP 	FTP data transfer 	Official
+21 	TCP 		FTP control (command) 	Official
+22 	TCP 	UDP 	Secure Shell (SSH)—used for secure logins, file transfers (scp, sftp) and port forwarding 	Official
+23 	TCP 	UDP 	Telnet protocol—unencrypted text communications 	Official
+24 	TCP 	UDP 	Priv-mail : any private mail system. 	Official
+25 	TCP 		Simple Mail Transfer Protocol (SMTP)—used for e-mail routing between mail servers 	Official
+26 	TCP 	UDP 	encrypted SMTP 	Official
+27 	TCP 	UDP 	NSW User System FE 	Official
+29 	TCP 	UDP 	MSG ICP 	Official
+33 	TCP 	UDP 	Display Support Protocol 	Official
+35 	TCP 	UDP 	Any private printer server protocol 	Official
+37 	TCP 	UDP 	TIME protocol 	Official
+39 	TCP 	UDP 	Resource Location Protocol[9] (RLP)—used for determining the location of higher level services from hosts on a network 	Official
+40 	TCP 	UDP 	Unassigned 	Official
+42 	TCP 	UDP 	ARPA Host Name Server Protocol 	Official
+42 	TCP 	UDP 	Windows Internet Name Service 	Unofficial
+43 	TCP 		WHOIS protocol 	Official
+47 	TCP 	UDP 	NI FTP 	Official
+49 	TCP 	UDP 	TACACS Login Host protocol 	Official
+50 	TCP 	UDP 	Remote Mail Checking Protocol[10] 	Official
+51 	TCP 	UDP 	IMP Logical Address Maintenance 	Official
+52 	TCP 	UDP 	XNS (Xerox Network Systems) Time Protocol 	Official
+53 	TCP 	UDP 	Domain Name System (DNS) 	Official
+54 	TCP 	UDP 	XNS (Xerox Network Systems) Clearinghouse 	Official
+55 	TCP 	UDP 	ISI Graphics Language (ISI-GL) 	Official
+56 	TCP 	UDP 	XNS (Xerox Network Systems) Authentication 	Official
+56 	TCP 	UDP 	Route Access Protocol (RAP)[11] 	Unofficial
+57 	TCP 		Mail Transfer Protocol (RFC 780) 	Official
+58 	TCP 	UDP 	XNS (Xerox Network Systems) Mail 	Official
+64 	TCP 	UDP 	CI (Travelport) (formerly Covia) Comms Integrator 	Official
+67 		UDP 	Bootstrap Protocol (BOOTP) Server; also used by Dynamic Host Configuration Protocol (DHCP) 	Official
+68 		UDP 	Bootstrap Protocol (BOOTP) Client; also used by Dynamic Host Configuration Protocol (DHCP) 	Official
+69 		UDP 	Trivial File Transfer Protocol (TFTP) 	Official
+70 	TCP 		Gopher protocol 	Official
+71 	TCP 		NETRJS protocol 	Official
+72 	TCP 		NETRJS protocol 	Official
+73 	TCP 		NETRJS protocol 	Official
+74 	TCP 		NETRJS protocol 	Official
+77 	TCP 	UDP 	Any private Remote Job Entry 	Official
+79 	TCP 		Finger protocol 	Official
+80 	TCP 		Hypertext Transfer Protocol (HTTP)[12] 	Official
+80 		UDP 	QUIC (from Chromium) for HTTP 	Unofficial
+81 	TCP 		Torpark—Onion routing 	Unofficial
+82 		UDP 	Torpark—Control 	Unofficial
+88 	TCP 	UDP 	Kerberos—authentication system 	Official
+90 	TCP 	UDP 	dnsix (DoD Network Security for Information Exchange) Securit Attribute Token Map 	Official
+90 	TCP 	UDP 	PointCast (dotcom) 	Unofficial
+99 	TCP 		WIP Message protocol 	Unofficial
+100 		UDP 	CyberGate RAT protocol 	Unofficial
+101 	TCP 		NIC host name 	Official
+102 	TCP 		ISO-TSAP (Transport Service Access Point) Class 0 protocol;[13] also used by Digital Equipment Corporation DECnet (Phase V+) over TCP/IP 	Official
+104 	TCP 	UDP 	ACR/NEMA Digital Imaging and Communications in Medicine (DICOM) 	Official
+105 	TCP 	UDP 	CCSO Nameserver Protocol (Qi/Ph) 	Official
+107 	TCP 		Remote TELNET Service[14] protocol 	Official
+108 	TCP 	UDP 	SNA Gateway Access Server[1] 	Official
+109 	TCP 		Post Office Protocol v2 (POP2) 	Official
+110 	TCP 		Post Office Protocol v3 (POP3) 	Official
+111 	TCP 	UDP 	ONC RPC (Sun RPC) 	Official
+113 	TCP 		Ident—Authentication Service/Identification Protocol,[15] used by IRC servers to identify users 	Official
+113 		UDP 	Authentication Service[15] (auth) 	Official
+115 	TCP 		Simple File Transfer Protocol (SFTP) 	Official
+117 	STD 		UUCP Path Service 	Official
+118 	TCP 	UDP 	SQL (Structured Query Language) Services 	Official
+119 	TCP 		Network News Transfer Protocol (NNTP)—retrieval of newsgroup messages 	Official
+123 		UDP 	Network Time Protocol (NTP)—used for time synchronization 	Official
+126 	TCP 	UDP 	Formerly Unisys Unitary Login, renamed by Unisys to NXEdit. Used by Unisys Programmer's Workbench for Clearpath MCP, an IDE for Unisys MCP software development 	Official
+135 	TCP 	UDP 	DCE endpoint resolution 	Official
+135 	TCP 	UDP 	Microsoft EPMAP (End Point Mapper), also known as DCE/RPC Locator service,[16] used to remotely manage services including DHCP server, DNS server and WINS. Also used by DCOM 	Unofficial
+137 	TCP 	UDP 	NetBIOS NetBIOS Name Service 	Official
+138 	TCP 	UDP 	NetBIOS NetBIOS Datagram Service 	Official
+139 	TCP 	UDP 	NetBIOS NetBIOS Session Service 	Official
+143 	TCP 		Internet Message Access Protocol (IMAP)—management of email messages 	Official
+152 	TCP 	UDP 	Background File Transfer Program (BFTP)[17] 	Official
+153 	TCP 	UDP 	SGMP, Simple Gateway Monitoring Protocol 	Official
+156 	TCP 	UDP 	SQL Service 	Official
+158 	TCP 	UDP 	DMSP, Distributed Mail Service Protocol[18] 	Unofficial
+161 		UDP 	Simple Network Management Protocol (SNMP) 	Official
+162 	TCP 	UDP 	Simple Network Management Protocol Trap (SNMPTRAP)[19] 	Official
+170 	TCP 		Print-srv, Network PostScript 	Official
+175 	TCP 		VMNET (IBM z/VM, z/OS & z/VSE—Network Job Entry (NJE)) 	Official
+177 	TCP 	UDP 	X Display Manager Control Protocol (XDMCP) 	Official
+179 	TCP 		BGP (Border Gateway Protocol) 	Official
+194 	TCP 	UDP 	Internet Relay Chat (IRC) 	Official
+199 	TCP 	UDP 	SMUX, SNMP Unix Multiplexer 	Official
+201 	TCP 	UDP 	AppleTalk Routing Maintenance 	Official
+209 	TCP 	UDP 	The Quick Mail Transfer Protocol 	Official
+210 	TCP 	UDP 	ANSI Z39.50 	Official
+213 	TCP 	UDP 	Internetwork Packet Exchange (IPX) 	Official
+218 	TCP 	UDP 	Message posting protocol (MPP) 	Official
+220 	TCP 	UDP 	Internet Message Access Protocol (IMAP), version 3 	Official
+259 	TCP 	UDP 	ESRO, Efficient Short Remote Operations 	Official
+264 	TCP 	UDP 	BGMP, Border Gateway Multicast Protocol 	Official
+280 	TCP 	UDP 	http-mgmt 	Official
+300 	TCP 		ThinLinc Web Access 	Unofficial
+308 	TCP 		Novastor Online Backup 	Official
+311 	TCP 		Mac OS X Server Admin (officially AppleShare IP Web administration) 	Official
+318 	TCP 	UDP 	PKIX TSP, Time Stamp Protocol 	Official
+319 		UDP 	Precision Time Protocol event messages 	Official
+320 		UDP 	Precision Time Protocol general messages 	Official
+350 	TCP 	UDP 	MATIP-Type A, Mapping of Airline Traffic over Internet Protocol 	Official
+351 	TCP 	UDP 	MATIP-Type B, Mapping of Airline Traffic over Internet Protocol 	Official
+366 	TCP 	UDP 	ODMR, On-Demand Mail Relay 	Official
+369 	TCP 	UDP 	Rpc2portmap 	Official
+370 	TCP 		codaauth2—Coda authentication server 	Official
+370 		UDP 	codaauth2—Coda authentication server 	Official
+370 		UDP 	securecast1—Outgoing packets to NAI's SecureCast servers[20]As of 2000 	Unofficial
+371 	TCP 	UDP 	ClearCase albd 	Official
+383 	TCP 	UDP 	HP data alarm manager 	Official
+384 	TCP 	UDP 	A Remote Network Server System 	Official
+387 	TCP 	UDP 	AURP, AppleTalk Update-based Routing Protocol[21] 	Official
+389 	TCP 	UDP 	Lightweight Directory Access Protocol (LDAP) 	Official
+399 	TCP 	UDP 	Digital Equipment Corporation DECnet (Phase V+) over TCP/IP 	Official
+401 	TCP 	UDP 	UPS Uninterruptible Power Supply 	Official
+427 	TCP 	UDP 	Service Location Protocol (SLP) 	Official
+433 	TCP 	UDP 	NNSP, part of Network News Transfer Protocol 	Official
+443 	TCP 		Hypertext Transfer Protocol over TLS/SSL (HTTPS) 	Official
+443 		UDP 	QUIC (from Chromium) for HTTPS 	Unofficial
+444 	TCP 	UDP 	SNPP, Simple Network Paging Protocol (RFC 1568) 	Official
+445 	TCP 		Microsoft-DS Active Directory, Windows shares 	Official
+445 	TCP 		Microsoft-DS SMB file sharing 	Official
+464 	TCP 	UDP 	Kerberos Change/Set password 	Official
+465 	TCP 		URL Rendezvous Directory for SSM (Cisco protocol) 	Official
+465 	TCP 		Simple Mail Transfer Protocol over TLS/SSL (SMTPS) 	Unofficial
+475 	TCP 	UDP 	tcpnethaspsrv (Aladdin Knowledge Systems Hasp services, TCP/IP version) 	Official
+491 	TCP 		GO-Global remote access and application publishing software 	Unofficial
+497 	TCP 		Dantz Retrospect 	Official
+500 	TCP 	UDP 	Internet Security Association and Key Management Protocol (ISAKMP) 	Official
+502 	TCP 	UDP 	Modbus, Protocol 	Official
+504 	TCP 	UDP 	Citadel—multiservice protocol for dedicated clients for the Citadel groupware system 	Official
+512 	TCP 		Rexec, Remote Process Execution 	Official
+512 		UDP 	comsat, together with biff 	Official
+513 	TCP 		rlogin 	Official
+513 		UDP 	Who[22] 	Official
+514 	TCP 		Shell—used to execute non-interactive commands on a remote system (Remote Shell, rsh, remsh) 	Official
+514 		UDP 	Syslog—used for system logging 	Official
+515 	TCP 		Line Printer Daemon—print service 	Official
+517 		UDP 	Talk 	Official
+518 		UDP 	NTalk 	Official
+520 	TCP 		efs, extended file name server 	Official
+520 		UDP 	Routing Information Protocol (RIP) 	Official
+521 		UDP 	Routing Information Protocol Next Generation (RIPng) 	Official
+524 	TCP 	UDP 	NetWare Core Protocol (NCP) is used for a variety things such as access to primary NetWare server resources, Time Synchronization, etc. 	Official
+525 		UDP 	Timed, Timeserver 	Official
+530 	TCP 	UDP 	RPC 	Official
+531 	TCP 	UDP 	AOL Instant Messenger 	Unofficial
+532 	TCP 		netnews 	Official
+533 		UDP 	netwall, For Emergency Broadcasts 	Official
+540 	TCP 		UUCP (Unix-to-Unix Copy Protocol) 	Official
+542 	TCP 	UDP 	commerce (Commerce Applications) 	Official
+543 	TCP 		klogin, Kerberos login 	Official
+544 	TCP 		kshell, Kerberos Remote shell 	Official
+545 	TCP 		OSIsoft PI (VMS), OSISoft PI Server Client Access 	Unofficial
+546 	TCP 	UDP 	DHCPv6 client 	Official
+547 	TCP 	UDP 	DHCPv6 server 	Official
+548 	TCP 		Apple Filing Protocol (AFP) over TCP 	Official
+550 	TCP 	UDP 	new-rwho, new-who[22] 	Official
+554 	TCP 	UDP 	Real Time Streaming Protocol (RTSP) 	Official
+556 	TCP 		Remotefs, RFS, rfs_server 	Official
+560 		UDP 	rmonitor, Remote Monitor 	Official
+561 		UDP 	monitor 	Official
+563 	TCP 	UDP 	NNTP protocol over TLS/SSL (NNTPS) 	Official
+587 	TCP 		e-mail message submission[23] (SMTP) 	Official
+591 	TCP 		FileMaker 6.0 (and later) Web Sharing (HTTP Alternate, also see port 80) 	Official
+593 	TCP 	UDP 	HTTP RPC Ep Map, Remote procedure call over Hypertext Transfer Protocol, often used by Distributed Component Object Model services and Microsoft Exchange Server 	Official
+604 	TCP 		TUNNEL profile,[24] a protocol for BEEP peers to form an application layer tunnel 	Official
+623 		UDP 	ASF Remote Management and Control Protocol (ASF-RMCP) 	Official
+625 	TCP 		Open Directory Proxy (ODProxy) 	Unofficial
+631 	TCP 	UDP 	Internet Printing Protocol (IPP) 	Official
+631 	TCP 	UDP 	Common Unix Printing System (CUPS) 	Unofficial
+635 	TCP 	UDP 	RLZ DBase 	Official
+636 	TCP 	UDP 	Lightweight Directory Access Protocol over TLS/SSL (LDAPS) 	Official
+639 	TCP 	UDP 	MSDP, Multicast Source Discovery Protocol 	Official
+641 	TCP 	UDP 	SupportSoft Nexus Remote Command (control/listening): A proxy gateway connecting remote control traffic 	Official
+643 	TCP 	UDP 	SANity 	Official
+646 	TCP 	UDP 	LDP, Label Distribution Protocol, a routing protocol used in MPLS networks 	Official
+647 	TCP 		DHCP Failover protocol[25] 	Official
+648 	TCP 		RRP (Registry Registrar Protocol)[26] 	Official
+651 	TCP 	UDP 	IEEE-MMS 	Official
+653 	TCP 	UDP 	SupportSoft Nexus Remote Command (data): A proxy gateway connecting remote control traffic 	Official
+654 	TCP 		Media Management System (MMS) Media Management Protocol (MMP)[27] 	Official
+657 	TCP 	UDP 	IBM RMC (Remote monitoring and Control) protocol, used by System p5 AIX Integrated Virtualization Manager (IVM)[28] and Hardware Management Console to connect managed logical partitions (LPAR) to enable dynamic partition reconfiguration 	Official
+660 	TCP 		Mac OS X Server administration 	Official
+666 	TCP 	UDP 	Doom, first online first-person shooter 	Official
+666 	TCP 		airserv-ng, aircrack-ng's server for remote-controlling wireless devices 	Unofficial
+674 	TCP 		ACAP (Application Configuration Access Protocol) 	Official
+688 	TCP 	UDP 	REALM-RUSD (ApplianceWare Server Appliance Management Protocol) 	Official
+691 	TCP 		MS Exchange Routing 	Official
+694 	TCP 	UDP 	Linux-HA High availability Heartbeat 	Official
+695 	TCP 		IEEE-MMS-SSL (IEEE Media Management System over SSL)[29] 	Official
+698 		UDP 	OLSR (Optimized Link State Routing) 	Official
+700 	TCP 		EPP (Extensible Provisioning Protocol), a protocol for communication between domain name registries and registrars (RFC 5734) 	Official
+701 	TCP 		LMP (Link Management Protocol (Internet)),[30] a protocol that runs between a pair of nodes and is used to manage traffic engineering (TE) links 	Official
+702 	TCP 		IRIS[31][32] (Internet Registry Information Service) over BEEP (Blocks Extensible Exchange Protocol)[33] (RFC 3983) 	Official
+706 	TCP 		Secure Internet Live Conferencing (SILC) 	Official
+711 	TCP 		Cisco Tag Distribution Protocol[34][35][36]—being replaced by the MPLS Label Distribution Protocol[37] 	Official
+712 	TCP 		Topology Broadcast based on Reverse-Path Forwarding routing protocol (TBRPF) (RFC 3684) 	Official
+749 	TCP 	UDP 	Kerberos (protocol) administration 	Official
+750 		UDP 	kerberos-iv, Kerberos version IV 	Official
+751 	TCP 	UDP 	kerberos_master, Kerberos authentication 	Unofficial
+752 		UDP 	passwd_server, Kerberos Password (kpasswd) server 	Unofficial
+753 	TCP 		Reverse Routing Header (rrh)[38] 	Official
+753 		UDP 	Reverse Routing Header (rrh) 	Official
+753 		UDP 	userreg_server, Kerberos userreg server 	Unofficial
+754 	TCP 		tell send 	Official
+754 	TCP 		krb5_prop, Kerberos v5 slave propagation 	Unofficial
+754 		UDP 	tell send 	Official
+760 	TCP 	UDP 	krbupdate [kreg], Kerberos registration 	Unofficial
+782 	TCP 		Conserver serial-console management server 	Unofficial
+783 	TCP 		SpamAssassin spamd daemon 	Unofficial
+800 		UDP 	mdbe daemon 	Official
+808 	TCP 		Microsoft Net.TCP Port Sharing Service 	Official
+829 	TCP 		Certificate Management Protocol[39] 	Unofficial
+843 	TCP 		Adobe Flash[40] 	Unofficial
+847 	TCP 		DHCP Failover protocol 	Official
+848 	TCP 	UDP 	Group Domain Of Interpretation (GDOI) protocol 	Official
+860 	TCP 		iSCSI (RFC 3720) 	Official
+861 	TCP 	UDP 	OWAMP control (RFC 4656) 	Official
+862 	TCP 	UDP 	TWAMP control (RFC 5357) 	Official
+873 	TCP 		rsync file synchronization protocol 	Official
+888 	TCP 		cddbp, CD DataBase (CDDB) protocol (CDDBP), IBM Endpoint Manager Remote Control 	Unofficial
+897 	TCP 	UDP 	Brocade SMI-S RPC 	Unofficial
+898 	TCP 	UDP 	Brocade SMI-S RPC SSL 	Unofficial
+901 	TCP 		Samba Web Administration Tool (SWAT) 	Unofficial
+901 	TCP 	UDP 	VMware Virtual Infrastructure Client (from managed device to management console) 	Unofficial
+902 	TCP 	UDP 	ideafarm-door (IdeaFarm (tm) Operations) 	Official
+902 	TCP 	UDP 	VMware Server Console (from management console to managed device) 	Unofficial
+903 	TCP 	UDP 	ideafarm-panic (IdeaFarm (tm) Operations) 	Official
+903 	TCP 		VMware Remote Console[41] 	Unofficial
+904 	TCP 		VMware Server Alternate (if 902 is in use, i.e. SUSE linux) 	Unofficial
+911 	TCP 		Network Console on Acid (NCA)—local tty redirection over OpenSSH 	Unofficial
+944 		UDP 	Network File System Service 	Unofficial
+953 	TCP 	UDP 	Domain Name System (DNS) RNDC Service 	Unofficial
+973 		UDP 	Network File System over IPv6 Service 	Unofficial
+981 	TCP 		SofaWare Technologies Remote HTTPS management for firewall devices running embedded Check Point FireWall-1 software 	Unofficial
+987 	TCP 		Microsoft Windows SBS SharePoint 	Unofficial
+989 	TCP 	UDP 	FTPS Protocol (data): FTP over TLS/SSL 	Official
+990 	TCP 	UDP 	FTPS Protocol (control): FTP over TLS/SSL 	Official
+991 	TCP 	UDP 	NAS (Netnews Administration System)[42] 	Official
+992 	TCP 	UDP 	TELNET protocol over TLS/SSL 	Official
+993 	TCP 		Internet Message Access Protocol over TLS/SSL (IMAPS) 	Official
+994 	TCP 	UDP 	Internet Relay Chat over TLS/SSL (IRCS) 	Official
+995 	TCP 		Post Office Protocol 3 over TLS/SSL (POP3S) 	Official
+999 	TCP 		ScimoreDB Database System 	Unofficial
+1002 	TCP 		Opsware agent (aka cogbot) 	Unofficial
+1010 	TCP 		ThinLinc Web Administration 	Unofficial
+1023 	TCP 	UDP 	Reserved[1] 	Official
+Registered ports
+	This article's use of external links may not follow Wikipedia's policies or guidelines. Please improve this article by removing excessive or inappropriate external links, and converting useful links where appropriate into footnote references. (October 2011)
+
+The range of port numbers from 1024 to 49151 are the registered ports. They are assigned by IANA for specific service upon application by a requesting entity.[1] On most systems, registered ports can be used by ordinary users.
+
+This is an incomplete list of notable ports. See the Service Name and Transport Protocol Port Number Registry of IANA for the complete list of assigned ports.
+Port 	TCP 	UDP 	Description 	Status
+1024 	TCP 	UDP 	Reserved[1] 	Official
+1025 	TCP 		NFS or IIS or Teradata 	Unofficial
+1026 	TCP 		Often used by Microsoft DCOM services 	Unofficial
+1027 	TCP 		Task Scheduler 	Unofficial
+1027 		UDP 	Native IPv6 behind IPv4-to-IPv4 NAT Customer Premises Equipment (6a44)[43] 	Official
+1029 	TCP 		Often used by Microsoft DCOM services 	Unofficial
+1030 	TCP 		services.exe 	Unofficial
+1058 	TCP 	UDP 	nim, IBM AIX Network Installation Manager (NIM) 	Official
+1059 	TCP 	UDP 	nimreg, IBM AIX Network Installation Manager (NIM) 	Official
+1064 	TCP 		lsass.exe 	Unofficial
+1080 	TCP 		SOCKS proxy 	Official
+1085 	TCP 	UDP 	WebObjects 	Official
+1098 	TCP 	UDP 	rmiactivation, RMI Activation 	Official
+1099 	TCP 	UDP 	rmiregistry, RMI Registry 	Official
+1109 	TCP 	UDP 	Reserved[1] 	Official
+1109 	TCP 		Kerberos Post Office Protocol (KPOP) 	Unofficial
+1110 		UDP 	EasyBits School network discovery protocol (for Intel's CMPC platform) 	Unofficial
+1119 	TCP 	UDP 	Used by some Blizzard games[44] 	Unofficial
+1140 	TCP 	UDP 	AutoNOC protocol 	Official
+1167 		UDP 	phone, conference calling 	Unofficial
+1169 	TCP 	UDP 	Tripwire 	Official
+1176 	TCP 		Perceptive Automation Indigo Home automation server—configuration and control access 	Official
+1182 	TCP 	UDP 	AcceleNet Intelligent Transfer Protocol 	Official
+1194 	TCP 	UDP 	OpenVPN 	Official
+1198 	TCP 	UDP 	The cajo project Free dynamic transparent distributed computing in Java 	Official
+1200 	TCP 		scol, protocol used by SCOL 3D virtual worlds server to answer world name resolution client request[45] 	Official
+1200 		UDP 	scol, protocol used by SCOL 3D virtual worlds server to answer world name resolution client request 	Official
+1200 		UDP 	Steam Friends Applet 	Unofficial
+1214 	TCP 		Kazaa 	Official
+1217 	TCP 		Uvora Online 	Unofficial
+1220 	TCP 		QuickTime Streaming Server administration 	Official
+1223 	TCP 	UDP 	TGP, TrulyGlobal Protocol, also known as "The Gur Protocol" (named for Gur Kimchi of TrulyGlobal) 	Official
+1232 	TCP 	UDP 	first-defense, Remote systems monitoring service from Nexum, Inc 	Official
+1234 		UDP 	VLC media player default port for UDP/RTP stream 	Unofficial
+1234 	TCP 		Mercurial and git default ports for serving Hyper Text 	Unofficial
+1236 	TCP 		Symantec BindView Control UNIX Default port for TCP management server connections 	Unofficial
+1241 	TCP 	UDP 	Nessus Security Scanner 	Official
+1270 	TCP 	UDP 	Microsoft System Center Operations Manager (SCOM) (formerly Microsoft Operations Manager (MOM)) agent 	Official
+1293 	TCP 	UDP 	IPSec (Internet Protocol Security) 	Official
+1301 	TCP 		Palmer Performance OBDNet 	Unofficial
+1306 	TCP 	UDP 	Boomerang 	Official
+1309 	TCP 		Altera Quartus jtagd 	Unofficial
+1311 	TCP 		Dell OpenManage HTTPS 	Official
+1313 	TCP 		Xbiim (Canvii server)[citation needed] 	Unofficial
+1314 	TCP 		Festival Speech Synthesis System 	Unofficial
+1319 	TCP 		AMX ICSP 	Official
+1319 		UDP 	AMX ICSP 	Official
+1337 	TCP 	UDP 	Men and Mice DNS 	Official
+1337 	TCP 		WASTE Encrypted File Sharing Program 	Unofficial
+1341 	TCP 	UDP 	Qubes (Manufacturing Execution System) 	Official
+1344 	TCP 		Internet Content Adaptation Protocol 	Official
+1352 	TCP 		IBM Lotus Notes/Domino (RPC) protocol 	Official
+1387 	TCP 	UDP 	cadsi-lm, LMS International (formerly Computer Aided Design Software, Inc. (CADSI)) LM 	Official
+1414 	TCP 		IBM WebSphere MQ (formerly known as MQSeries) 	Official
+1417 	TCP 	UDP 	Timbuktu Service 1 Port 	Official
+1418 	TCP 	UDP 	Timbuktu Service 2 Port 	Official
+1419 	TCP 	UDP 	Timbuktu Service 3 Port 	Official
+1420 	TCP 	UDP 	Timbuktu Service 4 Port 	Official
+1431 	TCP 		Reverse Gossip Transport Protocol (RGTP), used to access a General-purpose Reverse-Ordered Gossip Gathering System (GROGGS) bulletin board, such as that implemented on the Cambridge University's Phoenix system 	Official
+1433 	TCP 		MSSQL (Microsoft SQL Server database management system) Server 	Official
+1434 	TCP 	UDP 	MSSQL (Microsoft SQL Server database management system) Monitor 	Official
+1470 	TCP 		Solarwinds Kiwi Log Server 	Official
+1481 	TCP 	UDP 	AIRS 	Official
+1494 	TCP 	UDP 	Citrix XenApp Independent Computing Architecture (ICA) thin client protocol[46] 	Official
+1500 	TCP 		IBM Tivoli Storage Manager server 	Unofficial
+1500 	TCP 		NetGuard GuardianPro firewall (NT4-based) Remote Management 	Unofficial
+1501 	TCP 		IBM Tivoli Storage Manager client scheduler 	Unofficial
+1501 		UDP 	NetGuard GuardianPro firewall (NT4-based) Authentication Client 	Unofficial
+1503 	TCP 	UDP 	Windows Live Messenger (Whiteboard and Application Sharing) 	Unofficial
+1512 	TCP 	UDP 	Microsoft Windows Internet Name Service (WINS) 	Official
+1513 	TCP 	UDP 	Garena Garena Gaming Client 	Official
+1521 	TCP 		nCube License Manager, SQLnet 	Official
+1521 	TCP 		Oracle database default listener, in future releases official port 2483 	Unofficial
+1524 	TCP 	UDP 	ingreslock, ingres 	Official
+1526 	TCP 		Oracle database common alternative for listener 	Unofficial
+1527 	TCP 		Apache Derby Network Server default port 	Unofficial
+1533 	TCP 		IBM Sametime IM—Virtual Places Chat Microsoft SQL Server 	Official
+1534 		UDP 	Eclipse Target Communication Framework (TCF) agent discovery[47] 	Unofficial
+1547 	TCP 	UDP 	Laplink 	Official
+1550 	TCP 	UDP 	3m-image-lm Image Storage license manager 3M Company 	Official
+1550 			Gadu-Gadu (direct client-to-client) 	Unofficial
+1580 	TCP 		IBM Tivoli Storage Manager server web interface 	Unofficial
+1581 	TCP 		IBM Tivoli Storage Manager web client 	Unofficial
+1581 		UDP 	MIL STD 2045-47001 VMF 	Official
+1583 	TCP 		Pervasive PSQL 	Unofficial
+1589 		UDP 	Cisco VQP (VLAN Query Protocol) / VMPS 	Unofficial
+1590 	TCP 		GE Smallworld Datastore Server (SWMFS/Smallworld Master Filesystem)[citation needed] 	Unofficial
+1627 			iSketch[citation needed] 	Unofficial
+1628 	TCP 		LonWorks Remote Network Interface (RNI) 	Official
+1628 		UDP 	LonWorks IP tunneling (ANSI EIA/CEA-852, EN 14908-4) 	Official
+1629 	TCP 		Alternate LonWorks Remote Network Interface (RNI) 	Official
+1629 		UDP 	LonWorks IP tunneling configuration server (ANSI EIA/CEA-852, EN 14908-4) 	Official
+1645 	TCP 	UDP 	Old radius port, RADIUS authentication protocol. Enabled for compatibility reasons by default on Cisco and Juniper Networks RADIUS servers.[48] Official port is 1812. 	Unofficial
+1646 	TCP 	UDP 	Old radacct port, RADIUS accounting protocol. Enabled for compatibility reasons by default on Cisco and Juniper Networks RADIUS servers. Official port is 1813. 	Unofficial
+1666 	TCP 		Perforce 	Unofficial
+1677 	TCP 	UDP 	Novell GroupWise clients in client/server access mode 	Official
+1688 	TCP 		Microsoft Key Management Service for KMS Windows Activation 	Unofficial
+1700 		UDP 	Cisco RADIUS Change of Authorization for TrustSec[citation needed] 	Unofficial
+1701 		UDP 	Layer 2 Forwarding Protocol (L2F) & Layer 2 Tunneling Protocol (L2TP) 	Official
+1707 	TCP 	UDP 	Windward Studios 	Official
+1707 		TCP 	Romtoc Interactive Modular Multiplayer Client-Server Online Application Interface & Layer 2 Tunneling Protocol (L2TP) 	Unofficial
+1716 	TCP 		America's Army Massively multiplayer online game (MMO) 	Unofficial
+1719 		UDP 	H.323 Registration and alternate communication 	Official
+1720 	TCP 		H.323 Call signalling 	Official
+1723 	TCP 	UDP 	Microsoft Point-to-Point Tunneling Protocol (PPTP) 	Official
+1725 		UDP 	Valve Steam Client 	Unofficial
+1755 	TCP 	UDP 	Microsoft Media Services (MMS, ms-streaming) 	Official
+1761 		UDP 	cft-0 	Official
+1761 	TCP 		cft-0 	Official
+1761 	TCP 		Novell Zenworks Remote Control utility 	Unofficial
+1762–1768 	TCP 	UDP 	cft-1 to cft-7 	Official
+1776 	TCP 	UDP 	Federal Emergency Management Information Systemhttp://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xml 	Official
+1792 	TCP 	UDP 	Moby[citation needed] 	Unofficial
+1801 	TCP 	UDP 	Microsoft Message Queuing 	Official
+1812 	TCP 	UDP 	radius, RADIUS authentication protocol 	Official
+1813 	TCP 	UDP 	radacct, RADIUS accounting protocol 	Official
+1863 	TCP 		MSNP (Microsoft Notification Protocol), used by the Microsoft Messenger service and a number of Instant Messaging clients 	Official
+1883 	TCP 	UDP 	MQ Telemetry Transport (MQTT), formerly known as MQIsdp (MQSeries SCADA protocol) 	Official
+1886 	TCP 		Leonardo over IP Pro2col Ltd 	Unofficial
+1900 		UDP 	Microsoft SSDP Enables discovery of UPnP devices 	Official
+1920 	TCP 		IBM Tivoli monitoring console 	Unofficial
+1935 	TCP 		Adobe Systems Macromedia Flash Real Time Messaging Protocol (RTMP) "plain" protocol 	Official
+1947 	TCP 	UDP 	SentinelSRM (hasplm), Aladdin HASP License Manager 	Official
+1967 		UDP 	Cisco IOS IP Service Level Agreements (IP SLAs) Control Protocol[citation needed] 	Unofficial
+1972 	TCP 	UDP 	InterSystems Caché 	Official
+1975–1977 		UDP 	Cisco TCO (Documentation) 	Official
+1984 	TCP 		Big Brother and related Xymon (formerly Hobbit) System and Network Monitor 	Official
+1985 		UDP 	Cisco HSRP 	Official
+1992 - 1993 	TCP 	UDP 	Bobwillneverdie Multiplayer 	Unofficial
+1994 	TCP 	UDP 	Cisco STUN-SDLC (Serial Tunneling—Synchronous Data Link Control) protocol 	Official
+1997 	TCP 		Chizmo Networks Transfer Tool[citation needed] 	Unofficial
+1998 	TCP 	UDP 	Cisco X.25 over TCP (XOT) service 	Official
+2000 	TCP 	UDP 	Cisco SCCP (Skinny) 	Official
+2001 		UDP 	CAPTAN Test Stand System 	Unofficial
+2002 	TCP 		Secure Access Control Server (ACS) for Windows[citation needed] 	Unofficial
+2008 	TCP 		Stylex Secured server 	Unofficial
+2010 	TCP 		Artemis: Spaceship Bridge Simulator default port 	Unofficial
+2014 	TCP 		Remoticus 	Unofficial
+2030 			Oracle services for Microsoft Transaction Server 	Unofficial
+2031 	TCP 	UDP 	mobrien-chat(http://chat.mobrien.com:2031) 	Official
+2041 	TCP 		Mail. Ru Agent communication protocol[citation needed] 	Unofficial
+2049 	TCP 	UDP 	Network File System 	Official
+2049 		UDP 	shilp 	Official
+2053 	TCP 		knetd Kerberos de-multiplexor 	Unofficial
+2055 	TCP 	UDP 	Iliad-Odyssey Protocol 	Official
+2056 		UDP 	Civilization 4 multiplayer 	Unofficial
+2074 	TCP 	UDP 	Vertel VMF SA (i.e. App.. SpeakFreely) 	Official
+2080 	TCP 	UDP 	Autodesk NLM (FLEXlm) 	Official
+2082 	TCP 		Infowave Mobility Server 	Official
+2082 	TCP 		CPanel default 	Unofficial
+2083 	TCP 		Secure Radius Service (radsec) 	Official
+2083 	TCP 		CPanel default SSL 	Unofficial
+2086 	TCP 		GNUnet 	Official
+2086 	TCP 		WebHost Manager default 	Unofficial
+2087 	TCP 		WebHost Manager default SSL 	Unofficial
+2095 	TCP 		CPanel default Web mail 	Unofficial
+2096 	TCP 		CPanel default SSL Web mail 	Unofficial
+2100 	TCP 		Warzone 2100 multiplayer 	Unofficial
+2102 	TCP 	UDP 	zephyr-srv Project Athena Zephyr Notification Service server 	Official
+2103 	TCP 	UDP 	zephyr-clt Project Athena Zephyr Notification Service serv-hm connection 	Official
+2104 	TCP 	UDP 	zephyr-hm Project Athena Zephyr Notification Service hostmanager 	Official
+2105 	TCP 	UDP 	IBM MiniPay 	Official
+2105 	TCP 	UDP 	eklogin Kerberos encrypted remote login (rlogin) 	Unofficial
+2105 	TCP 	UDP 	zephyr-hm-srv Project Athena Zephyr Notification Service hm-serv connection (should use port 2102) 	Unofficial
+2115 	TCP 	UDP 	MIS Department 	Unofficial
+2121 	TCP 		FTP proxy[citation needed] 	Unofficial
+2142 		UDP 	TDMoIP (RFC 5087) 	Official
+2144 	TCP 		Iron Mountain LiveVault Agent[citation needed] 	Unofficial
+2145 	TCP 		Iron Mountain LiveVault Agent[citation needed] 	Unofficial
+2156 		UDP 	Talari Reliable Protocol 	Official
+2160 	TCP 		APC Agent 	Official
+2161 	TCP 		APC Agent 	Official
+2179 	TCP 		VMConnect to Hyper-V hosts 	Official
+2181 	TCP 	UDP 	EForward-document transport system 	Official
+2190 		UDP 	TiVoConnect Beacon[citation needed] 	Unofficial
+2195 	TCP 		Apple Push Notification service Link 	Unofficial
+2196 	TCP 		Apple Push Notification—Feedback Link 	Unofficial
+2200 		UDP 	Tuxanci game server[49] 	Unofficial
+2210 		UDP 	NOAAPORT Broadcast Network 	Official
+2210 	TCP 		NOAAPORT Broadcast Network 	Official
+2210 	TCP 		MikroTik Remote management for "The Dude" 	Unofficial
+2211 		UDP 	EMWIN 	Official
+2211 	TCP 		EMWIN 	Official
+2211 	TCP 		MikroTik Secure management for "The Dude" 	Unofficial
+2212 		UDP 	LeeCO POS Server Service 	Official
+2212 	TCP 		LeeCO POS Server Service 	Official
+2212 	TCP 		Port-A-Pour Remote WinBatch 	Unofficial
+2219 	TCP 	UDP 	NetIQ NCAP Protocol 	Official
+2220 	TCP 	UDP 	NetIQ End2End 	Official
+2221 	TCP 		ESET Anti-virus updates 	Unofficial
+2222 	TCP 		DirectAdmin default & ESET Remote Administration 	Unofficial
+2223 		UDP 	Microsoft Office OS X antipiracy network monitor[citation needed] 	Unofficial
+2261 	TCP 	UDP 	CoMotion Master 	Official
+2262 	TCP 	UDP 	CoMotion Backup 	Official
+2301 	TCP 		HP System Management Redirect to port 2381[citation needed] 	Unofficial
+2302 		UDP 	ArmA multiplayer (default for game) 	Unofficial
+2302 		UDP 	Halo: Combat Evolved multiplayer 	Unofficial
+2303 		UDP 	ArmA multiplayer (default for server reporting) (default port for game +1) 	Unofficial
+2305 		UDP 	ArmA multiplayer (default for VoN) (default port for game +3) 	Unofficial
+2323 	TCP 		Philips TVs based on jointSPACE[50] 	Unofficial
+2345 	TCP 		Default Used by Symon Communications - Symon2KpipeServer -can be changed by administrator to anything 	Unofficial
+2368 	TCP 		Used by Ghost Blogging Platform 	Unofficial
+2369 	TCP 		Default for BMC Software Control-M/Server—Configuration Agent, though often changed during installation 	Official
+2370 	TCP 		Default for BMC Software Control-M/Server—to allow the Control-M/Enterprise Manager to connect to the [[BMC
+
+Control-M|Control-M/Server]], though often changed during installation || Official
+2375 	TCP 		Docker REST API (plain) 	Official
+2376 	TCP 		Docker REST API (SSL) 	Official
+2379 	TCP 		KGS Go Server 	Unofficial
+2381 	TCP 		HP Insight Manager default for Web server[citation needed] 	Unofficial
+2399 	TCP 		FileMaker Data Access Layer (ODBC/JDBC) 	Official
+2401 	TCP 		CVS version control system 	Unofficial
+2404 	TCP 		IEC 60870-5 -104, used to send electric power telecontrol messages between two systems via directly connected data circuits 	Official
+2420 		UDP 	Westell Remote Access 	Official
+2424 	TCP 		OrientDB database listening for Binary client connections 	Official
+2427 		UDP 	Cisco MGCP 	Official
+2447 	TCP 	UDP 	ovwdb—OpenView Network Node Manager (NNM) daemon 	Official
+2463 	TCP 	UDP 	LSI RAID Management formerly Symbios Logic 	Official
+2480 	TCP 		OrientDB database listening for HTTP client connections 	Official
+2483 	TCP 	UDP 	Oracle database listening for unsecure client connections to the listener, replaces port 1521 	Official
+2484 	TCP 	UDP 	Oracle database listening for SSL client connections to the listener 	Official
+2500 	TCP 		THEÒSMESSENGER listening for TheòsMessenger client connections 	Official
+2501 	TCP 		TheosNet-Admin listening for TheòsMessenger client connections 	Official
+2518 	TCP 	UDP 	Willy 	Official
+2525 	TCP 		SMTP alternate[citation needed] 	Unofficial
+2535 	TCP 		MADCAP—Multicast Address Dynamic Client Allocation Protocol 	Official
+2540 	TCP 	UDP 	LNS/OpenLns Remote Server 	Official
+2541 	TCP 		LNS/OpenLns Remote Server 	Official
+2541 		UDP 	LonTalk/IP 	Official
+2546 	TCP 	UDP 	EVault data protection services 	Unofficial
+2593 	TCP 	UDP 	RunUO—Ultima Online server 	Unofficial
+2598 	TCP 		new ICA (Citrix) —when Session Reliability is enabled, TCP port 2598 replaces port 1494[46] 	Unofficial
+2599 	TCP 		SonicWALL anti-spam traffic between Remote Analyzer (RA) and Control Center (CC) 	Unofficial
+2610 	TCP 		TrackiT mobile device monitoring 	Unofficial
+2612 	TCP 	UDP 	QPasa from MQSoftware 	Official
+2636 	TCP 		Solve Service 	Official
+2638 	TCP 		SQL Anywhere database server[51][52] 	Official
+2641 	TCP 	UDP 	HDL Server from CNRI 	Official
+2642 	TCP 	UDP 	Tragic 	Official
+2698 	TCP 	UDP 	Citel / MCK IVPIP 	Official
+2700–2800 	TCP 		KnowShowGo P2P 	Official
+2703 	TCP 		Vipul's Razor distributed, collaborative, spam-detection-and-filtering network 	Unofficial
+2710 	TCP 		XBT Tracker 	Unofficial
+2710 		UDP 	XBT Tracker experimental UDP tracker extension 	Unofficial
+2710 	TCP 		Knuddels.de[citation needed] 	Unofficial
+2735 	TCP 	UDP 	NetIQ Monitor Console 	Official
+2809 	TCP 		corbaloc:iiop URL, per the CORBA 3.0.3 specification 	Official
+2809 	TCP 		IBM WebSphere Application Server (WAS) Bootstrap/rmi default 	Unofficial
+2809 		UDP 	corbaloc:iiop URL, per the CORBA 3.0.3 specification. 	Official
+2811 	TCP 		gsi ftp, per the GridFTP specification 	Official
+2827 	TCP 		I2P Basic Open Bridge API 	Unofficial
+2868 	TCP 	UDP 	Norman Proprietary Event Protocol NPEP 	Official
+2944 		UDP 	Megaco text H.248 	Unofficial
+2945 		UDP 	Megaco binary (ASN.1) H.248 	Unofficial
+2947 	TCP 		gpsd GPS daemon 	Official
+2948 	TCP 	UDP 	WAP-push Multimedia Messaging Service (MMS) 	Official
+2949 	TCP 	UDP 	WAP-pushsecure Multimedia Messaging Service (MMS) 	Official
+2967 	TCP 		Symantec AntiVirus Corporate Edition 	Unofficial
+3000 	TCP 		Miralix License server[citation needed] 	Unofficial
+3000 	TCP 		Cloud9 Integrated Development Environment server 	Unofficial
+3000 		UDP 	Distributed Interactive Simulation (DIS), modifiable default 	Unofficial
+3000 	TCP 		Ruby on Rails development default[53] 	Unofficial
+3000 	TCP 		Meteor development default[54] 	Unofficial
+3001 	TCP 		Miralix Phone Monitor[citation needed] 	Unofficial
+3001 	TCP 		Opsware server (Satellite) 	Unofficial
+3002 	TCP 		Miralix CSTA[citation needed] 	Unofficial
+3003 	TCP 		Miralix GreenBox API[citation needed] 	Unofficial
+3004 	TCP 		Miralix InfoLink[citation needed] 	Unofficial
+3005 	TCP 		Miralix TimeOut[citation needed] 	Unofficial
+3006 	TCP 		Miralix SMS Client Connector[citation needed] 	Unofficial
+3007 	TCP 		Miralix OM Server[citation needed] 	Unofficial
+3008 	TCP 		Miralix Proxy[citation needed] 	Unofficial
+3017 	TCP 		Miralix IVR and Voicemail[citation needed] 	Unofficial
+3020 	TCP 	UDP 	CIFS / SMB 	Official
+3025 	TCP 		netpd.org[citation needed] 	Unofficial
+3030 	TCP 	UDP 	NetPanzer 	Unofficial
+3040 	TCP 	UDP 	GoLabs Update Port / Project Open Cannibal Update Port 	Official
+3050 	TCP 	UDP 	gds_db (Interbase/Firebird) 	Official
+3051 	TCP 	UDP 	Galaxy Server (Gateway Ticketing Systems) 	Official
+3052 	TCP 	UDP 	APC PowerChute Network[1] 	Official
+3071 	TCP 	UDP 	Call of duty Black ops port 	Official
+3074 	TCP 	UDP 	Xbox LIVE and/or Games for Windows – Live 	Official
+3100 	TCP 		SMAUSA OpCon Scheduler as the default listen port[citation needed] 	Official
+3101 	TCP 		BlackBerry Enterprise Server communication to cloud 	Unofficial
+3119 	TCP 		D2000 Entis/Actis Application server 	Official
+3128 	TCP 		Web caches and the default for the Squid (software) 	Unofficial
+3128 	TCP 		Tatsoft default client connection[citation needed] 	Unofficial
+3141 	TCP 		devpi Python package server[55] 	Unofficial
+3162 	TCP 	UDP 	SFLM (Standard Floating License Manager) 	Official
+3225 	TCP 	UDP 	FCIP (Fiber Channel over Internet Protocol) 	Official
+3233 	TCP 	UDP 	WhiskerControl research control protocol 	Official
+3235 	TCP 	UDP 	Galaxy Network Service (Gateway Ticketing Systems) 	Official
+3260 	TCP 		iSCSI target 	Official
+3268 	TCP 	UDP 	msft-gc, Microsoft Global Catalog (LDAP service which contains data from Active Directory forests) 	Official
+3269 	TCP 	UDP 	msft-gc-ssl, Microsoft Global Catalog over SSL (similar to port 3268, LDAP over SSL) 	Official
+3283 	TCP 		Apple Remote Desktop reporting (officially Net Assistant, referring to an earlier product) 	Official
+3290 		UDP 	Used by VATSIM, the Virtual Air Traffic Simulation network for voice communication. 	Unofficial
+3299 	TCP 		SAP-Router (routing application proxy for SAP R/3) 	Unofficial
+3300 	TCP 	UDP 	Debate Gopher backend database system[citation needed] 	Unofficial
+3305 	TCP 	UDP 	odette-ftp, Odette File Transfer Protocol (OFTP) 	Official
+3306 	TCP 	UDP 	MySQL database system 	Official
+3313 	TCP 		Verisys file integrity monitoring software 	Unofficial
+3316 	TCP 		AzimuthVMS database port for the CCTV recording software AzimuthVMS 	Unofficial
+3333 	TCP 		Eggdrop, an IRC bot default port[56] 	Unofficial
+3333 	TCP 		Network Caller ID server 	Unofficial
+3333 	TCP 		CruiseControl.rb[57] 	Unofficial
+3386 	TCP 	UDP 	GTP' 3GPP GSM/UMTS CDR logging protocol 	Official
+3389 	TCP 	UDP 	Microsoft Terminal Server (RDP) officially registered as Windows Based Terminal (WBT)[58] 	Official
+3396 	TCP 	UDP 	Novell NDPS Printer Agent 	Official
+3412 	TCP 	UDP 	xmlBlaster 	Official
+3455 	TCP 	UDP 	[RSVP] Reservation Protocol 	Official
+3423 	TCP 		Xware xTrm Communication Protocol 	Official
+3424 	TCP 		Xware xTrm Communication Protocol over SSL 	Official
+3478 	TCP 	UDP 	STUN, a protocol for NAT traversal[59] 	Official
+3478 	TCP 	UDP 	TURN, a protocol for NAT traversal[60] 	Official
+3483 		UDP 	Slim Devices discovery protocol 	Official
+3483 	TCP 		Slim Devices SlimProto protocol 	Official
+3493 	TCP 	UDP 	Network UPS Tools (NUT) 	Official
+3516 	TCP 	UDP 	Smartcard Port 	Official
+3527 		UDP 	Microsoft Message Queuing 	Official
+3535 	TCP 		SMTP alternate[61] 	Unofficial
+3537 	TCP 	UDP 	ni-visa-remote[citation needed] 	Unofficial
+3544 		UDP 	Teredo tunneling 	Official
+3562 	TCP 	UDP 	SDBProxy Simple DataBase middle-ware and proxy 	Official
+3605 		UDP 	ComCam IO Port 	Official
+3606 	TCP 	UDP 	Splitlock Server 	Official
+3632 	TCP 		distributed compiler 	Official
+3659 		UDP 	Known to be used by [Battlefield 4] 	Official
+3689 	TCP 		Digital Audio Access Protocol (DAAP)—used by Apple’s iTunes and AirPort Express 	Official
+3690 	TCP 	UDP 	Subversion (SVN) version control system 	Official
+3702 	TCP 	UDP 	Web Services Dynamic Discovery (WS-Discovery), used by various components of Windows Vista and later 	Official
+3724 	TCP 	UDP 	Used by some Blizzard games[44] 	Official
+3724 	TCP 		Club Penguin Disney online game for kids 	Unofficial
+3725 	TCP 	UDP 	Netia NA-ER Port 	Official
+3768 	TCP 	UDP 	RBLcheckd server daemon 	Official
+3784 	TCP 	UDP 	VoIP program used by Ventrilo 	Unofficial
+3785 		UDP 	VoIP program used by Ventrilo 	Unofficial
+3799 		UDP 	RADIUS change of authorization 	Unofficial
+3800 	TCP 		Used by HGG programs[citation needed] 	Unofficial
+3804 	TCP 	UDP 	Used by Harman Professional HiQnet protocol 	Official
+3825 	TCP 		Used by RedSeal Networks client/server connection[citation needed] 	Unofficial
+3826 	TCP 	UDP 	WarMUX game server 	Official
+3826 	TCP 		Used by RedSeal Networks client/server connection[citation needed] 	Unofficial
+3835 	TCP 		Used by RedSeal Networks client/server connection[citation needed] 	Unofficial
+3841 	TCP 		ShipRush client/server communication 	Official
+3830 	TCP 	UDP 	System Management Agent, developed and used by Cerner to monitor and manage solutions 	Official
+3856 	TCP 	UDP 	ERP Server Application used by F10 Software 	unofficial
+3880 	TCP 	UDP 	IGRS 	Official
+3868 	TCP 	SCTP 	Diameter base protocol (RFC 3588) 	Official
+3872 	TCP 		Oracle Management Remote Agent[citation needed] 	Unofficial
+3899 	TCP 		Remote Administrator 	Unofficial
+3900 	TCP 		udt_os, IBM UniData UDT OS[62] 	Official
+3945 	TCP 	UDP 	EMCADS service, a Giritech product used by G/On 	Official
+3960 		UDP 	Warframe Online 	Unofficial
+3962 		UDP 	Warframe Online 	Unofficial
+3978 	TCP 	UDP 	OpenTTD game (masterserver and content service) 	Unofficial
+3979 	TCP 	UDP 	OpenTTD game 	Unofficial
+3999 	TCP 	UDP 	Norman distributed scanning service 	Official
+4000 	TCP 	UDP 	Diablo II game 	Unofficial
+4001 	TCP 		Microsoft Ants game 	Unofficial
+4007 	TCP 		PrintBuzzer printer monitoring socket server[citation needed] 	Unofficial
+4018 	TCP 	UDP 	protocol information and warnings 	Official
+4035 	TCP 	TCP 	IBM Rational Developer for System z Remote System Explorer Daemon 	Unofficial
+4045 	TCP 	UDP 	Solaris lockd NFS lock daemon/manager 	Unofficial
+4069 		UDP 	Minger Email Address Verification Protocol[63] 	Official
+4089 	TCP 	UDP 	OpenCORE Remote Control Service 	Official
+4093 	TCP 	UDP 	PxPlus Client server interface ProvideX 	Official
+4096 	TCP 	UDP 	Ascom Timeplex BRE (Bridge Relay Element) 	Official
+4100 			WatchGuard authentication applet default 	Unofficial
+4105 	TCP 	UDP 	Shofar (ShofarNexus) 	Official
+4111 	TCP 		Xgrid 	Official
+4116 	TCP 	UDP 	Smartcard-TLS 	Official
+4117 	TCP 		WatchGuard System Manager 	Unofficial
+4125 	TCP 		Microsoft Remote Web Workplace administration 	Unofficial
+4172 	TCP 	UDP 	Teradici PCoIP 	Official
+4190 	TCP 		ManageSieve[64] 	Official
+4201 	TCP 		TinyMUD and various derivatives 	Unofficial
+4226 	TCP 	UDP 	Aleph One (game) 	Unofficial
+4224 	TCP 		Cisco Audio Session Tunneling[citation needed] 	Unofficial
+4242 	TCP 		Reverse Battle Tetris 	Unofficial
+4242 	TCP 		Orthanc—default DICOM port 	Unofficial
+4242 	TCP 		Quassel distributed IRC client 	Unofficial
+4243 	TCP 		Commonly used by Docker implementations, redistributions, and setups[65][66][67] 	Unofficial
+4243 	TCP 		CrashPlan 	Unofficial
+4303 	TCP 	UDP 	Simple Railroad Command Protocol (SRCP) 	Official
+4321 	TCP 		Referral Whois (RWhois) Protocol[68] 	Official
+4323 		UDP 	Lincoln Electric's ArcLink/XT[citation needed] 	Unofficial
+4443 	TCP 	UDP 	Individual Zone Solutions P/L Remote Mail Checking Protocol 	Official
+4444 	TCP 	UDP 	Oracle WebCenter Content: Content Server—Intradoc Socket port. (formerly known as Oracle Universal Content Management). Port though often changed during installation Metasploit: Default listener port 	Unofficial
+4444–4445 	TCP 		I2P HTTP/S proxy 	Unofficial
+4486 	TCP 	UDP 	Integrated Client Message Service (ICMS) 	Official
+4500 		UDP 	IPSec NAT Traversal (RFC 3947) 	Official
+4502–4534 	TCP 		Microsoft Silverlight connectable ports under non-elevated trust 	Official
+4505 	TCP 		Salt master 	Unofficial
+4506 	TCP 		Salt master 	Unofficial
+4534 		UDP 	Armagetron Advanced default server port 	Unofficial
+4554 	TCP 		Default Wesk[69] Self-Hosting Port 	Unofficial
+4560 	TCP 		default Log4j socketappender port 	Unofficial
+4567 	TCP 		Sinatra default server port in development mode (HTTP) 	Unofficial
+4569 		UDP 	Inter-Asterisk eXchange (IAX2) 	Official
+4610–4640 	TCP 		QualiSystems TestShell Suite Services 	Unofficial
+4662 		UDP 	OrbitNet Message Service 	Official
+4662 	TCP 		OrbitNet Message Service 	Official
+4662 	TCP 		Default for older versions of eMule[70] 	Unofficial
+4664 	TCP 		Google Desktop Search 	Unofficial
+4672 		UDP 	Default for older versions of eMule[70] 	Unofficial
+4711 	TCP 		eMule optional web interface[70] 	Unofficial
+4711 	TCP 		McAfee Web Gateway 7—Default GUI Port HTTP[citation needed] 	Unofficial
+4712 	TCP 		McAfee Web Gateway 7—Default GUI Port HTTPS[citation needed] 	Unofficial
+4713 	TCP 		PulseAudio sound server 	Unofficial
+4728 	TCP 		Computer Associates Desktop and Server Management (DMP)/Port Multiplexer[71] 	Official
+4730 	TCP 	UDP 	Gearman' job server 	Official
+4732 		UDP 	Digital Airways' OHM server's commands to mobile devices (used mainly for binary SMS) 	Official
+4747 	TCP 		Apprentice 	Unofficial
+4750 	TCP 		BladeLogic Agent 	Unofficial
+4753 	TCP 	UDP 	SIMON (service and discovery) 	Official
+4840 	TCP 	UDP 	OPC UA TCP Protocol for OPC Unified Architecture from OPC Foundation 	Official
+4843 	TCP 	UDP 	OPC UA TCP Protocol over TLS/SSL for OPC Unified Architecture from OPC Foundation 	Official
+4847 	TCP 	UDP 	Web Fresh Communication, Quadrion Software & Odorless Entertainment 	Official
+4894 	TCP 	UDP 	LysKOM Protocol A 	Official
+4899 	TCP 	UDP 	Radmin remote administration tool 	Official
+4949 	TCP 		Munin Resource Monitoring Tool 	Official
+4950 	TCP 	UDP 	Cylon Controls UC32 Communications Port 	Official
+4982 	TCP 	UDP 	Solar Data Log (JK client app for PV solar inverters)[citation needed] 	Unofficial
+4993 	TCP 	UDP 	Home FTP Server web Interface Default Port[citation needed] 	Unofficial
+5000 	TCP 		commplex-main 	Official
+5000 	TCP 		UPnP—Windows network device interoperability 	Unofficial
+5000 	TCP 	UDP 	VTun—VPN Software 	Unofficial
+5000 		UDP 	FlightGear multiplayer[72] 	Unofficial
+5000 	TCP 		Synology Inc. Management Console, File Station, Audio Station 	Unofficial
+5000 	TCP 		Flask Development Webserver 	Unofficial
+5000 	TCP 		Heroku console access 	Official
+5001 	TCP 		commplex-link 	Official
+5001 	TCP 		Slingbox and Slingplayer 	Unofficial
+5001 	TCP 		Iperf (Tool for measuring TCP and UDP bandwidth performance) 	Unofficial
+5001 		UDP 	Iperf (Tool for measuring TCP and UDP bandwidth performance) 	Unofficial
+5001 	TCP 		Synology Inc. Secured Management Console, File Station, Audio Station 	Unofficial
+5002 	TCP 		ASSA ARX access control system[73] 	Unofficial
+5002 		UDP 	Drobo Dashboard[74] 	Unofficial
+5003 	TCP 	UDP 	FileMaker 	Official
+5004 	TCP 	UDP 	RTP (Real-time Transport Protocol) media data (RFC 3551, RFC 4571) 	Official
+5004 	DCCP 		RTP (Real-time Transport Protocol) media data (RFC 3551, RFC 4571) 	Official
+5005 	TCP 	UDP 	RTCP (Real-time Transport Protocol) control protocol (RFC 3551, RFC 4571) 	Official
+5005 	DCCP 		RTCP (Real-time Transport Protocol) control protocol (RFC 3551, RFC 4571) 	Official
+5010 	TCP 	UDP 	Registered to: TelePath (the IBM FlowMark workflow-management system messaging platform)[75]
+The TCP port is now used for: IBM WebSphere MQ Workflow 	Official
+5011 	TCP 	UDP 	TelePath (the IBM FlowMark workflow-management system messaging platform)[75] 	Official
+5029 	TCP 		Sonic Robo Blast 2 : Multiplayer[76] 	Unofficial
+5031 	TCP 	UDP 	AVM CAPI-over-TCP (ISDN over Ethernet tunneling)[citation needed] 	Unofficial
+5037 	TCP 		Android ADB server 	Unofficial
+5050 	TCP 		Yahoo! Messenger 	Unofficial
+5051 	TCP 		ita-agent Symantec Intruder Alert[77] 	Official
+5060 	TCP 	UDP 	Session Initiation Protocol (SIP) 	Official
+5061 	TCP 		Session Initiation Protocol (SIP) over TLS 	Official
+5062 	TCP 	UDP 	Localisation access 	Official
+5064 	TCP 	UDP 	EPICS Channel Access Server[78] 	Official
+5065 	TCP 	UDP 	EPICS Channel Access Repeater Beacon[79] 	Official
+5070 	TCP 		Binary Floor Control Protocol (BFCP)[80] 	Unofficial
+5082 	TCP 	UDP 	Qpur Communication Protocol 	Official
+5083 	TCP 	UDP 	Qpur File Protocol 	Official
+5084 	TCP 	UDP 	EPCglobal Low Level Reader Protocol (LLRP) 	Official
+5085 	TCP 	UDP 	EPCglobal Low Level Reader Protocol (LLRP) over TLS 	Official
+5093 		UDP 	SafeNet, Inc Sentinel LM, Sentinel RMS, License Manager, Client-to-Server 	Official
+5099 	TCP 	UDP 	SafeNet, Inc Sentinel LM, Sentinel RMS, License Manager, Server-to-Server 	Official
+5104 	TCP 		IBM Tivoli Framework NetCOOL/Impact[81] HTTP Service 	Unofficial
+5106 	TCP 		A-Talk Common connection[citation needed] 	Unofficial
+5107 	TCP 		A-Talk Remote server connection[citation needed] 	Unofficial
+5108 	TCP 		VPOP3 Mail Server Webmail[citation needed] 	Unofficial
+5109 	TCP 	UDP 	VPOP3 Mail Server Status[citation needed] 	Unofficial
+5110 	TCP 		ProRat Server 	Unofficial
+5121 	TCP 		Neverwinter Nights 	Unofficial
+5124 	TCP 	UDP 	TorgaNET (Micronational Darknet) 	Unofficial
+5125 	TCP 	UDP 	TorgaNET (Micronational Intelligence Darknet) 	Unofficial
+5150 	TCP 	UDP 	ATMP Ascend Tunnel Management Protocol[82] 	Official
+5150 	TCP 	UDP 	Malware Cerberus RAT[citation needed] 	Unofficial
+5151 	TCP 		ESRI SDE Instance 	Official
+5151 		UDP 	ESRI SDE Remote Start 	Official
+5154 	TCP 	UDP 	BZFlag 	Official
+5176 	TCP 		ConsoleWorks default UI interface[citation needed] 	Unofficial
+5190 	TCP 		ICQ and AOL Instant Messenger 	Official
+5222 	TCP 		Extensible Messaging and Presence Protocol (XMPP) client connection[83][84] 	Official
+5223 	TCP 		Extensible Messaging and Presence Protocol (XMPP) client connection over SSL 	Unofficial
+5228 	TCP 		HP Virtual Room Service 	Official
+5228 	TCP 		Google Play, Android Cloud to Device Messaging Service, Google Cloud Messaging 	Unofficial
+5246 		UDP 	Control And Provisioning of Wireless Access Points (CAPWAP) CAPWAP control[85] 	Official
+5247 		UDP 	Control And Provisioning of Wireless Access Points (CAPWAP) CAPWAP data[85] 	Official
+5269 	TCP 		Extensible Messaging and Presence Protocol (XMPP) server connection[83][84] 	Official
+5280 	TCP 		Extensible Messaging and Presence Protocol (XMPP) XEP-0124: Bidirectional-streams Over Synchronous HTTP (BOSH) 	Official
+5281 	TCP 		Undo License Manager 	Official
+5281 	TCP 		Extensible Messaging and Presence Protocol (XMPP)[86] 	Unofficial
+5298 	TCP 	UDP 	Extensible Messaging and Presence Protocol (XMPP)[87] 	Official
+5310 	TCP 	UDP 	Outlaws (1997 video game). Both UDP and TCP are reserved, but only UDP is used 	Official
+5349 	TCP 		STUN, a protocol for NAT traversal (UDP is reserved)[59] 	Official
+5349 	TCP 		TURN, a protocol for NAT traversal (UDP is reserved)[60] 	Official
+5351 	TCP 	UDP 	NAT Port Mapping Protocol—client-requested configuration for inbound connections through network address translators 	Official
+5353 		UDP 	Multicast DNS (mDNS) 	Official
+5355 	TCP 	UDP 	LLMNR—Link-Local Multicast Name Resolution, allows hosts to perform name resolution for hosts on the same local link (only provided by Windows Vista and Server 2008) 	Official
+5357 	TCP 	UDP 	Web Services for Devices (WSDAPI) (only provided by Windows Vista, Windows 7 and Server 2008) 	Unofficial
+5358 	TCP 	UDP 	WSDAPI Applications to Use a Secure Channel (only provided by Windows Vista, Windows 7 and Server 2008) 	Unofficial
+5394 		UDP 	Kega Fusion, a Sega multi-console emulator[88][89] 	Unofficial
+5402 	TCP 	UDP 	mftp, Stratacache[90] OmniCast content delivery system MFTP file sharing protocol 	Official
+5405 	TCP 	UDP 	NetSupport Manager 	Official
+5412 	TCP 	UDP 	IBM Rational Synergy (Telelogic Synergy) (Continuus CM) Message Router 	Official
+5413 	TCP 	UDP 	Wonderware SuiteLink service 	Official
+5421 	TCP 	UDP 	NetSupport Manager 	Official
+5432 	TCP 	UDP 	PostgreSQL database system 	Official
+5433 	TCP 		Bouwsoft file/webserver[91] 	Unofficial
+5445 		UDP 	Cisco Unified Video Advantage[citation needed] 	Unofficial
+5450 	TCP 		OSIsoft PI Server Client Access 	Unofficial
+5454 	TCP 		OSIsoft PI Asset Framework 1.x Client Access 	Unofficial
+5455 	TCP 		OSIsoft PI Asset Framework 1.x Client Access 	Unofficial
+5457 	TCP 		OSIsoft PI Asset Framework 2.x Client Access 	Unofficial
+5458 	TCP 		OSIsoft PI Notifications Client Access 	Unofficial
+5459 	TCP 		OSIsoft PI Asset Framework 2.x Client Access 	Unofficial
+5480 	TCP 		VMware VAMI (Virtual Appliance Management Infrastructure)—used for initial setup of various administration settings on Virtual Appliances designed using the VAMI architecture. 	Unofficial
+5495 	TCP 		IBM Cognos TM1 Admin server 	Unofficial
+5498 	TCP 		Hotline tracker server connection 	Unofficial
+5499 		UDP 	Hotline tracker server discovery 	Unofficial
+5500 	TCP 		VNC remote desktop protocol—for incoming listening viewer, Hotline control connection 	Unofficial
+5501 	TCP 		Hotline file transfer connection 	Unofficial
+5517 	TCP 		Setiqueue Proxy server client for SETI@Home project 	Unofficial
+5550 	TCP 		Hewlett-Packard Data Protector[citation needed] 	Unofficial
+5555 	TCP 	UDP 	Oracle WebCenter Content: Inbound Refinery—Intradoc Socket port. (formerly known as Oracle Universal Content Management). Port though often changed during installation 	Unofficial
+5555 	TCP 		Freeciv versions up to 2.0, Hewlett-Packard Data Protector, McAfee EndPoint Encryption Database Server, SAP, Default for Microsoft Dynamics CRM 4.0 	Unofficial
+5556 	TCP 	UDP 	Freeciv, Oracle WebLogic Server Node Manager[92] 	Official
+5591 	TCP 		Default for Tidal Enterprise Scheduler master-Socket used for communication between Agent-to-Master, though can be changed[citation needed] 	Unofficial
+5631 	TCP 		pcANYWHEREdata, Symantec pcAnywhere (version 7.52 and later[93])[94] data 	Official
+5632 		UDP 	pcANYWHEREstat, Symantec pcAnywhere (version 7.52 and later) status 	Official
+6541 	TCP 		MirrorOp2 (default) 	Unofficial
+6542 	TCP 		MirrorOp2 (fallback) 	Unofficial
+5656 	TCP 		IBM Lotus Sametime p2p file transfer 	Unofficial
+5666 	TCP 		NRPE (Nagios) 	Unofficial
+5667 	TCP 		NSCA (Nagios) 	Unofficial
+5672 	TCP 		AMQP[95] 	Official
+5678 		UDP 	Mikrotik RouterOS Neighbor Discovery Protocol (MNDP) 	Unofficial
+5683 		UDP 	Constrained Application Protocol (CoAP) 	Official
+5718 	TCP 		Microsoft DPM Data Channel (with the agent coordinator) 	Unofficial
+5719 	TCP 		Microsoft DPM Data Channel (with the protection agent) 	Unofficial
+5721 	TCP 	UDP 	Kaseya[citation needed] 	Unofficial
+5723 	TCP 		System Center Operations Manager[96] 	Unofficial
+5724 	TCP 		Operations Manager Console 	Unofficial
+5741 	TCP 	UDP 	IDA Discover Port 1 	Official
+5742 	TCP 	UDP 	IDA Discover Port 2 	Official
+5800 	TCP 		VNC remote desktop protocol—for use over HTTP 	Unofficial
+5814 	TCP 	UDP 	Hewlett-Packard Support Automation (HP OpenView Self-Healing Services)[citation needed] 	Official
+5850 	TCP 		COMIT SE (PCR)[citation needed] 	Unofficial
+5852 	TCP 		Adeona client: communications to OpenDHT[citation needed] 	Unofficial
+5900 	TCP 	UDP 	Remote Frame Buffer protocol (RFB), Virtual Network Computing (VNC) remote desktop protocol[97] 	Official
+5912 	TCP 		Default for Tidal Enterprise Scheduler agent-Socket used for communication between Master-to-Agent, though can be changed[citation needed] 	Unofficial
+5931 	TCP 	UDP 	AMMYY admin Remote Control 	Official
+5938 	TCP 	UDP 	TeamViewer remote desktop protocol[98] 	Unofficial
+5984 	TCP 	UDP 	CouchDB database server 	Official
+5985 	TCP 		Windows PowerShell Default psSession Port[99] 	official
+5986 	TCP 		Windows PowerShell Default psSession Port[99] 	official
+5999 	TCP 		CVSup file update tool[100] 	Official
+6000 	TCP 		X11—used between an X client and server over the network 	Official
+6001 		UDP 	X11—used between an X client and server over the network 	Official
+6005 	TCP 		Default for BMC Software Control-M/Server—Socket used for communication between Control-M processes—though often changed during installation 	Official
+6005 	TCP 		Default for Camfrog chat & cam client 	Unofficial
+6009 	TCP 		JD Edwards EnterpriseOne ERP system JDENet messaging client listener 	Unofficial
+6050 	TCP 		Arcserve backup 	Unofficial
+6050 	TCP 		Nortel software[citation needed] 	Unofficial
+6051 	TCP 		Arcserve backup 	Unofficial
+6072 	TCP 		iOperator Protocol Signal Port[citation needed] 	Unofficial
+6086 	TCP 		PDTP—FTP like file server in a P2P network 	Official
+6100 	TCP 		Vizrt System 	Unofficial
+6100 	TCP 		Ventrilo This is the authentication port that must be allowed outbound for version 3 of Ventrilo 	Official
+6101 	TCP 		Backup Exec Agent Browser[citation needed] 	Unofficial
+6110 	TCP 	UDP 	softcm, HP Softbench CM 	Official
+6111 	TCP 	UDP 	spc, HP Softbench Sub-Process Control 	Official
+6112 		UDP 	"dtspcd"—a network daemon that accepts requests from clients to execute commands and launch applications remotely 	Official
+6112 	TCP 		"dtspcd"—a network daemon that accepts requests from clients to execute commands and launch applications remotely 	Official
+6112 	TCP 		Blizzard's Battle.net gaming service and some games,[44] ArenaNet gaming service, Relic gaming service 	Unofficial
+6112 	TCP 		Club Penguin Disney online game for kids 	Unofficial
+6113 	TCP 		Club Penguin Disney online game for kids, Used by some Blizzard games[44] 	Unofficial
+6129 	TCP 		DameWare Remote Control 	Official
+6159 	TCP 		ARINC 840 EFB Application Control Interface 	Official
+6200 	TCP 		Oracle WebCenter Content Portable: Content Server (With Native UI) and Inbound Refinery 	Unofficial
+6201 	TCP 		Oracle WebCenter Content Portable: Admin 	Unofficial
+6225 	TCP 		Oracle WebCenter Content Portable: Content Server Web UI 	Unofficial
+6227 	TCP 		Oracle WebCenter Content Portable: JavaDB 	Unofficial
+6230 	TCP 		CodengerDev Server 	Unofficial
+6240 	TCP 		Oracle WebCenter Content Portable: Capture 	Unofficial
+6244 	TCP 	UDP 	Oracle WebCenter Content Portable: Content Server—Intradoc Socket port 	Unofficial
+6255 	TCP 	UDP 	Oracle WebCenter Content Portable: Inbound Refinery—Intradoc Socket port 	Unofficial
+6257 		UDP 	WinMX (see also 6699) 	Unofficial
+6260 	TCP 	UDP 	planet M.U.L.E. 	Unofficial
+6262 	TCP 		Sybase Advantage Database Server 	Unofficial
+6324 	TCP 	UDP 	Hall Research Device discovery and configuration 	Official
+6343 		UDP 	SFlow, sFlow traffic monitoring 	Official
+6346 	TCP 	UDP 	gnutella-svc, gnutella (FrostWire, Limewire, Shareaza, etc.) 	Official
+6347 	TCP 	UDP 	gnutella-rtr, Gnutella alternate 	Official
+6350 	TCP 	UDP 	App Discovery and Access Protocol 	Official
+6379 	TCP 		Default port for the Redis key-value data store 	Unofficial
+6389 	TCP 		EMC CLARiiON 	Unofficial
+6432 	TCP 		PgBouncer—A connection pooler for PostgreSQL 	Official
+6436 	TCP 		Leap Motion Websocket Server TLS 	Unofficial
+6437 	TCP 		Leap Motion Websocket Server 	Unofficial
+6444 	TCP 	UDP 	Sun Grid Engine—Qmaster Service 	Official
+6445 	TCP 	UDP 	Sun Grid Engine—Execution Service 	Official
+6514 	TCP 		Syslog over TLS[101] 	Official
+6515 	TCP 	UDP 	Elipse RPC Protocol (REC) 	Official
+6522 	TCP 		Gobby (and other libobby-based software) 	Unofficial
+6523 	TCP 		Gobby 0.5 (and other libinfinity-based software) 	Unofficial
+6543 	TCP 		Pylons project#Pyramid Default Pylons Pyramid web service port 	Unofficial
+6543 		UDP 	Paradigm Research & Development Jetnet[102] default 	Unofficial
+6566 	TCP 		SANE (Scanner Access Now Easy)—SANE network scanner daemon[103] 	Official
+6560–6561 	TCP 		Speech-Dispatcher daemon 	Unofficial
+6571 			Windows Live FolderShare client 	Unofficial
+6600 	TCP 		Microsoft Hyper-V Live 	Official
+6600 	TCP 		Music Player Daemon (MPD) 	Unofficial
+6601 	TCP 		Microsoft Forefront Threat Management Gateway 	Official
+6602 	TCP 		Microsoft Windows WSS Communication 	Official
+6619 	TCP 	UDP 	odette-ftps, Odette File Transfer Protocol (OFTP) over TLS/SSL 	Official
+6622 	TCP 	UDP 	Multicast FTP 	Official
+6646 		UDP 	McAfee Network Agent[citation needed] 	Unofficial
+6653 	TCP 		Openflow 1.3 	Official
+6660–6664 	TCP 		Internet Relay Chat (IRC) 	Unofficial
+6665–6669 	TCP 		Internet Relay Chat (IRC) 	Official
+6679 	TCP 	UDP 	Osorno Automation Protocol (OSAUT) 	Official
+6679 	TCP 		IRC SSL (Secure Internet Relay Chat)—often used 	Unofficial
+6697 	TCP 		IRC SSL (Secure Internet Relay Chat)—often used 	Official
+6699 	TCP 		WinMX (see also 6257) 	Unofficial
+6702 	TCP 		Default for Tidal Enterprise Scheduler client-Socket used for communication between Client-to-Master, though can be changed[citation needed] 	Unofficial
+6715 	TCP 		AberMUD and derivatives default port 	Unofficial
+6771 		UDP 	Polycom server broadcast[citation needed] 	Unofficial
+6783 	TCP 		Splashtop Remote server broadcast 	Unofficial
+6784 	TCP 		Splashtop Remote server broadcast 	Unofficial
+6785 	TCP 		Splashtop Remote server broadcast 	Unofficial
+6789 	TCP 		Campbell Scientific Loggernet Software[104] 	Unofficial
+6789 	TCP 		Bucky's Instant Messaging Program 	Unofficial
+6881–6887 	TCP 	UDP 	BitTorrent part of full range of ports used most often 	Unofficial
+6888 	TCP 	UDP 	MUSE 	Official
+6888 	TCP 	UDP 	BitTorrent part of full range of ports used most often 	Unofficial
+6889–6890 	TCP 	UDP 	BitTorrent part of full range of ports used most often 	Unofficial
+6891–6900 	TCP 	UDP 	BitTorrent part of full range of ports used most often 	Unofficial
+6891–6900 	TCP 	UDP 	Windows Live Messenger (File transfer) 	Unofficial
+6901 	TCP 	UDP 	Windows Live Messenger (Voice) 	Unofficial
+6901 	TCP 	UDP 	BitTorrent part of full range of ports used most often 	Unofficial
+6902–6968 	TCP 	UDP 	BitTorrent part of full range of ports used most often 	Unofficial
+6969 	TCP 	UDP 	acmsoda 	Official
+6969 	TCP 		BitTorrent tracker 	Unofficial
+6970–6999 	TCP 	UDP 	BitTorrent part of full range of ports used most often 	Unofficial
+7000 	TCP 		Default for Vuze's built in HTTPS Bittorrent Tracker 	Unofficial
+7000 	TCP 		Avira Server Management Console 	Unofficial
+7001 	TCP 		Avira Server Management Console 	Unofficial
+7001 	TCP 		Default for BEA WebLogic Server's HTTP server, though often changed during installation 	Unofficial
+7002 	TCP 		Default for BEA WebLogic Server's HTTPS server, though often changed during installation 	Unofficial
+7005 	TCP 		Default for BMC Software Control-M/Server and Control-M/Agent for Agent-to-Server, though often changed during installation 	Unofficial
+7006 	TCP 		Default for BMC Software Control-M/Server and Control-M/Agent for Server-to-Agent, though often changed during installation 	Unofficial
+7010 	TCP 		Default for Cisco AON AMC (AON Management Console)[105] 	Unofficial
+7022 	TCP 		Database mirroring endpoints[106] 	Unofficial
+7023 		UDP 	Bryan Wilcutt T2-NMCS Protocol for SatCom Modems 	Official
+7025 	TCP 		Zimbra LMTP [mailbox]—local mail delivery 	Unofficial
+7047 	TCP 		Zimbra conversion server 	Unofficial
+7080 			Sepialine Argos Communications port 	Unofficial
+7133 	TCP 		Enemy Territory: Quake Wars 	Unofficial
+7144 	TCP 		Peercast[citation needed] 	Unofficial
+7145 	TCP 		Peercast[citation needed] 	Unofficial
+7171 	TCP 		Tibia 	Unofficial
+7262 	TCP 	UDP 	CNAP (Calypso Network Access Protocol) 	Official
+7306 	TCP 		Zimbra mysql [mailbox][citation needed] 	Unofficial
+7307 	TCP 		Zimbra mysql [logger][citation needed] 	Unofficial
+7312 		UDP 	Sibelius License Server 	Unofficial
+7396 	TCP 		Web control interface for Folding@home v7.3.6 and later[107] 	Unofficial
+7400 	TCP 	UDP 	RTPS (Real Time Publish Subscribe) DDS Discovery 	Official
+7401 	TCP 	UDP 	RTPS (Real Time Publish Subscribe) DDS User-Traffic 	Official
+7402 	TCP 	UDP 	RTPS (Real Time Publish Subscribe) DDS Meta-Traffic 	Official
+7471 	TCP 		Stateless Transport Tunneling (STT) 	Unofficial
+7473 	TCP 		Rise: The Vieneo Province 	Official
+7474 	TCP 		Neo4J Server webadmin[108] 	Official
+7509 	TCP 		ACPLT - process automation service 	Official
+7547 	TCP 	UDP 	CPE WAN Management Protocol Technical Report 069 	Official
+7575 		UDP 	Populous: The Beginning server 	Unofficial
+7624 	TCP 	UDP 	Instrument Neutral Distributed Interface 	Official
+7631 	TCP 		ERLPhase 	Official
+7634 	TCP 		hddtemp—Utility to monitor hard drive temperature 	Unofficial
+7652–7654 	TCP 		I2P anonymizing overlay network 	Unofficial
+7655 		UDP 	I2P SAM Bridge Socket API 	Unofficial
+7656–7660 	TCP 		I2P anonymizing overlay network 	Unofficial
+7670 	TCP 		BrettspielWelt BSW Boardgame Portal 	Unofficial
+7676 	TCP 		Aqumin AlphaVision Remote Command Interface[citation needed] 	Unofficial
+7700 		UDP 	P2P DC (RedHub)[citation needed] 	Unofficial
+7707 		UDP 	Killing Floor 	Unofficial
+7708 		UDP 	Killing Floor 	Unofficial
+7717 		UDP 	Killing Floor 	Unofficial
+7777 	TCP 		iChat server file transfer proxy 	Unofficial
+7777 	TCP 		Oracle Cluster File System 2[citation needed] 	Unofficial
+7777 	TCP 		Windows backdoor program tini.exe default[citation needed] 	Unofficial
+7777 	TCP 		Just Cause 2: Multiplayer Mod Server[citation needed] 	Unofficial
+7777 	TCP 		Xivio default Chat Server[citation needed] 	Unofficial
+7777 	TCP 		Terraria default server 	Unofficial
+7777 		UDP 	San Andreas Multiplayer default server 	Unofficial
+7778 	TCP 		Bad Trip MUD[citation needed] 	Unofficial
+7777–7788 		UDP 	Unreal Tournament series default server[citation needed] 	Unofficial
+7777–7788 	TCP 		Unreal Tournament series default server[citation needed] 	Unofficial
+7787–7788 	TCP 		GFI EventsManager 7 & 8[citation needed] 	Official
+7831 	TCP 		Default used by Smartlaunch Internet Cafe Administration[109] software 	Unofficial
+7880 	TCP 	UDP 	PowerSchool Gradebook Server[citation needed] 	Unofficial
+7890 	TCP 		Default that will be used by the iControl Internet Cafe Suite Administration software 	Unofficial
+7915 	TCP 		Default for YSFlight server[110] 	Unofficial
+7935 	TCP 		Fixed port used for Adobe Flash Debug Player to communicate with a debugger (Flash IDE, Flex Builder or fdb).[111] 	Unofficial
+7937–9936 	TCP 	UDP 	EMC2 (Legato) Networker or Sun Solstice Backup 	Official
+8000 		UDP 	iRDMI (Intel Remote Desktop Management Interface)[112]—sometimes erroneously used instead of port 8080 	Official
+8000 	TCP 		iRDMI (Intel Remote Desktop Management Interface)[112]—sometimes erroneously used instead of port 8080 	Official
+8000 	TCP 		Commonly used for internet radio streams such as those using SHOUTcast 	Unofficial
+8000 	TCP 		Splunk web-interface 	Unofficial
+8000 	TCP 		FreemakeVideoCapture service a part of Freemake Video Downloader[113] 	Unofficial
+8000 	TCP 		Nortel Contivity Router Firewall User Authentication (FWUA) default port number 	Unofficial
+8001 	TCP 		Commonly used for internet radio streams such as those using SHOUTcast 	Unofficial
+8002 	TCP 		Cisco Systems Unified Call Manager Intercluster[citation needed] 	Unofficial
+8005 	TCP 		Apache Tomcat's Shutdown port 	Unofficial
+8006 	TCP 		Dell AppAssure 5 API and Replication[114] 	Official
+8007 	TCP 		Dell AppAssure 5 Engine[114] 	Official
+8008 	TCP 		HTTP Alternate 	Official
+8008 	TCP 		IBM HTTP Server administration default 	Unofficial
+8009 	TCP 		ajp13—Apache JServ Protocol AJP Connector 	Unofficial
+8010 	TCP 		XMPP File transfers 	Unofficial
+8011–8013 	TCP 		HTTP/TCP Symon Communications Event and Query Engine[citation needed] 	Unofficial
+8014 	TCP 		HTTP/TCP Symon Communications Event and Query Engine[citation needed] 	Unofficial
+8014 	TCP 	UDP 	Perseus SDR Receiver default remote connection port[citation needed] 	Unofficial
+8020 	TCP 		360Works SuperContainer[115] 	Unofficial
+8042 	TCP 		Orthanc—Default HTTP Port for GUI 	Unofficial
+8069 	TCP 		OpenERP Default HTTP port (web interface and xmlrpc calls) 	Unofficial
+8070 	TCP 		OpenERP Legacy netrpc protocol 	Unofficial
+8074 	TCP 		Gadu-Gadu 	Unofficial
+8075 	TCP 		Killing Floor 	Unofficial
+8078 	TCP 	UDP 	Default port for most Endless Online-based servers[citation needed] 	Unofficial
+8080 	TCP 		HTTP alternate (http_alt)—commonly used for Web proxy and caching server, or for running a Web server as a non-root user 	Official
+8080 	TCP 		Apache Tomcat 	Unofficial
+8080 	TCP 		M2MLogger WebFRONT Cloud connector 	Unofficial
+8080 	TCP 		Syncthing web GUI 	Unofficial
+8080 		UDP 	FilePhile Master/Relay 	Unofficial
+8080 	TCP 		Vermont Systems / RecTrac Vermont Systems RecTrac (WebTrac) network installer 	Unofficial
+8081 	TCP 		HTTP alternate, VibeStreamer, e.g. McAfee ePolicy Orchestrator (ePO) 	Unofficial
+8083 		UDP 	Transporter Connected Data, Inc. 	Unofficial
+8086 	TCP 		HELM Web Host Automation Windows Control Panel 	Unofficial
+8086 	TCP 		Kaspersky AV Control Center 	Unofficial
+8087 	TCP 		Hosting Accelerator Control Panel 	Unofficial
+8087 	TCP 		Parallels Plesk Control Panel 	Unofficial
+8087 		UDP 	Kaspersky AV Control Center 	Unofficial
+8088 	TCP 		Asterisk (PBX) Web Configuration utility (GUI Addon) 	Unofficial
+8089 	TCP 		Splunk REST API endpoint. This port is NOT used for any forwarding or indexing. It is used only for command and control functions. 	Unofficial
+8089 	TCP 		AVM Fritzbox for automatic tr069 configuration. 	Unofficial
+8090 	TCP 		Atlassian Confluence (default port) [116]
+8090 	TCP 		Coral Content Distribution Network (deprecated; 80 and 8080 now supported)[117] 	Unofficial
+8091 	TCP 		CouchBase Web Administration 	Unofficial
+8092 	TCP 		CouchBase API 	Unofficial
+8100 	TCP 		Console Gateway License Verification 	Unofficial
+8111 	TCP 		JOSM Remote Control 	Unofficial
+8112 	TCP 		PAC Pacifica Coin 	Unofficial
+8116 		UDP 	Check Point Cluster Control Protocol 	Unofficial
+8118 	TCP 		Privoxy—advertisement-filtering Web proxy 	Official
+8123 	TCP 		Polipo Web proxy 	Official
+8123 	TCP 		Bukkit DynMap Default Webserver Bind Address 	Unofficial
+8139 	TCP 		Puppet (software) Client agent 	Unofficial
+8140 	TCP 		Puppet (software) Master server 	Unofficial
+8176 	TCP 		Perceptive Automation Indigo Home automation server—control access 	Unofficial
+8184 	TCP 		NCSA Brown Dog Data Access Proxy 	Unofficial
+8192 	TCP 		Sophos Remote Management System 	Unofficial
+8193 	TCP 		Sophos Remote Management System 	Unofficial
+8194 	TCP 		Sophos Remote Management System 	Unofficial
+8194 	TCP 		Bloomberg Application[1] 	Official
+8195 	TCP 		Bloomberg Application[citation needed] 	Unofficial
+8200 	TCP 		GoToMyPC 	Unofficial
+8222 	TCP 		VMware Server Management User Interface[118] (insecure Web interface).[119] See also port 8333 	Unofficial
+8243 	TCP 	UDP 	HTTPS listener for Apache Synapse[120] 	Official
+8280 	TCP 	UDP 	HTTP listener for Apache Synapse[120] 	Official
+8291 	TCP 		Winbox—Default on a MikroTik RouterOS for a Windows application used to administer MikroTik RouterOS[121] 	Unofficial
+8303 		UDP 	Teeworlds Server 	Unofficial
+8330 	TCP 		MultiBit HD, [1] 	Unofficial
+8331 	TCP 		MultiBit, [2] 	Unofficial
+8332 	TCP 		Bitcoin JSON-RPC server[122] 	Unofficial
+8333 	TCP 		Bitcoin[123] 	Unofficial
+8333 	TCP 		VMware Server Management User Interface[118] (secure Web interface).[119] See also port 8222 	Unofficial
+8337 	TCP 		VisualSVN Distributed File System Service (VDFS)[124] 	Unofficial
+8400 	TCP 	UDP 	cvp, CommVault Unified Data Management 	Official
+8442 	TCP 	UDP 	CyBro A-bus, Cybrotech Ltd. 	Official
+8443 	TCP 		SW Soft Plesk Control Panel, Apache Tomcat SSL, Promise WebPAM SSL, McAfee ePolicy Orchestrator (ePO) 	Unofficial
+8444 	TCP 		Bitmessage 	Unofficial
+8484 	TCP 		MapleStory Login Server 	Unofficial
+8500 	TCP 	UDP 	ColdFusion Macromedia/Adobe ColdFusion default and Duke Nukem 3D—default 	Unofficial
+8501 	TCP 		[3] DukesterX —default[citation needed] 	Unofficial
+8530 	TCP 		Windows Server Update Services 	Unofficial
+8585 	TCP 		MapleStory Game Server 	Unofficial
+8586 	TCP 		MapleStory Game Server 	Unofficial
+8587 	TCP 		MapleStory Game Server 	Unofficial
+8588 	TCP 		MapleStory Game Server 	Unofficial
+8589 	TCP 		MapleStory Game Server 	Unofficial
+8601 	TCP 		Wavestore CCTV protocol[125] 	Unofficial
+8602 	TCP 	UDP 	Wavestore Notification protocol[125] 	Unofficial
+8642 	TCP 		Lotus Traveller[citation needed] 	Unofficial
+8691 	TCP 		Ultra Fractal default server port for distributing calculations over network computers 	Unofficial
+8701 		UDP 	SoftPerfect Bandwidth Manager 	Unofficial
+8702 		UDP 	SoftPerfect Bandwidth Manager 	Unofficial
+8767 		UDP 	TeamSpeak—default 	Unofficial
+8768 		UDP 	TeamSpeak—alternate 	Unofficial
+8778 	TCP 		EPOS Speech Synthesis System 	Unofficial
+8787 	TCP 		MapleStory CashShop Game Server 	Unofficial
+8788 	TCP 		MapleStory CashShop Game Server 	Unofficial
+8834 			Nessus web 	Unofficial
+8835 			Passive Vulnerability Scanner web 	Unofficial
+8836 			Log Correlation Engine web 	Unofficial
+8840 	TCP 		Opera Unite server 	Unofficial
+8880 		UDP 	cddbp-alt, CD DataBase (CDDB) protocol (CDDBP) alternate 	Official
+8880 	TCP 		cddbp-alt, CD DataBase (CDDB) protocol (CDDBP) alternate 	Official
+8880 	TCP 		WebSphere Application Server SOAP connector default 	Unofficial
+8880 	TCP 		Win Media Streamer to Server SOAP connector default 	Unofficial
+8881 	TCP 		Atlasz Informatics Research Ltd Secure Application Server[citation needed] 	Unofficial
+8881 	TCP 		Netflexity Inc QFlex—IBM WebSphere MQ monitoring software. 	Unofficial
+8882 	TCP 		Atlasz Informatics Research Ltd Secure Application Server[citation needed] 	Unofficial
+8883 	TCP 	UDP 	Secure MQ Telemetry Transport (MQTT over SSL) 	Official
+8886 	TCP 		PPM3 (Padtec Management Protocol version 3) 	Unofficial
+8887 	TCP 		HyperVM HTTP 	Official
+8888 	TCP 		HyperVM HTTPS 	Official
+8888 	TCP 		Freenet HTTP 	Unofficial
+8888 	TCP 	UDP 	NewsEDGE server 	Official
+8888 	TCP 		Sun Answerbook dwhttpd server (deprecated by docs.sun.com) 	Unofficial
+8888 	TCP 		GNUmp3d HTTP music streaming and Web interface 	Unofficial
+8888 	TCP 		LoLo Catcher HTTP Web interface (www.optiform.com) 	Unofficial
+8888 	TCP 		D2GS Admin Console Telnet administration console for D2GS servers (Diablo 2) 	Unofficial
+8888 	TCP 		Earthland Relams 2 Server (AU1_2)[citation needed] 	Unofficial
+8888 	TCP 		MAMP Server 	Unofficial
+8889 	TCP 		MAMP Server 	Unofficial
+8889 	TCP 		Earthland Relams 2 Server (AU1_1)[citation needed] 	Unofficial
+8937 	TCP 		Transaction Warehouse Data Service (TWDS) 	Official
+8983 	TCP 		Default for Apache Solr[126] 	Unofficial
+8998 	TCP 		I2P Monotone Repository 	Unofficial
+8989 	TCP 		STEP Bible : Scripture Tools for Every Person 	Unofficial
+9000 	TCP 		SonarQube Web Server[127] 	Unofficial
+9000 	TCP 		Buffalo LinkSystem Web access[citation needed] 	Unofficial
+9000 	TCP 		DBGp 	Unofficial
+9000 	TCP 		SqueezeCenter web server & streaming 	Unofficial
+9000 		UDP 	UDPCast 	Unofficial
+9000 	TCP 		Play! Framework web server[128] 	Unofficial
+9000 	TCP 		Hadoop NameNode default port 	Unofficial
+9001 	TCP 	UDP 	ETL Service Manager[129] 	Official
+9001 			Microsoft SharePoint authoring environment 	Unofficial
+9001 			cisco-xremote router configuration[citation needed] 	Unofficial
+9001 			Tor network default 	Unofficial
+9001 	TCP 		DBGp Proxy 	Unofficial
+9001 	TCP 		HSQLDB default port 	Unofficial
+9002 			Newforma Server comms 	Unofficial
+9009 	TCP 	UDP 	Pichat Server—Peer to peer chat software 	Official
+9010 	TCP 		TISERVICEMANAGEMENT Numara Track-It! 	Unofficial
+9020 	TCP 		WiT WiT Services 	Official
+9025 	TCP 		WiT WiT Services 	Official
+9030 	TCP 		Tor often used 	Unofficial
+9043 	TCP 		WebSphere Application Server Administration Console secure 	Unofficial
+9050 	TCP 		Tor 	Unofficial
+9051 	TCP 		Tor 	Unofficial
+9060 	TCP 		WebSphere Application Server Administration Console 	Unofficial
+9080 		UDP 	glrpc, Groove Collaboration software GLRPC 	Official
+9080 	TCP 		glrpc, Groove Collaboration software GLRPC 	Official
+9080 	TCP 		WebSphere Application Server HTTP Transport (port 1) default 	Unofficial
+9080 	TCP 		Remote Potato by FatAttitude, Windows Media Center addon 	Unofficial
+9080 	TCP 		ServerWMC, Windows Media Center addon 	Unofficial
+9090 	TCP 	UDP 	WebSM 	Unofficial
+9090 	TCP 		Webwasher, Secure Web, McAfee Web Gateway—Default Proxy Port[citation needed] 	Unofficial
+9090 	TCP 		Openfire Administration Console 	Unofficial
+9090 	TCP 		SqueezeCenter control (CLI) 	Unofficial
+9090 	TCP 		Cherokee Admin Panel 	Unofficial
+9091 	TCP 		Openfire Administration Console (SSL Secured) 	Unofficial
+9091 	TCP 		Transmission (BitTorrent client) Web Interface 	Unofficial
+9092 	TCP 		H2 (DBMS) Database Server 	Unofficial
+9100 	TCP 		PDL Data Stream 	Official
+9100 	TCP 	UDP 	LPR - RAW Printing 	Official
+9101 	TCP 	UDP 	Bacula Director 	Official
+9102 	TCP 	UDP 	Bacula File Daemon 	Official
+9103 	TCP 	UDP 	Bacula Storage Daemon 	Official
+9105 	TCP 	UDP 	Xadmin Control Daemon 	Official
+9106 	TCP 	UDP 	Astergate Control Daemon 	Official
+9107 	TCP 		Astergate-FAX Control Daemon 	Official
+9110 		UDP 	SSMP Message protocol 	Unofficial
+9119 	TCP 	UDP 	MXit Instant Messenger 	Official
+9191 	TCP 		Catamount Software—PocketMoney Sync[citation needed] 	Unofficial
+9191 	TCP 		Sierra Wireless Airlink 	Unofficial
+9199 	TCP 		Avtex LLC—qStats 	Unofficial
+9200 	TCP 		ElasticSearch[130]—default elasticsearch port 	Unofficial
+9217 	TCP 		iPass Platform Service 	Unofficial
+9293 	TCP 		Sony PlayStation RemotePlay[131] 	Unofficial
+9300 	TCP 		IBM Cognos 8 SOAP Business Intelligence and Performance Management 	Unofficial
+9303 		UDP 	D-Link Shareport Share storage and MFP printers 	Unofficial
+9306 	TCP 		Sphinx Native API 	Official
+9309 	TCP 	UDP 	Sony PlayStation Vita Host Collaboration WiFi Data Transfer[132] 	Unofficial
+9312 	TCP 		Sphinx SphinxQL 	Official
+9332 	TCP 		Litecoin JSON-RPC server 	Unofficial
+9333 	TCP 		Litecoin 	Unofficial
+9339 	TCP 		Clash of Clans, a mobile freemium strategy video game 	Unofficial
+9418 	TCP 	UDP 	git, Git pack transfer service 	Official
+9420 	TCP 		MooseFS distributed file system—master server to chunk servers 	Unofficial
+9421 	TCP 		MooseFS distributed file system—master server to clients 	Unofficial
+9422 	TCP 		MooseFS distributed file system—chunk servers to clients 	Unofficial
+9443 	TCP 		VMware HTTPS port used for accessing and administrating a vCenter Server via the Web Management Interface 	Unofficial
+9443 	TCP 		NCSA Brown Dog Data Tilling Service 	Unofficial
+9535 	TCP 	UDP 	mngsuite, LANDesk Management Suite Remote Control 	Official
+9536 	TCP 	UDP 	laes-bf, IP Fabrics Surveillance buffering function 	Official
+9600 		UDP 	Omron FINS, OMRON FINS PLC communication 	Official
+9675 	TCP 	UDP 	Spiceworks Desktop, IT Helpdesk Software 	Unofficial
+9676 	TCP 	UDP 	Spiceworks Desktop, IT Helpdesk Software 	Unofficial
+9695 		UDP 	CCNx 	Official
+9800 	TCP 	UDP 	WebDAV Source 	Official
+9800 			WebCT e-learning portal 	Unofficial
+9875 	TCP 		Club Penguin Disney online game for kids 	Unofficial
+9898 		UDP 	MonkeyCom[citation needed] 	Official
+9898 	TCP 		MonkeyCom[citation needed] 	Official
+9898 	TCP 		Tripwire—File Integrity Monitoring Software[133] 	Unofficial
+9987 		UDP 	TeamSpeak 3 server default (voice) port (for the conflicting service see the IANA list) 	Unofficial
+9996 	TCP 		NetCrunch NetFlow collector port. This port can be changed [134] 	Unofficial
+9996 	TCP 	UDP 	Ryan's App "Ryan's App" Trading Software 	Official
+9996 	TCP 	UDP 	The Palace "The Palace" Virtual Reality Chat software.—5 	Official
+9997 	TCP 		Splunk port for communication between the forwarders and indexers 	Unofficial
+9998 	TCP 	UDP 	The Palace "The Palace" Virtual Reality Chat software.—5 	Official
+9999 			Hydranode—edonkey2000 TELNET control 	Unofficial
+9999 	TCP 		Lantronix UDS-10/UDS100[135] RS-485 to Ethernet Converter TELNET control 	Unofficial
+9999 			Urchin Web Analytics[citation needed] 	Unofficial
+10000 			Webmin—Web-based administration tool for Unix-like systems 	Unofficial
+10000 			BackupExec 	Unofficial
+10000 			Ericsson Account Manager (avim)[citation needed] 	Unofficial
+10001 	TCP 		Lantronix UDS-10/UDS100[136] RS-485 to Ethernet Converter default 	Unofficial
+10003 	TCP 		ForeScout SecureConnector[citation needed] 	Unofficial
+10008 	TCP 	UDP 	Octopus Multiplexer, primary port for the CROMP protocol, which provides a platform-independent means for communication of objects across a network 	Official
+10009 	TCP 	UDP 	Cross Fire, a multiplayer online First Person Shooter[citation needed] 	Unofficial
+10010 	TCP 		Open Object Rexx (ooRexx) rxapi daemon 	Official
+10017 			AIX,NeXT, HPUX—rexd daemon control[citation needed] 	Unofficial
+10024 	TCP 		Zimbra smtp [mta]—to amavis from postfix[citation needed] 	Unofficial
+10025 	TCP 		Zimbra smtp [mta]—back to postfix from amavis[citation needed] 	Unofficial
+10042 	TCP 		Mathoid server[citation needed] 	Unofficial
+10050 	TCP 	UDP 	Zabbix-Agent 	Official
+10051 	TCP 	UDP 	Zabbix-Trapper 	Official
+10110 	TCP 	UDP 	NMEA 0183 Navigational Data. Transport of NMEA 0183 sentences over TCP or UDP 	Official
+10113 	TCP 	UDP 	NetIQ Endpoint 	Official
+10114 	TCP 	UDP 	NetIQ Qcheck 	Official
+10115 	TCP 	UDP 	NetIQ Endpoint 	Official
+10116 	TCP 	UDP 	NetIQ VoIP Assessor 	Official
+10172 	TCP 		Intuit Quickbooks client 	Unofficial
+10200 	TCP 		FRISK Software International's fpscand virus scanning daemon for Unix platforms[137] 	Unofficial
+10200 	TCP 		FRISK Software International's f-protd virus scanning daemon for Unix platforms[138] 	Unofficial
+10201–10204 	TCP 		FRISK Software International's f-protd virus scanning daemon for Unix platforms[138] 	Unofficial
+10301 	TCP 		VoiceIP-ACS UMP default device provisioning endpoint[citation needed] 	Unofficial
+10302 	TCP 		VoiceIP-ACS UMP default device provisioning endpoint (SSL)[citation needed] 	Unofficial
+10308 			Lock-on: Modern Air Combat[citation needed] 	Unofficial
+10480 			SWAT 4 Dedicated Server[citation needed] 	Unofficial
+10505 		UDP 	BlueStacks (android simulator) broadcast[139] 	Unofficial
+10514 	TCP 	UDP 	TLS-enabled Rsyslog (default by convention) 	Unofficial
+10823 		UDP 	Farming Simulator 2011 Default Server[citation needed] 	Unofficial
+10891 	TCP 		Jungle Disk (this port is opened by the Jungle Disk Monitor service on the localhost)[citation needed] 	Unofficial
+11001 	TCP 	UDP 	metasys ( Johnson Controls Metasys java AC control environment )[citation needed] 	Unofficial
+11111 	TCP 		RiCcI - Remote Configuration Interface (Redhat Linux) 	Unofficial
+11112 	TCP 	UDP 	ACR/NEMA Digital Imaging and Communications in Medicine (DICOM) 	Official
+11155 	TCP 	UDP 	Tunngle 	Unofficial
+11211 	TCP 	UDP 	memcached 	Unofficial
+11214 	TCP 	UDP 	memcached Incoming SSL Proxy 	Unofficial
+11215 	TCP 	UDP 	memcached Internal Outgoing SSL Proxy 	Unofficial
+11235 			Savage:Battle for Newerth Server Hosting[citation needed] 	Unofficial
+11294 			Blood Quest Online Server[citation needed] 	Unofficial
+11371 	TCP 		OpenPGP HTTP key server 	Official
+11576 			IPStor Server management communication 	Unofficial
+11950 	TCP 		Murraycoin JSON-RPC server[140] 	Unofficial
+11951 	TCP 		Murraycoin[140] 	Unofficial
+12007 	TCP 		NetCrunch 7 port for connection between NetCrunch 7 Server and Administration Console. This port can be changed [134] 	Unofficial
+12008 	TCP 		NetCrunch default connection broker port [134] 	Unofficial
+12009 	TCP 		NetCrunch 8 port for connection between NetCrunch 8 Server and Administration Console. This port can be changed [134] 	Unofficial
+12010 	TCP 		ElevateDB default database port[141] 	Unofficial
+12011 	TCP 		Axence nVision[142] 	Unofficial
+12012 	TCP 		Axence nVision[142] 	Unofficial
+12012 	TCP 		Audition Online Dance Battle, Korea Server—Status/Version Check 	Unofficial
+12012 		UDP 	Audition Online Dance Battle, Korea Server—Status/Version Check 	Unofficial
+12013 	TCP 	UDP 	Audition Online Dance Battle, Korea Server 	Unofficial
+12030 	TCP 		NetCrunch - port for connection between NetCrunch Server and NetCrunch Guard [134] 	Unofficial
+12031 	TCP 		Axence nVision[142] 	Unofficial
+12032 	TCP 		Axence nVision[142] 	Unofficial
+12035 		UDP 	Linden Lab viewer to sim on SecondLife[citation needed] 	Unofficial
+12201 		UDP 	GELF Protocol 	Unofficial
+12222 		UDP 	Light Weight Access Point Protocol (LWAPP) LWAPP data (RFC 5412) 	Official
+12223 		UDP 	Light Weight Access Point Protocol (LWAPP) LWAPP control (RFC 5412) 	Official
+12345 			NetBus—remote administration tool (often Trojan horse). Also used by NetBuster. Little Fighter 2 (TCP), Cubeworld[143] (TCP and UDP), and (TCP) GVG (Grass Valley Group) SMS7000 and RCL video router control 	Unofficial
+12443 	TCP 		IBM HMC web browser management access over HTTPS instead of default port 443[144] 	Unofficial
+12489 	TCP 		NSClient/NSClient++/NC_Net (Nagios) 	Unofficial
+12975 	TCP 		LogMeIn Hamachi (VPN tunnel software; also port 32976)—used to connect to Mediation Server (bibi.hamachi.cc); will attempt to use SSL (TCP port 443) if both 12975 & 32976 fail to connect 	Unofficial
+12998–12999 		UDP 	Takenaka RDI Mirror World on SecondLife[citation needed] 	Unofficial
+13001 	TCP 		ForeScout CounterACT[citation needed] 	Unofficial
+13000–13050 		UDP 	Linden Lab viewer to sim on SecondLife[citation needed] 	Unofficial
+13008 	TCP 	UDP 	Cross Fire, a multiplayer online First Person Shooter[citation needed] 	Unofficial
+13075 	TCP 		Default[145] for BMC Software Control-M/Enterprise Manager Corba communication, though often changed during installation 	Official
+13195–13196 	TCP 	UDP 	Ontolux Ontolux 2D 	Unofficial
+13337–13340 	TCP 	UDP 	ÆtherNet peer-to-peer networking[citation needed] 	Unofficial
+13720 	TCP 	UDP 	Symantec NetBackup—bprd (formerly VERITAS) 	Official
+13721 	TCP 	UDP 	Symantec NetBackup—bpdbm (formerly VERITAS) 	Official
+13724 	TCP 	UDP 	Symantec Network Utility—vnetd (formerly VERITAS) 	Official
+13782 	TCP 	UDP 	Symantec NetBackup—bpcd (formerly VERITAS) 	Official
+13783 	TCP 	UDP 	Symantec VOPIED protocol (formerly VERITAS) 	Official
+13785 	TCP 	UDP 	Symantec NetBackup Database—nbdb (formerly VERITAS) 	Official
+13786 	TCP 	UDP 	Symantec nomdb (formerly VERITAS) 	Official
+14439 	TCP 		APRS UI-View Amateur Radio[146] UI-WebServer 	Unofficial
+14567 		UDP 	Battlefield 1942 and mods 	Unofficial
+14900 	TCP 		K3 SYSPRO K3 Framework WCF Backbone[citation needed] 	Unofficial
+15000 	TCP 		psyBNC 	Unofficial
+15000 	TCP 		Wesnoth 	Unofficial
+15000 	TCP 		Kaspersky Network Agent[citation needed] 	Unofficial
+15000 	TCP 		hydap, Hypack Hydrographic Software Packages Data Acquisition 	Official
+15000 		UDP 	hydap, Hypack Hydrographic Software Packages Data Acquisition 	Official
+15556 	TCP 	UDP 	Jeex.EU Artesia (direct client-to-db.service) 	Official
+15567 		UDP 	Battlefield Vietnam and mods 	Unofficial
+15345 	TCP 	UDP 	XPilot Contact 	Official
+16000 	TCP 		Oracle WebCenter Content: Imaging (formerly known as Oracle Universal Content Management). Port though often changed during installation 	Unofficial
+16000 	TCP 		shroudBNC 	Unofficial
+16080 	TCP 		Mac OS X Server Web (HTTP) service with performance cache[147] 	Unofficial
+16200 	TCP 		Oracle WebCenter Content: Content Server (formerly known as Oracle Universal Content Management). Port though often changed during installation 	Unofficial
+16225 	TCP 		Oracle WebCenter Content: Content Server Web UI. Port though often changed during installation 	Unofficial
+16250 	TCP 		Oracle WebCenter Content: Inbound Refinery (formerly known as Oracle Universal Content Management). Port though often changed during installation 	Unofficial
+16300 	TCP 		Oracle WebCenter Content: Records Management (formerly known as Oracle Universal Records Management). Port though often changed during installation 	Unofficial
+16384 		UDP 	Iron Mountain Digital online backup[citation needed] 	Unofficial
+16384 			CISCO Default RTP MIN 	official
+16400 	TCP 		Oracle WebCenter Content: Capture (formerly known as Oracle Document Capture). Port though often changed during installation 	Unofficial
+16482 			CISCO Default RTP MAX 	official
+16567 		UDP 	Battlefield 2 and mods 	Unofficial
+17011 	TCP 		Worms multiplayer 	Unofficial
+17500 	TCP 	UDP 	Dropbox LanSync Protocol (db-lsp); used to synchronize file catalogs between Dropbox clients on a local network. 	Official
+18010 	TCP 		Super Dancer Online Extreme(SDO-X)—CiB Net Station Malaysia Server[citation needed] 	Unofficial
+18091 	TCP 	UDP 	memcached Internal REST HTTPS for SSL 	Unofficial
+18092 	TCP 	UDP 	memcached Internal CAPI HTTPS for SSL 	Unofficial
+18104 	TCP 		RAD PDF Service 	Official
+18180 	TCP 		DART Reporting server[citation needed] 	Unofficial
+18200 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft Thailand Server—Status/Version Check 	Unofficial
+18201 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft Thailand Server 	Unofficial
+18206 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft Thailand Server—FAM Database 	Unofficial
+18300 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft SEA Server—Status/Version Check 	Unofficial
+18301 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft SEA Server 	Unofficial
+18306 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft SEA Server—FAM Database 	Unofficial
+18333 	TCP 		Bitcoin testnet[123] 	Unofficial
+18400 	TCP 	UDP 	Audition Online Dance Battle, KAIZEN Brazil Server—Status/Version Check 	Unofficial
+18401 	TCP 	UDP 	Audition Online Dance Battle, KAIZEN Brazil Server 	Unofficial
+18505 	TCP 	UDP 	Audition Online Dance Battle R4p3 Server, Nexon Server—Status/Version Check 	Unofficial R4p3 Server
+18506 	TCP 	UDP 	Audition Online Dance Battle, Nexon Server 	Unofficial
+18605 	TCP 	UDP 	X-BEAT—Status/Version Check 	Unofficial
+18606 	TCP 	UDP 	X-BEAT 	Unofficial
+19000 	TCP 	UDP 	Audition Online Dance Battle, G10/alaplaya Server—Status/Version Check 	Unofficial
+19000 		UDP 	JACK sound server 	Unofficial
+19001 	TCP 	UDP 	Audition Online Dance Battle, G10/alaplaya Server 	Unofficial
+19007 	TCP 	UDP 	Veejansh Inc. Scintilla Device Service 	Official
+19132 		UDP 	Standard Minecraft Pocket Edition Multiplayer Server Port 	Unofficial
+19150 	TCP 	UDP 	Gkrellm Server 	Unofficial
+19226 	TCP 		Panda Software AdminSecure Communication Agent 	Unofficial
+19283 	TCP 	UDP 	K2—KeyAuditor & KeyServer, Sassafras Software Inc.[148] Software Asset Management tools 	Official
+19294 	TCP 		Google Talk Voice and Video connections[149] 	Unofficial
+19295 		UDP 	Google Talk Voice and Video connections[149] 	Unofficial
+19302 		UDP 	Google Talk Voice and Video connections[149] 	Unofficial
+19315 	TCP 	UDP 	KeyShadow for K2—KeyAuditor & KeyServer, Sassafras Software Inc.[148] Software Asset Management tools 	Official
+19540 	TCP 		Gamecoin RCP[citation needed] 	Unofficial
+19540 	TCP 		Gamecoin Testnet[citation needed] 	Unofficial
+19540 	TCP 		Gamecoin P2P[citation needed] 	Unofficial
+19540 	TCP 	UDP 	Belkin Network USB Hub[citation needed] 	Unofficial
+19638 	TCP 		Ensim Control Panel[citation needed] 	Unofficial
+19812 	TCP 		4D database SQL Communication[150] 	Official
+19813 	TCP 	UDP 	4D database Client Server Communication[150] 	Official
+19814 	TCP 		4D database DB4D Communication[150] 	Official
+19999 			DNP—Secure (Distributed Network Protocol—Secure), a secure version of the protocol used in SCADA systems between communicating RTU's and IED's 	Official
+20000 			DNP (Distributed Network Protocol), a protocol used in SCADA systems between communicating RTU's and IED's 	Official
+20000 			Usermin, Web-based user tool 	Unofficial
+20202 	TCP 		OnNet (Net2E) 	Unofficial
+20014 	TCP 		DART Reporting server[citation needed] 	Unofficial
+20560 	TCP 	UDP 	Killing Floor 	Unofficial
+20595 		UDP 	0 A.D. Empires Ascendant 	Unofficial
+20702 	TCP 		Precise TPM Listener Agent 	Unofficial
+20720 	TCP 		Symantec i3 Web GUI server 	Unofficial
+20790 	TCP 		Precise TPM Web GUI server 	Unofficial
+21001 	TCP 		AMLFilter, AMLFilter Inc. amlf-admin default port 	Unofficial
+21011 	TCP 		AMLFilter, AMLFilter Inc. amlf-engine-01 default http port 	Unofficial
+21012 	TCP 		AMLFilter, AMLFilter Inc. amlf-engine-01 default https port 	Unofficial
+21021 	TCP 		AMLFilter, AMLFilter Inc. amlf-engine-02 default http port 	Unofficial
+21022 	TCP 		AMLFilter, AMLFilter Inc. amlf-engine-02 default https port 	Unofficial
+21025 	TCP 		Starbound Server (default), Starbound 	Unofficial
+22136 	TCP 		FLIR Systems Camera Resource Protocol 	Unofficial
+22222 	TCP 		Davis Instruments, WeatherLink IP 	Unofficial
+22347 	TCP 	UDP 	WibuKey, WIBU-SYSTEMS AG Software protection system 	Official
+22349 	TCP 		Wolfson Microelectronics WISCEBridge Debug Protocol[151] 	Unofficial
+22350 	TCP 	UDP 	CodeMeter, WIBU-SYSTEMS AG Software protection system 	Official
+23073 			Soldat Dedicated Server 	Unofficial
+23399 			Skype Default Protocol 	Unofficial
+23513 			Duke Nukem 3D#Source code Duke Nukem Ports 	Unofficial
+24441 	TCP 	UDP 	Pyzor spam detection network 	Unofficial
+24444 			NetBeans integrated development environment 	Unofficial
+24465 	TCP 	UDP 	Tonido Directory Server for Tonido which is a Personal Web App and P2P platform 	Official
+24554 	TCP 	UDP 	BINKP, Fidonet mail transfers over TCP/IP 	Official
+24800 			Synergy: keyboard/mouse sharing software 	Unofficial
+24842 			StepMania: Online: Dance Dance Revolution Simulator 	Unofficial
+25000 	TCP 		Teamware Office standard client connection 	Official
+25001 	TCP 		Default port for Unity3D networking 	Official
+25003 	TCP 		Teamware Office client notifier 	Official
+25005 	TCP 		Teamware Office message transfer 	Official
+25007 	TCP 		Teamware Office MIME Connector 	Official
+25008 	TCP 		Jayson's Water Fun Connector 	Unofficial
+25010 	TCP 		Teamware Office Agent server 	Official
+25560 	TCP 		codeheart.js Relay Server 	Unofficial
+25565 	TCP 		Standard Minecraft (Dedicated) Server 	Unofficial
+25565 			MySQL Standard MySQL port 	Unofficial
+25570 			Manic Digger default single player port 	Unofficial
+25826 		UDP 	collectd default port[152] 	Unofficial
+25828–25840 	TCP 	UDP 	DarknessBlade Network. 	Unofficial
+25888 		UDP 	Xfire (Firewall Report, UDP_IN) IP Address (206.220.40.146) resolves to gameservertracking.xfire.com. Use unknown. 	Unofficial
+25999 	TCP 		Xfire 	Unofficial
+26000 		UDP 	id Software's Quake server 	Official
+26000 	TCP 		id Software's Quake server 	Official
+26000 	TCP 		CCP's EVE Online Online gaming MMORPG 	Unofficial
+26000 		UDP 	Xonotic, an open source arena shooter 	Official
+26850 	TCP 		War of No Return Server Port[citation needed] 	Unofficial
+26900 	TCP 		CCP's EVE Online Online gaming MMORPG 	Unofficial
+26901 	TCP 		CCP's EVE Online Online gaming MMORPG 	Unofficial
+26950 	TCP 	UDP 	GIMA Productions 	Unofficial
+27000–27030 		UDP 	Steam Client 	Unofficial
+27000 		UDP 	(through 27006) id Software's QuakeWorld master server 	Unofficial
+27000 	TCP 		PowerBuilder SySAM license server 	Unofficial
+27000–27009 	TCP 		FlexNet Publisher's License server (from the range of default ports) 	Unofficial
+27010 			Source engine dedicated server port 	Unofficial
+27014–27050 	TCP 		Steam Downloads 	Unofficial
+27014 			Source engine dedicated server port (rare) 	Unofficial
+27015 			GoldSrc and Source engine dedicated server port, AppleMobileDeviceService[153] 	Unofficial
+27016 			Magicka server port 	Unofficial
+27017 			mongoDB server port 	Unofficial
+27374 			Sub7 default. 	Unofficial
+27500–27900 		UDP 	id Software's QuakeWorld 	Unofficial
+27888 		UDP 	Kaillera server 	Unofficial
+27900–27901 			Nintendo Wi-Fi Connection 	Unofficial
+27901–27910 		UDP 	id Software's Quake II master server 	Unofficial
+27950 		UDP 	OpenArena outgoing 	Unofficial
+27960–27969 		UDP 	Activision's Enemy Territory and id Software's Quake III Arena, Quake III and Quake Live and some ioquake3 derived games, such as Urban Terror (OpenArena incoming) 	Unofficial
+28000 			Bitfighter Common/default Bitfighter Server 	Unofficial
+28001 			Starsiege: Tribes Common/default Tribes v.1 Server 	Unofficial
+28395 	TCP 		www.SmartSystemsLLC.com Used by Smart Sale 5.0[citation needed] 	Unofficial
+28785 		UDP 	Cube 2 Sauerbraten[154] 	Unofficial
+28786 		UDP 	Cube 2 Sauerbraten Port 2[154] 	Unofficial
+28801–28802 		UDP 	Red Eclipse (Cube 2 derivative) default ports[155] 	Unofficial
+28852 	TCP 	UDP 	Killing Floor 	Unofficial
+28910 			Nintendo Wi-Fi Connection[156] 	Unofficial
+28960 		UDP 	Call of Duty; Call of Duty: United Offensive; Call of Duty 2; Call of Duty 4: Modern Warfare; Call of Duty: World at War (PC Version) 	Unofficial
+29000 			Perfect World International Used by the Perfect World International Client 	Unofficial
+29070 	TCP 	UDP 	Game titled "Jedi Knight: Jedi Academy" by Ravensoft 	Unofficial
+29292 	TCP 		TMO Integration Service Communications Port, Used by Transaction Manager SaaS (HighJump Software)[citation needed] 	Unofficial
+29900–29901 			Nintendo Wi-Fi Connection[156] 	Unofficial
+29920 			Nintendo Wi-Fi Connection[156] 	Unofficial
+30000 			Pokémon Netbattle 	Unofficial
+30301 			BitTorrent 	Unofficial
+30564 	TCP 		Multiplicity: keyboard/mouse/clipboard sharing software 	Unofficial
+30718 		UDP 	Lantronix Discovery for Lantronix serial-to-ethernet devices 	Unofficial
+30777 	TCP 		ZangZing agent 	Unofficial
+31314 	TCP 		electric imp node<>server communication (TLS) 	Unofficial
+31337 	TCP 		Back Orifice—remote administration tool (often Trojan horse) 	Unofficial
+31415 			ThoughtSignal—Server Communication Service (often Informational) 	Unofficial
+31438 			Rocket Software U2 uvcs—Server Communication Service 	Unofficial
+31456 	TCP 		TetriNET IRC gateway on some servers 	Unofficial
+31457 	TCP 		TetriNET 	Official
+31458 	TCP 		TetriNET Used for game spectators 	Unofficial
+31620 	TCP 	UDP 	LM-MON (Standard Floating License Manager LM-MON) 	Official
+32123 	TCP 		x3Lobby Used by x3Lobby, an internet application. 	Unofficial
+32137 	TCP 	UDP 	Immunet Protect (UDP in version 2.0,[157] TCP since version 3.0[158]) 	Unofficial
+32245 	TCP 		MMTSG-mutualed over MMT (encrypted transmission) 	Unofficial
+32400 	TCP 	UDP 	Used for Plex Media Server connections and media streams 	Unofficial
+32769 	TCP 		FileNet RPC 	Unofficial
+32887 	TCP 		Used by "Ace of Spades" game 	Unofficial
+32976 	TCP 		LogMeIn Hamachi (VPN tunnel software; also port 12975)—used to connect to Mediation Server (bibi.hamachi.cc); will attempt to use SSL (TCP port 443) if both 12975 & 32976 fail to connect 	Unofficial
+33330 		UDP 	FMAudit 	Unofficial
+33333 		UDP 	TNTchat default server port 	Unofficial
+33434 	TCP 	UDP 	traceroute 	Official
+33848 		UDP 	Jenkins Remote access API and Auto-Discovery 	Unofficial
+33982 	TCP 	UDP 	Dezta software 	Unofficial
+34000 			MasterPort—WarZ 	Unofficial
+34001 			ClientPort—WarZ 	Unofficial
+34010 			PortStart—WarZ 	Unofficial
+34271 			Remuco remote control for media players[159] 	Unofficial
+34443 			Linksys PSUS4 print server[160] 	Unofficial
+34567 	TCP 		EDI service[161] 	Official
+35357 	TCP 		OpenStack ID Service 	Official
+36330 	TCP 		Folding@home v7 default for client control interface 	Unofficial
+36700 	TCP 		MapX communication port 	Unofficial
+36963 		UDP 	Unreal Software multiplayer games, such as Counter Strike 2D (2D clone of Counter Strike) 	Unofficial
+37659 	TCP 		Axence nVision[citation needed] 	Unofficial
+37777 	TCP 		Digital Video Recorder hardware[citation needed] 	Unofficial
+40000 	TCP 	UDP 	SafetyNET p Real-time Industrial Ethernet protocol 	Official
+40123 		UDP 	Flatcast[162] 	Unofficial
+41794 	TCP 	UDP 	Crestron Control Port 	Official
+41795 	TCP 	UDP 	Crestron Control Port 	Official
+41823 	TCP 	UDP 	Murealm Client[citation needed] 	Unofficial
+43034 	TCP 	UDP 	LarmX.com™ database update mtr port[citation needed] 	Unofficial
+43047 	TCP 		TheòsMessenger second port for service TheòsMessenger[citation needed] 	Unofficial
+43048 	TCP 		TheòsMessenger third port for service TheòsMessenger[citation needed] 	Unofficial
+43594 	TCP 		RuneScape, FunOrb, Runescape Private Servers game servers 	Unofficial
+43595 	TCP 		RuneScape JAGGRAB servers 	Unofficial
+44405 	TCP 		Mu Online Connect Server[citation needed] 	Unofficial
+44444 	TCP 		LightClaw.TeamServer Asset synchronization[citation needed] 	Unofficial
+45824 	TCP 		Server for the DAI family of client-server products[citation needed] 	Official
+47001 	TCP 		WinRM—Windows Remote Management Service[163] 	Official
+47808 		UDP 	BACnet Building Automation and Control Networks (4780810 = BAC016), commonly spills to 47809–47816 	Official
+48653 	TCP 	UDP 	Robot Raconteur transport[164] 	Official
+49151 	TCP 	UDP 	Reserved[1] 	Official
+50006 		UDP 	Red Hat Cluster Configuration System Daemon Reserved[165] 	Unofficial
+50007 		UDP 	Red Hat Cluster Configuration System Daemon Reserved[165] 	Unofficial
+50008 		UDP 	Red Hat Cluster Configuration System Daemon Reserved[165] 	Unofficial
+50009 		UDP 	Red Hat Cluster Configuration System Daemon Reserved[165] 	Unofficial
+60000-61000 		UDP 	Mosh 	Unofficial
+61001 	TCP 		Nostic Warfare I

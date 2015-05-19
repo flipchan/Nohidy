@@ -1,0 +1,3 @@
+if ur reading this u are suspecting that someone is sniffing your data, throw an evil twin router or an extra computer .
+first u must find out what ip address the attacker got so lets download nmap and enter you ip range /24 so for me it would be the command : nmap -v -f 192.168.1.9/24 
+and if u find that lets say 192.168.1.16 is an evil computer you could use nohidy arp spoofing program to record the data that the attacker is sending out.

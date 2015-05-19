@@ -1,0 +1,9 @@
+---------------------- Botnet Dorks ----------------------------
+ 
+Zeus     - inurl: "cp.php?m=login" | inrul: "cp.phpletter=login"
+ICE 1X   - inurl: "adm/index.php?m=login"
+Citadel  - inurl: "cp.php?m=login"
+BetaBot  - inurl: "login.php" intext: "myNews Content Manager"
+iStealer - inurl: "index.php?action=logs" intitle:"login"
+SpyEye   - inurl: "frmcp/"
+ more comeing soon

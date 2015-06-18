@@ -1,0 +1,24 @@
+#!/bin/bash
+Ifconfig wlan0 down
+Ifconfig eth0 down
+Ifconfig mon0 down
+Ifconfig virbr0 down
+Ifconfig lo down
+Ifconfig wlan2 down 
+Ifconfig wlan1 down
+Ifconfig wlan* down
+Ifconfig eth* down
+Ifconfig eth1 down
+Ifconfig eth2 down
+Ifconfig eth3 down
+Ifconfig mon1 down
+Ifconfig mon2 down
+Ifconfig mon3 down
+Ifconfig mon* down
+Ifconfig lo* down
+Ifconfig virbr1 down
+Ifconfig virbr2 down
+Ifconfig virbr* down
+Ipconfig eth* down
+Ipconfig wlan* down
+Ipconfig lo down

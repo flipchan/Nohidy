@@ -30,11 +30,11 @@ void main(int argc, char *argv[])
  unsigned long end;
  unsigned long counter;
  char foundmsg[] = "200";
- char *cgistr;
+ char *botstr;
  char buffer[2048];  /*  2048 bytes should work for sockets  */
  int count=0;
  int numin;
- char cgibuff[2048];
+ char botbuff[2048];
  char *buff[100];    
  char *botname[100]; 
  
@@ -153,7 +153,7 @@ while(count++ < 21)    /* 21 for 21 botscans */
   
    for(numin=0;numin < 2048;numin++)
       {
-      cgibuff[numin] = '\0';
+      botbuff[numin] = '\0';
       } 
   
    send(sock, buff[count],strlen(buff[count]),0);

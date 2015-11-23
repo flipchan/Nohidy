@@ -1,4 +1,4 @@
-/* Nohidy botnet scanner in c# */
+/* Nohidy botnet scanner in c#  */
 /* tries different scans to find various botnets */
 /* works on http cuz its easy and this is a beta */
 /* for more stuff visit:http://cybercrime-tracker.net/ */

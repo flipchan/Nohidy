@@ -158,7 +158,7 @@ while(count++ < 21)    /* 21 for 21 botscans */
   
    send(sock, buff[count],strlen(buff[count]),0);
    recv(sock, botbuff, sizeof(botbuff),0);
-   botstr = strstr(cgibuff,foundmsg);
+   botstr = strstr(botbuff,foundmsg);
    if( botstr != NULL)
        printf("bingo i found it ;)\n");
    else

@@ -1,4 +1,4 @@
-/* Nohidy botnet scanner in c# */
+/* Nohidy botnet scanner in c#  */
 /* tries different scans to find various botnets */
 /* works on http cuz its easy and this is a beta */
 /* for more stuff visit:http://cybercrime-tracker.net/ */
@@ -158,7 +158,7 @@ while(count++ < 21)    /* 21 for 21 botscans */
   
    send(sock, buff[count],strlen(buff[count]),0);
    recv(sock, botbuff, sizeof(botbuff),0);
-   botstr = strstr(cgibuff,foundmsg);
+   botstr = strstr(botbuff,foundmsg);
    if( botstr != NULL)
        printf("bingo i found it ;)\n");
    else

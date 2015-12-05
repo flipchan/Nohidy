@@ -62,7 +62,7 @@ print ""
 
 print "                 ~~~~~~~~~~Coded by flipchan~~~~~~~~~~"
 
-print "                          Nohidy  version 1.2"
+print "                          Nohidy  version 1.3"
 
 print "        this version is in command line interface, gui is coming soon! "
 
@@ -98,7 +98,7 @@ print ""
 
 print "Select from the meny:"
 
-print "1 to see my connections/trace botnet beta module "
+print "1 to see my connections "#traceing zeus botnet comming soon
 
 print "2 log file managment/rootkitfinding"
 

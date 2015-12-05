@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 """Module for the Nohidy framework
+using notify2
 """
 
 import notify2

@@ -1,7 +1,7 @@
 import os
 import commands
 import cmd
-import noot
+import noot #run notify module
 '''
 Nohidy is a free software you could redistribute it and/or modify it under the terms of the 
 GNU General Public License as published by the Free Software Foundation either version 3.0 of the License or any later version.

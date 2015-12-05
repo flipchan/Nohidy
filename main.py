@@ -98,7 +98,7 @@ print ""
 
 print "Select from the meny:"
 
-print "1 to see my connections"
+print "1 to see my connections/trace botnet beta module "
 
 print "2 log file managment/rootkitfinding"
 

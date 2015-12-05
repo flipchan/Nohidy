@@ -1,7 +1,7 @@
 import os
 import commands
 import cmd
-
+import noot
 '''
 Nohidy is a free software you could redistribute it and/or modify it under the terms of the 
 GNU General Public License as published by the Free Software Foundation either version 3.0 of the License or any later version.
@@ -27,6 +27,9 @@ establishedportsmayybe =raw_input("Do you want me to show you the established co
 if establishedportsmayybe=="Yes":
     print"Master i am printing established connections to your system"
     os.system("netstat -an | grep ESTABLISHED ")
+    print"saving all connections to connections.txt for analyses "
+    os.system("")
+    print"runnin notify module "
 else:
     print"Master i am exiting"
     

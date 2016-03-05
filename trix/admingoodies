@@ -1,0 +1,5 @@
+ddos protection
+block udp ddos attacks drop em if they are sent more then 15 times
+iptables -A INPUT -p udp -m connlimit --connlimit-above 15 -j DROP
+iptables -A OUTPUT -p udp -m connlimit --connlimit-above 10 -j DROP
+

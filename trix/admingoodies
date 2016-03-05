@@ -3,3 +3,9 @@ block udp ddos attacks drop em if they are sent more then 15 times
 iptables -A INPUT -p udp -m connlimit --connlimit-above 15 -j DROP
 iptables -A OUTPUT -p udp -m connlimit --connlimit-above 10 -j DROP
 
+
+block public scanners
+iptables -A INPUT -s 137.226.113.0/26 -j DROP
+iptables -A OUTPUT -s 137.226.113.0/26 -j DROP
+
+

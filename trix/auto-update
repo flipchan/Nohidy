@@ -1,0 +1,14 @@
+
+easy update everyday usein cron
+
+/etc/cron.daily# touch update
+/etc/cron.daily# vim update
+/etc/cron.daily# cat update 
+#!/bin/sh
+
+apt-get -f update
+apt-get upgrade --yes
+
+/etc/cron.daily# service cron restart
+
+

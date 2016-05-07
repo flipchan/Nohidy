@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: latin-1 -*-
 import nmap
 import sys, csv
 
@@ -8,18 +10,39 @@ import sys, csv
 csvFile = 'output.csv'
 xmlFile = 'output.xml'
 
+print '''
+
+▄▄▄▄▄ ▄▄· .▄▄ · 
+•██  ▐█ ▌▪▐█ ▀. 
+ ▐█.▪██ ▄▄▄▀▀▀█▄
+ ▐█▌·▐███▌▐█▄▪▐█
+ ▀▀▀ ·▀▀▀  ▀▀▀▀ 
+             Team Cyberlove Security
+
+			vulnerablity scanner
+▄▄▄ .▐▄• ▄  ▄▄▄·▄▄▌        ▪  ▄▄▄▄▄▪   ▐ ▄  ▄▄ • 
+▀▄.▀· █▌█▌▪▐█ ▄███•  ▪     ██ •██  ██ •█▌▐█▐█ ▀ ▪
+▐▀▀▪▄ ·██·  ██▀·██▪   ▄█▀▄ ▐█· ▐█.▪▐█·▐█▐▐▌▄█ ▀█▄
+▐█▄▄▌▪▐█·█▌▐█▪·•▐█▌▐▌▐█▌.▐▌▐█▌ ▐█▌·▐█▌██▐█▌▐█▄▪▐█
+ ▀▀▀ •▀▀ ▀▀.▀   .▀▀▀  ▀█▄▀▪▀▀▀ ▀▀▀ ▀▀▀▀▀ █▪·▀▀▀▀ 
+	the system
+'''
 
 #banner
+
+
+#target
 lehost = raw_input('Target?: ')
 nm = nmap.PortScanner()
-print 'Scan has started..'
-nm.scan(lehost, '10-4000')
-print 'scan done'
+print '[*]Scan has started..'
+nm.scan(hosts=lehost, arguments='-O -F -sC -sV --data-length 23 ')
+print nm.scaninfo() 
+print '[*]scan done'
 
 f = open('output.csv','a')
 f.write(nm.csv())
-print 'scan saved..'
-print 'converting file ...'
+print '[*]scan saved..'
+print '[*]converting file ...'
 
 
 csvData = csv.reader(open(csvFile))
@@ -45,5 +68,19 @@ for row in csvData:
 xmlData.write('</csv_data>' + "\n")
 xmlData.close()
 
-print 'data converted to xml!'
-print 'running searches in csves and exploit archives..'
+
+
+#To do get service from scan and define it so we can search it
+print '[*]data converted to xml!'
+print '[*]running searches in csves and exploit archives..'
+searchone = open('file1', 'r')
+for line in searchone:
+    if 'service here' in line: print line
+else:
+	print 'could not find it..'
+print
+print 'lookin in second archive to find more sploits..'
+searchtwo = open('file2', 'r')
+for line in searchtwo:
+    if 'service here' in line: print line
+print '[!]Done happy sploiting'

@@ -9,3 +9,6 @@ iptables -A INPUT -s 137.226.113.0/26 -j DROP
 iptables -A OUTPUT -s 137.226.113.0/26 -j DROP
 
 
+block port iptable syntax: 
+iptables -A INPUT -p tcp --dport 5900 -j DROP
+

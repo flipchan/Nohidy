@@ -1,0 +1,9 @@
+ips that have spider or attacked sites that i own
+
+
+187.160.84.85
+187.160.84.85 - - [13/Sep/2016:01:32:41 -0400] "GET /cgi/common.cgi HTTP/1.0" 404 168 "-" "Wget(linux)"
+187.160.84.85 - - [13/Sep/2016:01:32:42 -0400] "GET /stssys.htm HTTP/1.0" 404 168 "-" "Wget(linux)"
+187.160.84.85 - - [13/Sep/2016:01:32:42 -0400] "GET / HTTP/1.0" 200 737 "-" "Wget(linux)"
+187.160.84.85 - - [13/Sep/2016:01:32:42 -0400] "POST /command.php HTTP/1.0" 404 168 "-" "Wget(linux)"
+218.156.17.203

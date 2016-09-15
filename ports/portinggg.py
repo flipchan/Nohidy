@@ -29,6 +29,7 @@ print""
 
 whichportmaster =raw_input("Which port are you looking for master?:  ")
 
+port = whichportmaster
 
 def check():
     datafile = file('portslookup.txt')
@@ -47,7 +48,12 @@ else:
 
 searchforthep =raw_input("Do you want to view the port Yes/No? ")
 if searchforthep=="Yes":
-    os.system("grep -r " + whichportmaster)
-else: print"sry master something went wrong"
+	os.system('grep ' + port  + ' portslookup.txt ')
+#    datafile = file('portslookup.txt')
+#    if port in datafile:
+#	for line in datafile:
+#		print line
+else: 
+	print"sry master something went wrong"
  
  

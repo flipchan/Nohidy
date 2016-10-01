@@ -1,0 +1,20 @@
+quick guide on how to use ssh with tor to secure ur ssh
+
+
+go to ssh's configuration file and bind ssh to 127.0.0.1 so that we only get 
+localconnections instead of 0.0.0.0
+service ssh reload && service ssh restart
+
+open torrc
+vim /etc/tor/torrc
+add the lines:
+HiddenServiceDir /var/lib/tor/ssh_service/
+HiddenServicePort 22 127.0.0.1:22
+
+save it
+service tor reload && service tor restart
+now cat the hostname: cat /var/lib/tor/ssh_service/hostname
+ssh to that
+torify ssh ursite.onion
+
+if you portscan the servers ip you should see that port 22 is no longer open

@@ -1,0 +1,34 @@
+i would recommend reading this:
+https://trac.torproject.org/projects/tor/wiki/doc/DnsResolver
+
+
+DNS OVER TOR ON DEBIAN
+
+original link -> https://web.archive.org/web/20141005152228/https://labs.nic.cz/page/993/dnssec-validation-over-tor--linux-/
+
+how to:
+#test the dns server u wanna use
+dig +tcp +dnssec labs.nic.cz @213.73.91.35 | grep -C 1 ';; flags'
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34315
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 4, ADDITIONAL: 10
+
+#run in the background 
+socat TCP4-LISTEN:5353,bind=localhost,reuseaddr,fork SOCKS4A:localhost:213.73.91.35:53,socksport=9050
+
+#does it work?
+dig -p 5353 +tcp +dnssec labs.nic.cz @localhost
+
+---------------------
+edit  /etc/unbound/unbound.conf: 
+forward-zone:
+    name: "."
+    forward-addr: 0.0.0.0@5353
+----------------------
+A huge part in securing the server will be to secure 
+all dns requests so we need to implement encryption and use "safe" dns servers
+
+i went with ccc's(chaos computer club) and danish uncensorded dns:
+213.73.91.35 (dnscache.berlin.ccc.de)
+91.239.100.100 anycast.censurfridns.dk
+
+

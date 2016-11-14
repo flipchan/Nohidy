@@ -6,8 +6,8 @@ read answer
 $target = $answer
 
 echo 'starting enumeration'
-whois $target
-fierce -dns $target
+whois $target > whois.log &
+fierce -dns $target > fierce.log &
 
 echo 'starting vuln scanners'
 golismero $target > golismero.log &

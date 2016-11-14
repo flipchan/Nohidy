@@ -11,6 +11,10 @@ wget 'http://oval.mitre.org/rep-data/5.3/org.mitre.oval/oval.xml'
 echo 'done'
 
 touch file1
+echo ' ' > file1
 touch file2
+echo ' ' > file2
+echo 'sorting'
 cat *.xml > file1
 cat *.csv > file2
+echo 'done!'

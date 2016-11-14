@@ -10,9 +10,17 @@ $wordlist = $answer
 
 echo 'starting enumeration'
 whois $target > whois.$target.log &
+dig $target > dig.$target.log
+host $target > host.$target.log
 fierce -dns $target > fierce.$target.log &
 dirb $target $wordlist > dirb.$target.log &
 
 echo 'starting vuln scanners'
 golismero $target > golismero.$target.log &
 nikto -h $target -C all > nikto.$target.log &
+
+
+
+
+
+echo 'done'

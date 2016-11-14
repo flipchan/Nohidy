@@ -10,7 +10,7 @@ $wordlist = $answer
 
 echo 'starting enumeration'
 whois $target > whois.$target.log &
-dig $target > dig.$target.log
+dig ANY $target > dig.$target.log
 host $target > host.$target.log
 fierce -dns $target > fierce.$target.log &
 dirb $target $wordlist > dirb.$target.log &

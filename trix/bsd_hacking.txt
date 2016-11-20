@@ -1,0 +1,16 @@
+i am a big fan of openbsd and in this file im goin to share some cool bsd hacks
+
+
+
+basic stuff:
+pkg_add -u  to update all
+
+-------------------
+
+
+
+
+email server:
+some email setup http://www.kernel-panic.it/openbsd/mail/mail4.html
+add lets save all email encrypted https://github.com/letoams/openpgpkey-milter/
+ 

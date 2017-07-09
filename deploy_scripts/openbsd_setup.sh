@@ -15,6 +15,7 @@ cd tor-0.3.0.9/
 make
 make install
 cd ../
+git clone https://git.torproject.org/torsocks.git
 echo 'Tor is installed'
 echo 'check out https://www.torproject.org/download/download-unix.html.en'
 

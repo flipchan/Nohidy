@@ -1,0 +1,50 @@
+//
+This tutorial is free and is copyrighted under the beerware license if you like this and we ever meet you can buy me a beer
+#/*
+#* ----------------------------------------------------------------------------
+#* "THE BEER-WARE LICENSE" (Revision 42):
+#* <flipchan@riseup.net> wrote this file. As long as you retain this notice you
+#* can do whatever you want with this stuff. If we meet some day, and you think
+#* this stuff is worth it, you can buy me a beer in return Filip Kälebo
+#* ----------------------------------------------------------------------------
+#*/
+
+\\
+
+
+#This is a good way to handle mysql servers(assuming that you have more then one) on linux
+
+stuff i will use: socat, mysql(use the default or mariadb, whatever suits you best), iptables
+
+so i will be talking about 3 networks (with one server on each network)
+
+A
+home-net - our private network that is guarded by firewalls and other stuff, its a homenetwork without a DMZ
+
+B
+vps1 -  high bandwith vps somewhere on earth
+
+C
+vps2 - simular to vps1
+
+
+Goal:
+setup a working mysql sync/replication so that server B and C is gathering data and saves it in server A
+
+so what i like to do is to create a proxy for the mysql unix socket, i use socat cuz socat is amazing
+so i will only allow server B and C to connect to server A
+
+i will create 2 different mysql users and two different socat listeners one for each server so if one of the servers gets
+hacked i can simply close the connection without affecting the other slave server
+
+----
+Side-Note:
+accourding to the internet(forums and so on) you can use multiple ips in one iptable command/rule but i havent got this working (divided by ',') 
+----
+
+
+Tha rules:
+socat -v tcp-l:1337,reuseaddr,fork unix:/var/run/mysqld/mysqld.sock
+iptables -A INPUT -p tcp --dport 1337 ! -s input.ur.ip.here -j DROP
+
+

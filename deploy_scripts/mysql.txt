@@ -47,4 +47,18 @@ Tha rules:
 socat -v tcp-l:1337,reuseaddr,fork unix:/var/run/mysqld/mysqld.sock
 iptables -A INPUT -p tcp --dport 1337 ! -s input.ur.ip.here -j DROP
 
+help:
+iptables rule = noone but this ip is allowed
+socat rule = create a tcp listner and reuseadder to loop it (= not die after the first connection) with the mysql unix socket
+
+create a tmux shell and input the iptables and socat rule twice but with different ports/ips for server B and C 
+
+verify that it went in:
+iptables -L
+nc -nv 0.0.0.0 port1
+nc -nv 0.0.0.0 port2
+
+
+
+
 

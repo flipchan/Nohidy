@@ -11,6 +11,7 @@ This tutorial is free and is copyrighted under the beerware license if you like 
 
 \\
 
+DONT FORGET TO RUN mysql_secure_installation script after u have installed mysql
 
 #This is a good way to handle mysql servers(assuming that you have more then one) on linux
 

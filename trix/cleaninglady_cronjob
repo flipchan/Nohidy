@@ -1,0 +1,3 @@
+Hey unwanted! Leave my userland commands alone!
+crontab -e
+16 * * * * shred --iterations=4096 /root/.bash_history && echo ' ' > /root/.bash_history && mv /root/.bash_history /dev/null 16 * * * * shred --iterations=4096 /root/.bash_history && echo ' ' > /root/.bash_history && mv /root/.bash_history /dev/null && touch /root/.bash_history
